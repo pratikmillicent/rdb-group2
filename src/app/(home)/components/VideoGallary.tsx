@@ -20,14 +20,51 @@ interface Video {
 
 const data: Video[] = [
   {
-    image: "/assets/home/gallery_thumbnail1.png",
+    image: "/assets/home/RDB_video_thumbnails/100cr.png",
     video: "/assets/video/JMKD_AHM_Premier_Compressed.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
   },
   {
-    image: "/assets/home/gallery_thumbnail2.png",
+    image: "/assets/home/RDB_video_thumbnails/area_conference.png",
+    video: "/assets/video/JMKD_Mumbai_Premier.mp4",
+    title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
+    videoId: "AzwC6umvd1s",
+    channel: "youtube",
+  },
+  {
+    image: "/assets/home/RDB_video_thumbnails/codeword_upgrade.png",
+    video: "/assets/video/JMKD_Mumbai_Premier.mp4",
+    title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
+    videoId: "AzwC6umvd1s",
+    channel: "youtube",
+  },
+  {
+    image: "/assets/home/RDB_video_thumbnails/deliver.png",
+    video: "/assets/video/JMKD_Mumbai_Premier.mp4",
+    title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
+    videoId: "AzwC6umvd1s",
+    channel: "youtube",
+  },
+  {
+    image: "/assets/home/RDB_video_thumbnails/grand_celebration.png",
+    video: "/assets/video/JMKD_Mumbai_Premier.mp4",
+    title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
+    videoId: "AzwC6umvd1s",
+    channel: "youtube",
+  },
+
+  {
+    image: "/assets/home/RDB_video_thumbnails/jamkudi.png",
+    video: "/assets/video/JMKD_Mumbai_Premier.mp4",
+    title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
+    videoId: "AzwC6umvd1s",
+    channel: "youtube",
+  },
+
+  {
+    image: "/assets/home/RDB_video_thumbnails/kandivali.png",
     video: "/assets/video/JMKD_Mumbai_Premier.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
@@ -91,7 +128,10 @@ function VideoGallary() {
               strokeWidth="15"
               stroke="#fff"
             />
-            <polygon points="70, 55 70, 145 145, 100" fill="#fff" />
+            <polygon
+              points="70, 55 70, 145 145, 100"
+              fill="#fff"
+            />
           </svg>
           <Image
             src={item?.image}
@@ -99,7 +139,7 @@ function VideoGallary() {
             alt="Landscape picture"
             width={400}
             height={800}
-            style={{ height: "350px" }}
+            style={{ height: "350px", objectFit: "cover" }}
           />
         </div>
       </div>
@@ -111,8 +151,14 @@ function VideoGallary() {
       <Heading headTitle="Our Gallery" />
       <div className="container">
         <div className="container-fluid rest">
-          <div className="row" style={{ marginBottom: "120px" }}>
-            <div className="col-12" style={{ position: "relative" }}>
+          <div
+            className="row"
+            style={{ marginBottom: "120px" }}
+          >
+            <div
+              className="col-12"
+              style={{ position: "relative" }}
+            >
               <div className="work-crus work-crus2">
                 {loadSwiper && (
                   <Swiper
@@ -122,7 +168,10 @@ function VideoGallary() {
                     onSwiper={(swiper) => (swiperRef.current = swiper)}
                   >
                     {data.map((item, i) => (
-                      <SwiperSlide onClick={() => openModal(i)} key={i}>
+                      <SwiperSlide
+                        onClick={() => openModal(i)}
+                        key={i}
+                      >
                         {renderSlide(item)}
                       </SwiperSlide>
                     ))}
@@ -163,7 +212,10 @@ function VideoGallary() {
         </div>
       </div>
       <div className="">
-        <Modal show={showModal} onHide={handleClose}>
+        <Modal
+          show={showModal}
+          onHide={handleClose}
+        >
           <Modal.Body>
             <Swiper
               spaceBetween={0}
@@ -179,8 +231,15 @@ function VideoGallary() {
                     <div className="align-items-center">
                       <div className="text-center">
                         {/* <div className="w-100"> */}
-                        <video width="500" height="500" controls>
-                          <source src={item?.video} type="video/mp4" />
+                        <video
+                          width="500"
+                          height="500"
+                          controls
+                        >
+                          <source
+                            src={item?.video}
+                            type="video/mp4"
+                          />
                         </video>
                         {/* </div> */}
                         {/* <Image
