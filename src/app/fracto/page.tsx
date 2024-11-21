@@ -97,14 +97,21 @@ const page = () => {
         >
           <Heading headTitle="About Us" />
           <p className="my-4 mobile-justify">
-            Fracto makes commercial real estate investing easy and accessible to
-            more people. We use technology to provide a simple, transparent
-            platform where investors can buy shares in commercial properties and
-            grow their portfolios. With expert research and analysis, we ensure
-            smart investments that deliver sustainable returns. Our fractional
-            ownership model lets investors start small, while our full-service
-            approach—from property selection to asset management—helps maximize
-            value and reduce risk.
+            <span className="text-golden">“Asset management firm”</span>{" "}
+            specializing in real estate development and investment for clients
+            in India and globally. With a disciplined and proactive management
+            approach, we leverage India’s dynamic growth potential as a
+            distinctive asset class to drive long-term value.
+          </p>
+          <p className="my-4 mobile-justify">
+            Our deep insights into India's economic landscape empower us to
+            expertly manage and develop assets that deliver consistent returns
+            for our clients. We are committed to high-conviction, thoroughly
+            researched investment strategies, co-investing alongside our clients
+            to achieve predictable, robust outcomes. This approach aligns with
+            our philosophy of early identification and analysis of macro and
+            microeconomic trends, enhancing our ability to deliver sustainable
+            growth.
           </p>
         </div>
         <FractoSectionImage />

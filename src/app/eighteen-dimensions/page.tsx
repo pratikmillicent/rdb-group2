@@ -53,20 +53,16 @@ function EighteenDimensions() {
         <div className="container">
           <Heading headTitle="Overview" />
           <p className="">
-            Eighteen Dimensions is a multifaceted consultancy firm that
-            seamlessly blends creativity, strategy, and technology to elevate
-            architectural and interior design projects. Specializing in
-            innovative design solutions, the company offers expert guidance in
-            architecture, interior design, and space planning, creating
-            functional and visually striking environments. Additionally,
-            Eighteen Dimensions excels in marketing, providing tailored
-            strategies to boost brand visibility and engagement. The company
-            also plans and executes impactful events and product launches,
-            ensuring each occasion resonates with the target audience. With a
-            focus on cutting-edge interactive technology, Eighteen Dimensions
-            crafts immersive experiences that enhance’s user interaction and
-            drive’s engagement across various platforms, making it a one-stop
-            solution provider for all creative and marketing needs.
+            A <span className="text-golden">multifaceted consultancy firm</span>{" "}
+            combining creativity, strategy, and technology to enhance
+            architectural and interior design projects. It offers expert
+            guidance in architecture, interior design, and space planning,
+            creating functional and visually striking environments. The firm
+            also specializes in marketing, providing strategies to boost brand
+            visibility and engagement, while planning impactful events and
+            product launches. Leveraging interactive technology, Eighteen
+            Dimensions creates immersive experiences, making it a comprehensive
+            partner for design and marketing solutions.
           </p>
         </div>
 

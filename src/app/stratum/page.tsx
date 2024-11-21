@@ -10,11 +10,10 @@ function Stratum() {
       <main className="bg- text-black">
         <div style={{ position: "relative" }}>
           <Image
-            src="/assets/images3/properties/banner.jpg"
+            src="/assets/images3/home/stratum-3.jpg"
             className="w-100 d-block  news-banner banner hero-height"
             // className="w-100 d-block  news-banner hero-height"
             alt="News Banner"
-            style={{ objectFit: "cover" }}
             width={800}
             height={500}
           />
@@ -50,14 +49,14 @@ function Stratum() {
         <div className="container">
           <Heading headTitle="Overview" />
           <p className="">
-            Stratum with over 50 years of combined real estate expertise, offers
-            professional real estate consultancy services. Stratum proudly
-            houses a powerhouse team of over 90 seasoned Real Estate
-            professionals, strategically deployed across diverse functions
-            including Sourcing, Closing, Marketing, and Pre-Sales, each pivotal
-            in shaping our unparalleled achievements. With innovative
-            technologies, Stratum provides seamless and comprehensive solutions
-            for every client.
+            Mandate Company with over 50 years of combined real estate
+            expertise, offers professional real estate consultancy services.
+            Stratum proudly houses a powerhouse team of over 90 seasoned Real
+            Estate professionals, strategically deployed across diverse
+            functions including Sourcing, Closing, Marketing, and Pre-Sales,
+            each pivotal in shaping our unparalleled achievements. With
+            innovative technologies, Stratum provides seamless and comprehensive
+            solutions for every client.
           </p>
         </div>
 

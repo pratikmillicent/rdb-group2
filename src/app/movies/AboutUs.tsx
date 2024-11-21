@@ -107,17 +107,19 @@ const AboutUs = () => {
                     fontWeight: "400",
                   }}
                 >
-                  RD Movies, the entertainment arm of RD Brothers, has made a
-                  remarkable impact in the film industry by producing critically
-                  acclaimed and commercially successful films. With a blend of
-                  creative storytelling and sharp business acumen, we aim to
-                  deliver cinematic experiences that resonate both culturally
-                  and commercially. Our production house is responsible for
-                  blockbuster films like Kutch Express as well as ventures into
-                  new genres with our latest horror comedy release, Jhamkuddi.
-                  At RD Movies, we are more than just filmmakers—we are
-                  storytellers committed to creating unique, compelling
-                  narratives for audiences worldwide.
+                  <span className="text-golden">
+                    “Movie production company”
+                  </span>{" "}
+                  dedicated to bringing compelling stories to life on the big
+                  screen. With a passion for creativity and cinematic
+                  excellence, we produce a diverse range of films that captivate
+                  audiences and leave a lasting impact. From concept development
+                  to post-production, our team of visionary filmmakers, writers,
+                  and producers collaborates to craft engaging narratives across
+                  various genres. Whether it’s a thought-provoking drama, an
+                  inspiring biopic, or a light-hearted comedy, RD Brothers
+                  Movies is committed to delivering high-quality films that
+                  entertain, inspire, and resonate globally.
                 </p>
               </div>
             </div>

@@ -23,7 +23,7 @@ const data: DataItem[] = [
     logo: "assets/images/home/rdb-property.png",
     type: "Properties",
     title: "Aspect Global Ventures Pvt.Ltd.",
-    text: "Our property division offers a full spectrum of real estate services, helping clients navigate every step from market entry and location advisory to property sourcing, transaction management, and investment sales. Whether you're looking to buy, sell, lease, or invest, we cover diverse sectors including residential, commercial, retail, education, healthcare, banking, hospitality, and warehousing. With a solution-driven mindset, we deliver value at every stage of the property lifecycle. Our expertise and commitment to excellence have established us as a trusted leader in the real estate industry",
+    text: "Real Estate consultancy firm offering a full spectrum of real estate services, helping clients navigate every step from market entry and location advisory to property sourcing, transaction management, and investment sales. Whether you're looking to buy, sell, lease, or invest, we cover diverse sectors including residential, commercial, retail, education, healthcare, banking, hospitality, and warehousing. With a solution-driven mindset, we deliver value at every stage of the property lifecycle. Our expertise and commitment to excellence have established us as a trusted leader in the real estate industry.",
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const data: DataItem[] = [
     logo: "assets/images/home/rdb-realty.png",
     type: "Realty",
     title: "Aspect Bullion & Refinery",
-    text: "RD Brothers Realty is a premier real estate developer, dedicated to creating innovative and high-quality spaces that redefine modern living. With a focus on sustainable development and architectural excellence, we craft residential, commercial, and mixed-use properties that meet the evolving needs of our clients. Our projects are built on a foundation of trust, innovation, and precision, delivering exceptional value to homeowners, businesses, and investors alike. At RD Brothers Realty, we don't just build properties—we create thriving communities designed for a better tomorrow",
+    text: "A Premier real estate developer dedicated to creating innovative and high-quality spaces that redefine modern living. With a focus on sustainable development and architectural excellence, we craft residential, commercial, and mixed-use properties that meet the evolving needs of our clients. Our projects are built on a foundation of trust, innovation, and precision, delivering exceptional value to homeowners, businesses, and investors alike. At RD Brothers Realty, we don't just build properties—we create thriving communities designed for a better tomorrow.",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const data: DataItem[] = [
     logo: "assets/images/home/rdb-movie.png",
     type: "Fracto",
     title: "Aspect Infrastructure",
-    text: "Fracto is a tech-enabled real estate investment platform that empowers investors to own and trade fractional shares of pre-leased, Grade-A commercial properties. Through our innovative platform, we provide access to premium real estate assets, allowing investors to diversify their portfolios and earn steady rental income from high-quality, professionally managed properties. With a seamless digital experience, transparent transactions, and expert insights, Fracto opens the door to a new era of real estate investing, where ownership is flexible, secure, and accessible to all",
+    text: "Asset management firm specializing in real estate development and investment for clients in India and globally. With a disciplined and proactive management approach, we leverage India’s dynamic growth potential as a distinctive asset class to drive long-term value. Our deep insights into India's economic landscape empower us to expertly manage and develop assets that deliver consistent returns for our clients. We are committed to high-conviction, thoroughly researched investment strategies, co-investing alongside our clients to achieve predictable, robust outcomes. This approach aligns with our philosophy of early identification and analysis of macro and microeconomic trends, enhancing our ability to deliver sustainable growth.",
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const data: DataItem[] = [
     logo: "assets/images/home/rdb-movie.png",
     type: "Movies",
     title: "Aspect Infrastructure",
-    text: "RD Brothers Movies is a dynamic movie production company dedicated to bringing compelling stories to life on the big screen. With a passion for creativity and cinematic excellence, we produce a diverse range of films that captivate audiences and leave a lasting impact. From concept development to post-production, our team of visionary filmmakers, writers, and producers collaborates to craft engaging narratives across various genres. Whether it’s a thought-provoking drama, an inspiring biopic, or a light-hearted comedy, RD Brothers Movies is committed to delivering high-quality films that entertain, inspire, and resonate globally",
+    text: "Movie production company dedicated to bringing compelling stories to life on the big screen. With a passion for creativity and cinematic excellence, we produce a diverse range of films that captivate audiences and leave a lasting impact. From concept development to post-production, our team of visionary filmmakers, writers, and producers collaborates to craft engaging narratives across various genres. Whether it’s a thought-provoking drama, an inspiring biopic, or a light-hearted comedy, RD Brothers Movies is committed to delivering high-quality films that entertain, inspire, and resonate globally.",
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ const data: DataItem[] = [
     logo: "assets/images/home/rdb-movie.png",
     type: "Stratum",
     title: "Aspect Infrastructure",
-    text: "RD Brothers Movies is a dynamic movie production company dedicated to bringing compelling stories to life on the big screen. With a passion for creativity and cinematic excellence, we produce a diverse range of films that captivate audiences and leave a lasting impact. From concept development to post-production, our team of visionary filmmakers, writers, and producers collaborates to craft engaging narratives across various genres. Whether it’s a thought-provoking drama, an inspiring biopic, or a light-hearted comedy, RD Brothers Movies is committed to delivering high-quality films that entertain, inspire, and resonate globally",
+    text: "Mandate Company with over 50 years of combined real estate expertise, offers professional real estate consultancy services. Stratum proudly houses a powerhouse team of over 90 seasoned Real Estate professionals, strategically deployed across diverse functions including Sourcing, Closing, Marketing, and Pre-Sales, each pivotal in shaping our unparalleled achievements. With innovative technologies, Stratum provides seamless and comprehensive solutions for every client.",
   },
   {
     id: 6,
@@ -63,7 +63,7 @@ const data: DataItem[] = [
     logo: "assets/images/home/rdb-movie.png",
     type: "Eighteen Dimensions",
     title: "Aspect Infrastructure",
-    text: "RD Brothers Movies is a dynamic movie production company dedicated to bringing compelling stories to life on the big screen. With a passion for creativity and cinematic excellence, we produce a diverse range of films that captivate audiences and leave a lasting impact. From concept development to post-production, our team of visionary filmmakers, writers, and producers collaborates to craft engaging narratives across various genres. Whether it’s a thought-provoking drama, an inspiring biopic, or a light-hearted comedy, RD Brothers Movies is committed to delivering high-quality films that entertain, inspire, and resonate globally",
+    text: "A multifaceted consultancy firm combining creativity, strategy, and technology to enhance architectural and interior design projects. It offers expert guidance in architecture, interior design, and space planning, creating functional and visually striking environments.The firm also specializes in marketing, providing strategies to boost brand visibility and engagement, while planning impactful events and product launches. Leveraging interactive technology, Eighteen Dimensions creates immersive experiences, making it a comprehensive partner for design and marketing solutions.",
   },
 ];
 
