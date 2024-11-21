@@ -1,0 +1,90 @@
+.core-value-container {
+  padding: 0;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 576px) {
+  .core-value-container {
+    padding: 50px 0px 50px 0px;
+  }
+}
+
+.team-container {
+  margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 576px) {
+  .team-container {
+    margin-bottom: 0px !important;
+  }
+}
+
+/* @media only screen and (max-width: 576px) {
+  .team-profile-container {
+    margin-bottom: 100vh !important;
+  }
+} */
+
+/* Team Profile  */
+
+.swiper-image-container {
+  padding: 20px;
+}
+
+.team-image {
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-name {
+  font-size: 24px;
+  font-weight: bold;
+  /* margin-bottom: 5px; */
+}
+
+.team-position {
+  font-size: 18px;
+  color: #888;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #444;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: var(--golden); /* pink hover color */
+}
+
+.btn-pink {
+  background-color: var(--golden);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.btn-pink:hover {
+  background-color: #ff5a8d;
+}
+
+.btn-golden {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.btn-golden:hover {
+  background-color: #e6ac00;
+}

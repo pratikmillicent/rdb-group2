@@ -1,0 +1,15 @@
+@media only screen and (max-width: 768px) {
+  .img-responsive {
+    height: 100% !important;
+    width: 100% !important;
+  }
+}
+
+.img-responsive {
+  /* width: 700px; */
+  height: 450px;
+}
+
+p {
+  text-align: justify;
+}

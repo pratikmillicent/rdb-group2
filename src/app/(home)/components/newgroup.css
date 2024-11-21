@@ -1,0 +1,130 @@
+/* .explore-more {
+  color: var(--foreground);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease, transform 0.3s ease;
+}
+
+.explore-more:hover {
+  color: var(--golden);
+  transform: translateX(5px);
+  font-size: 15px !important;
+  border-bottom: 2px solid var(--golden);
+} */
+
+.explore-more {
+  color: var(--foreground);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+/* .explore-more::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--navy);
+  transition: width 0.7s ease;
+} */
+
+.explore-more:hover::after {
+  width: 100%;
+}
+
+.explore-more:hover {
+  color: var(--navy) !important;
+  /* transform: translateX(5px); */
+  /* font-size: 16px !important; */
+}
+
+.explore-more:hover .explore-arrow svg {
+  transform: scale(1.6);
+  transition: transform 0.5s ease-in-out !important;
+  /* transform: translate(4px, -4px); */
+}
+
+.explore-more:hover .explore-arrow::after svg {
+  transition: transform 0.5s ease-in-out !important;
+  transform: scale(0);
+}
+
+/* Gallery  */
+
+@media only screen and (max-width: 576px) {
+  .gallery-img {
+    padding: 0px;
+  }
+}
+
+/* Gallery  */
+
+/* @media only screen and (max-width: 576px) {
+  .ourbusiness-mobile {
+    margin-top: 153px !important;
+  }
+} */
+@media only screen and (max-width: 991px) {
+  .portfolio-fixed .right {
+    padding: 0px !important;
+    padding-left: 25px !important;
+  }
+}
+
+.swiper-button-next:after {
+  font-size: 30px;
+}
+
+.swiper-button-prev:after {
+  font-size: 30px;
+}
+
+.galler-flex {
+  display: flex;
+  gap: 0;
+}
+
+@media (max-width: 800px) {
+  .galler-flex {
+    display: block !important;
+    gap: 20px !important;
+  }
+
+  .mobile-padding {
+    padding-top: 20px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper-arrow-mobile-left {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .swiper-arrow-mobile-left {
+    left: -30px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper-arrow-mobile-right {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .swiper-arrow-mobile-right {
+    right: -36px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .swiper-arrow-mobile-right {
+    right: -24px !important;
+  }
+}
