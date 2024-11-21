@@ -3,57 +3,89 @@ import Image from "next/image";
 import Link from "next/link";
 import BlogCard from "./BlogCard";
 import { Row } from "react-bootstrap";
+import { url } from "inspector";
 
 const NewBlogs = () => {
   const data = [
     {
       id: 1,
       date: "August 6, 2022",
-      title: "Free advertising for your online business.",
+      title:
+        "Why NRIs are investing in Indian real estate: Top reasons explained",
       image: "/assets/images/blog/blog-3.jpg",
       tags: ["Marketing", "Design"],
       author: "Admin",
+      url: "why-nris-are-investing-in-indian-real-estate-top-reasons-explained",
     },
     {
       id: 2,
       date: "August 6, 2022",
-      title: "Business meeting 2023 in San Francisco.",
+      title: "Must watch 2025 real estate trends you must know",
       image: "/assets/images/blog/blog-1.webp",
       tags: ["Marketing", "Design"],
       author: "Admin",
+      url: "must-watch-2025-real-estate-trends-you-must-know",
     },
     {
       id: 3,
       date: "August 6, 2022",
-      title: "Free advertising for your online business.",
+      title:
+        "Mumbai real estate: 5 Bollywood stars who have invested nearly ₹80 crore in properties in Bandra",
       image: "/assets/images/blog/blog-2.jpg",
       tags: ["Marketing", "Design"],
       author: "Admin",
+      url: "mumbai-real-estate-5-bollywood-stars-who-have-invested-in-properties-in-bandra",
     },
     {
       id: 4,
       date: "August 6, 2022",
-      title: "Business meeting 2023 in San Francisco.",
+      title:
+        "Jhamkudi OTT release date ShemarooMe: When to watch this Manasi Parekh-starrer Gujarati blockbuster",
       image: "https://uithemez.com/i/geekfolio/dark/assets/imgs/blog/h4.jpg",
       tags: ["Marketing", "Design"],
       author: "Admin",
+      url: "when-to-watch-jhamkudi-online-ott-shemaroome-release-date-manasi-parekh-gujarati-movie",
     },
-    // {
-    //   id: 5,
-    //   date: "August 6, 2022",
-    //   title: "Free advertising for your online business.",
-    //   image: "https://uithemez.com/i/geekfolio/dark/assets/imgs/blog/h5.jpg",
-    //   tags: ["Marketing", "Design"],
-    //   author: "Admin",
-    // },
-    // {
-    //   id: 6,
-    //   date: "August 6, 2022",
-    //   title: "Business meeting 2023 in San Francisco.",
-    //   image: "https://uithemez.com/i/geekfolio/dark/assets/imgs/blog/h6.jpg",
-    //   tags: ["Marketing", "Design"],
-    //   author: "Admin",
-    // },
+    {
+      id: 5,
+      date: "August 6, 2022",
+      title:
+        "Jhamkudi Week 1 Box Office: Gujarati horror-com trends extraordinarily; Nets 5.50 crores to emerge a super-hit",
+      image: "https://uithemez.com/i/geekfolio/dark/assets/imgs/blog/h5.jpg",
+      tags: ["Marketing", "Design"],
+      author: "Admin",
+      url: "jhamkudi-week-1-box-office-gujarati-horror-com-trends-extraordinarily-nets-5-50-crores-to-emerge-a-super-hit",
+    },
+    {
+      id: 6,
+      date: "August 6, 2022",
+      title:
+        "Guj CM congratulates ‘Kutch Express’ team for bagging three national awards",
+      image: "https://uithemez.com/i/geekfolio/dark/assets/imgs/blog/h6.jpg",
+      tags: ["Marketing", "Design"],
+      author: "Admin",
+      url: "guj-cm-congratulates-kutch-express-team-for-bagging-three-national-awards",
+    },
+    {
+      id: 7,
+      date: "August 6, 2022",
+      title:
+        "Fractional real estate is the 'new Gold' for savvy festive season investors",
+      image: "https://uithemez.com/i/geekfolio/dark/assets/imgs/blog/h6.jpg",
+      tags: ["Marketing", "Design"],
+      author: "Admin",
+      url: "fractional-real-estate-is-the-new-gold-for-savvy-festive-season-investors",
+    },
+    {
+      id: 8,
+      date: "August 6, 2022",
+      title:
+        "Fractional Ownership: This realty segment to rise over 10 times by 2030 | Here are 3 top hotspots",
+      image: "https://uithemez.com/i/geekfolio/dark/assets/imgs/blog/h6.jpg",
+      tags: ["Marketing", "Design"],
+      author: "Admin",
+      url: "fractional-ownership-this-realty-segment-to-rise-over-10-times-by-2030-here-are-3-top-hotspots",
+    },
   ];
   return (
     <div>

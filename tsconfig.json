@@ -35,7 +35,7 @@
     ".next/types/**/*.ts",
     "src/app/about/components/VisionMission.tsx",
     "src/components/Portfolio.jsx"
-  ],
+, "src/app/blogs/blogs-items/k"  ],
   "exclude": [
     "node_modules"
   ]

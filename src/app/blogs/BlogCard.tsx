@@ -32,7 +32,7 @@ function BlogCard({ item }) {
                   lineHeight: 1.2,
                 }}
               >
-                <Link href="/blogs/blogs-details">{item.title}</Link>
+                <Link href={`/blogs/${item.url}`}>{item.title}</Link>
               </h5>
               <div className="fz-12 ls1 opacity-9 mb-15">
                 ~ By <span className="fw-bold ">{item.author}</span>
