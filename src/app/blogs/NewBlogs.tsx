@@ -51,7 +51,7 @@ const NewBlogs = () => {
       date: "August 6, 2022",
       title:
         "Jhamkudi Week 1 Box Office: Gujarati horror-com trends extraordinarily; Nets 5.50 crores to emerge a super-hit",
-      image: "/assets/images3/blogs/movies.jpg",
+      image: "/assets/images3/blogs/movie5.jpg",
       tags: ["Marketing", "Design"],
       author: "Admin",
       url: "jhamkudi-week-1-box-office-gujarati-horror-com-trends-extraordinarily-nets-5-50-crores-to-emerge-a-super-hit",
@@ -61,7 +61,7 @@ const NewBlogs = () => {
       date: "August 6, 2022",
       title:
         "Guj CM congratulates ‘Kutch Express’ team for bagging three national awards",
-      image: "/assets/images3/blogs/movies.jpg",
+      image: "/assets/images3/blogs/movie6.jpg",
       tags: ["Marketing", "Design"],
       author: "Admin",
       url: "guj-cm-congratulates-kutch-express-team-for-bagging-three-national-awards",

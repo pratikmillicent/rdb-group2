@@ -68,7 +68,7 @@ function HeaderBlog() {
       </div>
       <div
         className="background bg-img parallaxie mt-80"
-        data-background="https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/blog/b2.jpg"
+        data-background="/assets/images3/blogs/movie3.jpg"
       ></div>
     </header>
   );
