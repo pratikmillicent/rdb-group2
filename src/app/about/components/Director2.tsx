@@ -31,8 +31,8 @@ const Director2 = () => {
         forces behind RD Group’s remarkable growth and industry leadership.
         Their forward-thinking approach and shared vision have transformed the
         company into a key player in commercial and retail real estate,
-        delivering over 2.7 million square feet of prime real estate across 14
-        cities in India.
+        delivering over 2.7 million square feet of prime real estate across
+        India.
         <br />
         Together, they bring a unique blend of strategic insight and innovation.
         Raj’s ability to anticipate market trends and build strong, long-term

@@ -70,12 +70,12 @@ export default function Home() {
       link: "/properties",
     },
     {
-      src: "/assets/video/realty-2.mp4",
+      src: "/assets/video/realty-3.mp4",
       text: "Realty",
       link: "/realty",
     },
     {
-      src: "/assets/video/fracto-2.mp4",
+      src: "/assets/video/fracto-3.mp4",
       text: "Fracto",
       link: "/fracto",
     },
