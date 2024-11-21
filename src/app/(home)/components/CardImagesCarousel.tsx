@@ -209,8 +209,8 @@ function DarkVariantExample({ spliti, data }: any) {
             <Swiper
               spaceBetween={50}
               slidesPerView={1}
-              initialSlide={activeIndex}
-              onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
+              // initialSlide={activeIndex}
+              // onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
               navigation
               modules={[Navigation]}
             >

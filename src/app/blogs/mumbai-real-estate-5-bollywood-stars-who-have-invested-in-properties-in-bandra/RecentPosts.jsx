@@ -24,8 +24,7 @@ function RecentPosts() {
               date: "August 6, 2022",
               title:
                 "Guj CM congratulates ‘Kutch Express’ team for bagging three national awards",
-              image:
-                "https://uithemez.com/i/geekfolio/dark/assets/imgs/blog/h6.jpg",
+              image: "/assets/images3/blogs/movie6.jpg",
               tags: ["Marketing", "Design"],
               author: "Admin",
               url: "guj-cm-congratulates-kutch-express-team-for-bagging-three-national-awards",
@@ -37,8 +36,7 @@ function RecentPosts() {
               date: "August 6, 2022",
               title:
                 "Fractional real estate is the 'new Gold' for savvy festive season investors",
-              image:
-                "https://uithemez.com/i/geekfolio/dark/assets/imgs/blog/h6.jpg",
+              image: "/assets/images3/blogs/building1.jpg",
               tags: ["Marketing", "Design"],
               author: "Admin",
               url: "fractional-real-estate-is-the-new-gold-for-savvy-festive-season-investors",
