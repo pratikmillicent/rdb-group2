@@ -1,5 +1,4 @@
 import Heading from "@/components/heading/Heading";
-import React from "react";
 import { FaStarOfLife } from "react-icons/fa6";
 import "./award.css";
 
