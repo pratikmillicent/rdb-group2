@@ -47,13 +47,13 @@ const data: Video[] = [
     videoId: "AzwC6umvd1s",
     channel: "youtube",
   },
-  {
-    image: "/assets/home/RDB_video_thumbnails/grand_celebration.png",
-    video: "/assets/video/JMKD_Mumbai_Premier.mp4",
-    title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
-    videoId: "AzwC6umvd1s",
-    channel: "youtube",
-  },
+  // {
+  //   image: "/assets/home/RDB_video_thumbnails/grand_celebration.png",
+  //   video: "/assets/video/JMKD_Mumbai_Premier.mp4",
+  //   title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
+  //   videoId: "AzwC6umvd1s",
+  //   channel: "youtube",
+  // },
 
   {
     image: "/assets/home/RDB_video_thumbnails/jamkudi.png",

@@ -131,9 +131,9 @@ const page = () => {
 
         <Advantage2 />
 
-        <ProjectFracto />
+        {/* <ProjectFracto /> */}
 
-        <Ourbrand />
+        {/* <Ourbrand /> */}
         <Contact />
       </div>
     </>

@@ -78,7 +78,10 @@ function TestimonialVideo() {
               strokeWidth="15"
               stroke="#fff"
             />
-            <polygon points="70, 55 70, 145 145, 100" fill="#fff" />
+            <polygon
+              points="70, 55 70, 145 145, 100"
+              fill="#fff"
+            />
           </svg>
           <Image
             src={item?.image}
@@ -108,8 +111,14 @@ function TestimonialVideo() {
       <Heading headTitle="Employee Testimonials" />
       <div className="container">
         <div className="container-fluid rest">
-          <div className="row" style={{ marginBottom: "120px" }}>
-            <div className="col-12" style={{ position: "relative" }}>
+          <div
+            className="row"
+            style={{ marginBottom: "120px" }}
+          >
+            <div
+              className="col-12"
+              style={{ position: "relative" }}
+            >
               <div className="work-crus work-crus2">
                 {loadSwiper && (
                   <Swiper
@@ -137,7 +146,7 @@ function TestimonialVideo() {
                 }}
               > */}
               <div
-                className="swiper-button-next text-dark fw-600 swiper-arrow-mobile-right"
+                className="swiper-button-next text-dark fw-600 swiper-arrow-mobile-right-2"
                 style={{
                   fontWeight: "600",
                   height: "40px",
@@ -150,7 +159,7 @@ function TestimonialVideo() {
               ></div>
 
               <div
-                className="swiper-button-prev text-dark swiper-arrow-mobile-left"
+                className="swiper-button-prev text-dark swiper-arrow-mobile-left-1"
                 style={{
                   fontWeight: "600",
                   height: "40px",
@@ -199,8 +208,8 @@ const swiperOptions = {
     clickable: true,
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".swiper-arrow-mobile-right-2",
+    prevEl: ".swiper-arrow-mobile-right-1",
   },
 };
 

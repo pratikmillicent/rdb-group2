@@ -9,7 +9,10 @@ import { Navigation, Pagination, Autoplay } from "swiper";
 
 const Cre = () => {
   return (
-    <section className="" style={{ background: "var(--background)" }}>
+    <section
+      className=""
+      style={{ background: "var(--background)" }}
+    >
       <div className="">
         <div className="sec-lg-head">
           <div
@@ -21,7 +24,7 @@ const Cre = () => {
               style={{ color: "var(--navy)", padding: "0 100px" }}
             >
               <Heading
-                headTitle="Why Commercial Real Estate?"
+                headTitle="Why Fracto?"
                 fontSize="40px"
                 textAlign="left"
                 isMargin="0"
