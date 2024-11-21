@@ -82,12 +82,12 @@ function Properties() {
               Key Verticals in RD Brothers Properties
             </h3>
 
-            <div style={{ display: "flex", flexWrap: "wrap", gap: "80px" }}>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "40px" }}>
               <div
                 className="shadow p-4"
-                style={{ width: "calc((100% / 3) - 80px)" }}
+                style={{ width: "calc((100% / 3) - 40px)" }}
               >
-                <GiFamilyHouse fontSize={46} color="var(--golden)" />
+                <GiFamilyHouse fontSize={30} color="var(--golden)" />
                 <p
                   className="mt-2"
                   style={{ fontSize: "20px", fontWeight: "400" }}
@@ -97,9 +97,9 @@ function Properties() {
               </div>
               <div
                 className="shadow p-4"
-                style={{ width: "calc((100% / 3) - 80px)" }}
+                style={{ width: "calc((100% / 3) - 40px)" }}
               >
-                <GiFactory fontSize={46} color="var(--golden)" />
+                <GiFactory fontSize={30} color="var(--golden)" />
                 <p
                   className="mt-2"
                   style={{ fontSize: "20px", fontWeight: "400" }}
@@ -109,9 +109,9 @@ function Properties() {
               </div>
               <div
                 className="shadow p-4"
-                style={{ width: "calc((100% / 3) - 80px)" }}
+                style={{ width: "calc((100% / 3) - 40px)" }}
               >
-                <MdPointOfSale fontSize={46} color="var(--golden)" />
+                <MdPointOfSale fontSize={30} color="var(--golden)" />
                 <p
                   className="mt-2"
                   style={{ fontSize: "20px", fontWeight: "400" }}
@@ -121,9 +121,9 @@ function Properties() {
               </div>
               <div
                 className="shadow p-4"
-                style={{ width: "calc((100% / 3) - 80px)" }}
+                style={{ width: "calc((100% / 3) - 40px)" }}
               >
-                <GiGraduateCap fontSize={46} color="var(--golden)" />
+                <GiGraduateCap fontSize={30} color="var(--golden)" />
                 <p
                   className="mt-2"
                   style={{ fontSize: "20px", fontWeight: "400" }}
@@ -133,9 +133,9 @@ function Properties() {
               </div>
               <div
                 className="shadow p-4"
-                style={{ width: "calc((100% / 3) - 80px)" }}
+                style={{ width: "calc((100% / 3) - 40px)" }}
               >
-                <GiHospital fontSize={46} color="var(--golden)" />
+                <GiHospital fontSize={30} color="var(--golden)" />
                 <p
                   className="mt-2"
                   style={{ fontSize: "20px", fontWeight: "400" }}
@@ -145,9 +145,9 @@ function Properties() {
               </div>
               <div
                 className="shadow p-4"
-                style={{ width: "calc((100% / 3) - 80px)" }}
+                style={{ width: "calc((100% / 3) - 40px)" }}
               >
-                <FaWarehouse fontSize={46} color="var(--golden)" />
+                <FaWarehouse fontSize={30} color="var(--golden)" />
                 <p
                   className="mt-2"
                   style={{ fontSize: "20px", fontWeight: "400" }}
@@ -157,9 +157,9 @@ function Properties() {
               </div>
               <div
                 className="shadow p-4"
-                style={{ width: "calc((100% / 3) - 80px)" }}
+                style={{ width: "calc((100% / 3) - 40px)" }}
               >
-                <RiHotelFill fontSize={46} color="var(--golden)" />
+                <RiHotelFill fontSize={30} color="var(--golden)" />
                 <p
                   className="mt-2"
                   style={{ fontSize: "20px", fontWeight: "400" }}
@@ -169,9 +169,9 @@ function Properties() {
               </div>
               <div
                 className="shadow p-4"
-                style={{ width: "calc((100% / 3) - 80px)" }}
+                style={{ width: "calc((100% / 3) - 40px)" }}
               >
-                <MdRealEstateAgent fontSize={46} color="var(--golden)" />
+                <MdRealEstateAgent fontSize={30} color="var(--golden)" />
                 <p
                   className="mt-2"
                   style={{ fontSize: "20px", fontWeight: "400" }}
@@ -181,9 +181,9 @@ function Properties() {
               </div>
               <div
                 className="shadow p-4"
-                style={{ width: "calc((100% / 3) - 80px)" }}
+                style={{ width: "calc((100% / 3) - 40px)" }}
               >
-                <GiTakeMyMoney fontSize={46} color="var(--golden)" />
+                <GiTakeMyMoney fontSize={30} color="var(--golden)" />
                 <p
                   className="mt-2"
                   style={{ fontSize: "20px", fontWeight: "400" }}

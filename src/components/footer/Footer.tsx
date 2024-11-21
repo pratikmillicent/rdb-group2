@@ -67,9 +67,9 @@ function Footer() {
                     </Link>
                   </div>
                   <div className="">
-                    <li>
+                    {/* <li>
                       <Link href="tel:+91 9321711146">+91 9321711146</Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link href="tel:+91 9877737776">+91 9877737776</Link>
                     </li>

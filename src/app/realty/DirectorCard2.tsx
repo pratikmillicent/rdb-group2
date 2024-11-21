@@ -64,23 +64,26 @@ const DirectorCard2 = () => {
             <p className="m-0 main-color4">Founder</p>
             <hr className="p-0 mt-2 mb-4" />
             <p className="">
-              <strong> Dhaval Thakkar </strong> is a dynamic leader with 15
-              years of experience in commercial and retail real estate, known
+              <strong> Dhaval Thakkar </strong> is a dynamic leader with over 20
+              years of experience in commercial and retail real estate, renowned
               for his attention to detail and passion for innovation. His
               leadership has been instrumental in the company’s growth, driving
               the delivery of over 1.5 million square feet of prime real estate
-              across 14 cities in India. Dhaval’s approach is bold and
-              forward-thinking, always focused on diversification and embracing
-              new technologies to create meaningful value from every challenge.{" "}
+              across India. Dhaval’s approach is bold and forward-thinking,
+              emphasizing diversification and embracing new technologies to
+              create meaningful value from every challenge.
+              <br />
+              In addition to his expertise in real estate, Dhaval plays a
+              pivotal role in managing real estate funds for developers and
+              contributing to the production and distribution of movies. His
+              multifaceted involvement reflects his strategic vision and
+              adaptability across diverse industries.
               <br />
               What sets Dhaval apart is his ability to inspire his team,
-              fostering a culture of collaboration and creativity. He believes
-              that growth isn’t just about numbers—it's about building a
-              sustainable future where innovation and technology come together
-              to make a real impact. His vision and dedication to continuous
-              improvement have not only expanded the company’s reach but also
-              set new standards in the industry, ensuring that the business
-              remains agile and competitive in a constantly changing market.
+              fostering a culture of collaboration and creativity. His
+              dedication to continuous improvement has expanded the company’s
+              reach and set new industry standards, ensuring the business
+              remains agile and competitive in an ever-changing market.
             </p>
           </div>
         </div>

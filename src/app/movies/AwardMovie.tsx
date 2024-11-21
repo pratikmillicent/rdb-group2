@@ -7,18 +7,20 @@ const AwardMovie = () => {
   const awardsData = [
     {
       id: "01",
-      title: "Best Actress - Silver Lotus Award",
+      title:
+        "Best feature film Promoting National, Social and Enviorment Values - Silver Lotus Award",
       year: 2024,
-      img: "/assets/images/movie/awards/7.jpg",
-      recipient: "Manasi Parekh",
+      img: "/assets/images/movie/awards/1.jpg",
+      recipient: "Viral Shah",
       movie: "Kutch Express",
     },
     {
       id: "02",
-      title: "Best Costume Design - Silver Lotus Award",
+      title:
+        "Best feature film Promoting National, Social and Enviorment Values - Silver Lotus Award",
       year: 2024,
-      img: "/assets/images/movie/awards/8.jpg",
-      recipient: "Niki Joshi",
+      img: "/assets/images/movie/awards/2.jpg",
+      recipient: "Viral Shah",
       movie: "Kutch Express",
     },
     {
@@ -26,8 +28,67 @@ const AwardMovie = () => {
       title:
         "Best feature film Promoting National, Social and Enviorment Values - Silver Lotus Award",
       year: 2024,
+      img: "/assets/images/movie/awards/3.jpg",
+      recipient: "Viral Shah",
+      movie: "Kutch Express",
+    },
+    {
+      id: "04",
+      title:
+        "Best feature film Promoting National, Social and Enviorment Values - Silver Lotus Award",
+      year: 2024,
+      img: "/assets/images/movie/awards/4.jpg",
+      recipient: "Viral Shah",
+      movie: "Kutch Express",
+    },
+    {
+      id: "05",
+      title:
+        "Best feature film Promoting National, Social and Enviorment Values - Silver Lotus Award",
+      year: 2024,
+      img: "/assets/images/movie/awards/5.jpg",
+      recipient: "Viral Shah",
+      movie: "Kutch Express",
+    },
+    {
+      id: "06",
+      title:
+        "Best feature film Promoting National, Social and Enviorment Values - Silver Lotus Award",
+      year: 2024,
       img: "/assets/images/movie/awards/6.jpg",
       recipient: "Viral Shah",
+      movie: "Kutch Express",
+    },
+    {
+      id: "07",
+      title: "Best Actress - Silver Lotus Award",
+      year: 2024,
+      img: "/assets/images/movie/awards/7.jpg",
+      recipient: "Manasi Parekh",
+      movie: "Kutch Express",
+    },
+    {
+      id: "08",
+      title: "Best Costume Design - Silver Lotus Award",
+      year: 2024,
+      img: "/assets/images/movie/awards/8.jpg",
+      recipient: "Niki Joshi",
+      movie: "Kutch Express",
+    },
+    {
+      id: "12",
+      title: "Best Costume Design - Silver Lotus Award",
+      year: 2024,
+      img: "/assets/images/movie/awards/12.jpg",
+      recipient: "Niki Joshi",
+      movie: "Kutch Express",
+    },
+    {
+      id: "13",
+      title: "Best Costume Design - Silver Lotus Award",
+      year: 2024,
+      img: "/assets/images/movie/awards/13.jpg",
+      recipient: "Niki Joshi",
       movie: "Kutch Express",
     },
   ];
@@ -39,12 +100,16 @@ const AwardMovie = () => {
       </div>
       <div className="row d-flex flex-column flex-md-row justify-content-center">
         {awardsData.map((award, index) => (
-          <div className="col-sm-1 col-md-3 text-center" key={index}>
+          <div
+            className="col-sm-1 col-md-3 text-center"
+            key={index}
+            // style={{ margin: "5px" }}
+          >
             <img src={award.img} alt={award.title} />
-            <span className="award-info">
+            {/* <span className="award-info">
               <span className="fs-4 pt-3">{award.recipient}</span>
               <i className="text-golden">{award.movie}</i>
-            </span>
+            </span> */}
           </div>
         ))}
       </div>

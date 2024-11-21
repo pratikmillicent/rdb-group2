@@ -21,6 +21,10 @@ import Heading from "@/components/heading/Heading";
 import Image from "next/image";
 import MissionVisionV2 from "./MissionVisionV2";
 import DirectorCard2 from "./DirectorCard2";
+import { TbNumber20Small } from "react-icons/tb";
+import { GiFamilyHouse } from "react-icons/gi";
+import { BsFillBuildingsFill } from "react-icons/bs";
+import { MdOutlineConstruction } from "react-icons/md";
 
 const Realty = () => {
   return (
@@ -88,15 +92,73 @@ const Realty = () => {
             and investors alike. At RD Brothers Realty, we don't just build
             properties—we create thriving communities designed for a better
             tomorrow.
-            <ul>
+            {/* <ul>
               <li style={{ listStyle: "disc" }}>Legacy 20 years</li>
               <li style={{ listStyle: "disc" }}>Home to over 12000 Families</li>
               <li style={{ listStyle: "disc" }}>Landmark projects 10</li>
               <li style={{ listStyle: "disc" }}>
                 Total square footage developed 2100000
               </li>
-            </ul>
+            </ul> */}
           </p>
+
+          <div
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "40px",
+              marginTop: "40px",
+            }}
+          >
+            <div
+              className="shadow p-4"
+              style={{ width: "calc((100% / 3) - 40px)" }}
+            >
+              <TbNumber20Small fontSize={48} color="var(--golden)" />
+              <p
+                className="mt-2"
+                style={{ fontSize: "20px", fontWeight: "400" }}
+              >
+                Legacy 20 years
+              </p>
+            </div>
+            <div
+              className="shadow p-4"
+              style={{ width: "calc((100% / 3) - 40px)" }}
+            >
+              <GiFamilyHouse fontSize={30} color="var(--golden)" />
+              <p
+                className="mt-2"
+                style={{ fontSize: "20px", fontWeight: "400" }}
+              >
+                Home to over 12000 Families
+              </p>
+            </div>
+            <div
+              className="shadow p-4"
+              style={{ width: "calc((100% / 3) - 40px)" }}
+            >
+              <BsFillBuildingsFill fontSize={30} color="var(--golden)" />
+              <p
+                className="mt-2"
+                style={{ fontSize: "20px", fontWeight: "400" }}
+              >
+                Landmark projects 10
+              </p>
+            </div>
+            <div
+              className="shadow p-4"
+              style={{ width: "calc((100% / 3) - 40px)" }}
+            >
+              <MdOutlineConstruction fontSize={30} color="var(--golden)" />
+              <p
+                className="mt-2"
+                style={{ fontSize: "20px", fontWeight: "400" }}
+              >
+                Total square footage developed 2100000
+              </p>
+            </div>
+          </div>
         </div>
         <div>
           <MissionVisionV2 />

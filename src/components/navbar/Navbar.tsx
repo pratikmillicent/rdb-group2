@@ -352,7 +352,7 @@ function Navbar() {
               <span>
                 <span className="d-block fz-10">Need help?</span>
                 <span className="fz-18" style={{ fontWeight: "medium" }}>
-                  +91 9321711146
+                  +91 9877737776
                 </span>
               </span>
             </div>
