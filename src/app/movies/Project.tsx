@@ -106,7 +106,7 @@ const Project = () => {
             >
               Released
             </div>
-            {/* <div
+            <div
               onClick={() => setActive(1)}
               style={{
                 // textDecoration: active === 1 ? "underline" : "none",
@@ -116,7 +116,7 @@ const Project = () => {
               }}
             >
               Upcoming
-            </div> */}
+            </div>
 
             <div
               style={{
@@ -147,14 +147,88 @@ const Project = () => {
                         data-wow-delay=".100s"
                       >
                         <div className="item pb-5 mb-3">
-                          <div className="img img-container">
+                          <div
+                            className="img img-container"
+                            style={{ width: "200px" }}
+                          >
                             <Image
                               src={item.image}
                               alt={item.description}
                               style={{
                                 height: "320px",
-                                objectFit: "contain",
-                                // width: "100%",
+                                objectFit: "fill",
+                                width: "100%",
+                                borderRadius: "8px",
+                              }}
+                              width={800}
+                              height={500}
+                            />
+                          </div>
+                          <div className="cont mt-10">
+                            <h6 className="fw-600">{item.description}</h6>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+                )}
+                {/* <PrevNext prevRef={latestPrevRef} nextRef={latestNextRef} /> */}
+              </div>
+              <div
+                className="swiper-button-next text-dark fw-600 swiper-arrow-mobile"
+                style={{
+                  fontWeight: "600",
+                  height: "40px",
+                  width: "40px",
+                  borderRadius: "50%",
+                  right: "-60px",
+                  top: "56%",
+                  transform: "translateY(-50%)",
+                }}
+              />
+
+              <div
+                className="swiper-button-prev text-dark swiper-arrow-mobile"
+                style={{
+                  fontWeight: "600",
+                  height: "40px",
+                  width: "40px",
+                  borderRadius: "50%",
+                  position: "absolute",
+                  left: "-60px",
+                  top: "56%",
+                  transform: "translateY(-50%)",
+                }}
+              />
+            </div>
+          )}
+          {active == 1 && (
+            <div className="position-relative">
+              <div className="blog-carsouel">
+                {loadSwiper && (
+                  <Swiper
+                    {...swiperOptions}
+                    id="content-carousel-container-unq-blog"
+                    className="swiper-container"
+                  >
+                    {upcomingProjectsData.map((item) => (
+                      <SwiperSlide
+                        key={item.id}
+                        className="wow fadeInUp"
+                        data-wow-delay=".100s"
+                      >
+                        <div className="item pb-5 mb-3">
+                          <div
+                            className="img img-container"
+                            style={{ width: "200px" }}
+                          >
+                            <Image
+                              src={item.image}
+                              alt={item.description}
+                              style={{
+                                height: "320px",
+                                objectFit: "fill",
+                                width: "100%",
                                 borderRadius: "8px",
                               }}
                               width={800}
@@ -210,20 +284,25 @@ export default Project;
 const completedProjectsData = [
   {
     id: 1,
-    image: "/assets/images/movie/project/movies-released.jpeg",
+    image: "/assets/images3/movies/jamkudi.jpg",
     description: "Jhamkudi",
   },
-  // {
-  //   id: 2,
-  //   image: "/assets/images/movie/kutch-express.jpg",
-  //   description: "Kutch Express",
-  // },
+  {
+    id: 2,
+    image: "/assets/images3/movies/kutch_express.jpg",
+    description: "Kutch Express",
+  },
+  {
+    id: 3,
+    image: "/assets/images3/movies/golkeri.jpg",
+    description: "Golkeri",
+  },
 ];
 
 const upcomingProjectsData = [
   {
     id: 1,
-    image: "/assets/images/movie/kutch-express.jpg",
-    description: "Kutch Express",
+    image: "/assets/images3/movies/shubhchintak_cropped.jpg",
+    description: "Shubhchintak",
   },
 ];
