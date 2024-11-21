@@ -94,7 +94,7 @@ const FractoAdvantage = () => {
             visibility: "visible",
             animationDelay: "0.2s",
             animationName: "fadeInRight",
-            height: "280px",
+            // height: "280px",
           }}
         >
           <div
@@ -121,7 +121,7 @@ const FractoAdvantage = () => {
               </div>
             </div>
             <img
-              src="assets/images/fracto/transparency.png"
+              src="assets/images3/fracto/transparency.jpg"
               alt=""
               className="img-responsive"
               height="100%"
@@ -136,7 +136,7 @@ const FractoAdvantage = () => {
             visibility: "visible",
             animationDelay: "0.2s",
             animationName: "fadeInRight",
-            height: "280px",
+            // height: "280px",
           }}
         >
           <div
@@ -163,7 +163,7 @@ const FractoAdvantage = () => {
               </div>
             </div>
             <img
-              src="assets/images/fracto/accessibility.jpg"
+              src="assets/images3/fracto/accessibility.jpg"
               alt=""
               className="img-responsive"
               height="100%"
@@ -178,7 +178,7 @@ const FractoAdvantage = () => {
             visibility: "visible",
             animationDelay: "0.2s",
             animationName: "fadeInRight",
-            height: "280px",
+            // height: "280px",
           }}
         >
           <div
@@ -205,7 +205,7 @@ const FractoAdvantage = () => {
               </div>
             </div>
             <img
-              src="assets/images/fracto/tech-driven.jpeg"
+              src="assets/images3/fracto/technology.jpg"
               alt=""
               className="img-responsive"
               height="100%"
@@ -220,7 +220,7 @@ const FractoAdvantage = () => {
             visibility: "visible",
             animationDelay: "0.2s",
             animationName: "fadeInRight",
-            height: "280px",
+            // height: "280px",
           }}
         >
           <div
@@ -247,7 +247,7 @@ const FractoAdvantage = () => {
               </div>
             </div>
             <img
-              src="assets/images/fracto/transparency2.jpg"
+              src="assets/images3/fracto/e2e.jpg"
               alt=""
               className="img-responsive"
               height="100%"
