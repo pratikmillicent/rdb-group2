@@ -55,7 +55,7 @@ export default function Home() {
 
   const videoData = [
     {
-      src: "/assets/video/general-2.mp4",
+      src: "/assets/video/general-3.mp4",
       text: `Crafted with <span
           style="
               font-weight : 500
@@ -65,32 +65,32 @@ export default function Home() {
       link: "/about",
     },
     {
-      src: "/assets/video/properties-2.mp4",
+      src: "/assets/video/properties-3.mp4",
       text: "Properties",
       link: "/properties",
     },
     {
-      src: "/assets/video/realty-2.mp4",
+      src: "/assets/video/realty-3.mp4",
       text: "Realty",
       link: "/realty",
     },
     {
-      src: "/assets/video/fracto-2.mp4",
+      src: "/assets/video/fracto-4.mp4",
       text: "Fracto",
       link: "/fracto",
     },
     {
-      src: "/assets/video/movie-2.mp4",
+      src: "/assets/video/movies-2.mp4",
       text: "Movies",
       link: "/movies",
     },
     {
-      src: "/assets/video/stratum-2.mp4",
+      src: "/assets/video/stratum-3.mp4",
       text: "Stratum",
       link: "/stratum",
     },
     {
-      src: "/assets/video/18d-2.mp4",
+      src: "/assets/video/18d-3.mp4",
       text: "Eighteen Dimensions",
       link: "/eighteen-dimensions",
     },

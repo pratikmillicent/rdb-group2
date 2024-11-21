@@ -58,11 +58,7 @@ const page = () => {
               padding: "0 20px",
             }}
           >
-            <Heading
-              headTitle="Unlocking the Future of Real Estate Investing."
-              color="white"
-              isSpace={false}
-            />
+            <Heading headTitle="Fracto Prop" color="white" isSpace={false} />
             {/* <div
       style={{width: "fit-content", margin: "0 auto" }}
       className="position-relative"

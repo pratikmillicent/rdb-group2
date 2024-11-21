@@ -328,7 +328,7 @@ const upcomingProjectsData = [
   {
     id: 1,
     image: "/assets/images/realty/projects/2.jpg",
-    description: "Skyline Tower in South Mumbai - Expected Completion in 2025",
+    description: "Borivali West",
   },
   // {
   //   id: 2,

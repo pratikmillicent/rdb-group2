@@ -59,7 +59,7 @@ const data: DataItem[] = [
   },
   {
     id: 6,
-    image: "assets/images3/home/18d.jpg",
+    image: "assets/images3/home/18d-3.jpg",
     logo: "assets/images/home/rdb-movie.png",
     type: "Eighteen Dimensions",
     title: "Aspect Infrastructure",

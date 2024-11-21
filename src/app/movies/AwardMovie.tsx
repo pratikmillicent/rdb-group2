@@ -31,65 +31,40 @@ const AwardMovie = () => {
       recipient: "Viral Shah",
       movie: "Kutch Express",
     },
-    {
-      id: "04",
-      title:
-        "Best feature film Promoting National, Social and Enviorment Values - Silver Lotus Award",
-      year: 2024,
-      img: "/assets/images/movie/awards/4.jpg",
-      recipient: "Viral Shah",
-      movie: "Kutch Express",
-    },
-    {
-      id: "05",
-      title:
-        "Best feature film Promoting National, Social and Enviorment Values - Silver Lotus Award",
-      year: 2024,
-      img: "/assets/images/movie/awards/5.jpg",
-      recipient: "Viral Shah",
-      movie: "Kutch Express",
-    },
-    {
-      id: "06",
-      title:
-        "Best feature film Promoting National, Social and Enviorment Values - Silver Lotus Award",
-      year: 2024,
-      img: "/assets/images/movie/awards/6.jpg",
-      recipient: "Viral Shah",
-      movie: "Kutch Express",
-    },
-    {
-      id: "07",
-      title: "Best Actress - Silver Lotus Award",
-      year: 2024,
-      img: "/assets/images/movie/awards/7.jpg",
-      recipient: "Manasi Parekh",
-      movie: "Kutch Express",
-    },
-    {
-      id: "08",
-      title: "Best Costume Design - Silver Lotus Award",
-      year: 2024,
-      img: "/assets/images/movie/awards/8.jpg",
-      recipient: "Niki Joshi",
-      movie: "Kutch Express",
-    },
-    {
-      id: "12",
-      title: "Best Costume Design - Silver Lotus Award",
-      year: 2024,
-      img: "/assets/images/movie/awards/12.jpg",
-      recipient: "Niki Joshi",
-      movie: "Kutch Express",
-    },
-    {
-      id: "13",
-      title: "Best Costume Design - Silver Lotus Award",
-      year: 2024,
-      img: "/assets/images/movie/awards/13.jpg",
-      recipient: "Niki Joshi",
-      movie: "Kutch Express",
-    },
+    // {
+    //   id: "04",
+    //   title:
+    //     "Best feature film Promoting National, Social and Enviorment Values - Silver Lotus Award",
+    //   year: 2024,
+    //   img: "/assets/images/movie/awards/4.jpg",
+    //   recipient: "Viral Shah",
+    //   movie: "Kutch Express",
+    // },
+    // {
+    //   id: "05",
+    //   title:
+    //     "Best feature film Promoting National, Social and Enviorment Values - Silver Lotus Award",
+    //   year: 2024,
+    //   img: "/assets/images/movie/awards/5.jpg",
+    //   recipient: "Viral Shah",
+    //   movie: "Kutch Express",
+    // },
+    // {
+    //   id: "12",
+    //   title: "Best Costume Design - Silver Lotus Award",
+    //   year: 2024,
+    //   img: "/assets/images/movie/awards/12.jpg",
+    //   recipient: "Niki Joshi",
+    //   movie: "Kutch Express",
+    // },
+    // {
+    //   id: "13",
+    //   title: "Best Costume Design - Silver Lotus Award",
+    //   year: 2024,
+    //   img: "/assets/images/movie/awards/13.jpg",
+    //   recipient: "Niki Joshi",
+    //   movie: "Kutch Express",
+    // },
   ];
 
   return (
@@ -104,11 +79,10 @@ const AwardMovie = () => {
             key={index}
             // style={{ margin: "5px" }}
           >
-            <img src={award.img} alt={award.title} />
-            {/* <span className="award-info">
-              <span className="fs-4 pt-3">{award.recipient}</span>
-              <i className="text-golden">{award.movie}</i>
-            </span> */}
+            <img
+              src={award.img}
+              alt={award.title}
+            />
           </div>
         ))}
       </div>

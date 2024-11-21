@@ -12,6 +12,7 @@ import LatestNews from "./LatestNews";
 import News2 from "../(home)/News2";
 import AwardGallery from "./components/Award2";
 import AwardMovie from "../movies/AwardMovie";
+import AwardNews from "./NewsAward";
 
 const News = () => {
   return (
@@ -49,7 +50,11 @@ const News = () => {
               // padding: "0 20px",
             }}
           >
-            <Heading headTitle="News & Media" color="white" isSpace={false} />
+            <Heading
+              headTitle="News & Media"
+              color="white"
+              isSpace={false}
+            />
           </div>
         </div>
       </div>
@@ -57,7 +62,7 @@ const News = () => {
       <div className="container">
         <News2 />
 
-        <AwardMovie />
+        <AwardNews />
         {/* <AwardGallery /> */}
         <Heading headTitle="Gallery" />
         <CarouselEvent data={data} />

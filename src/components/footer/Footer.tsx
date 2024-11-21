@@ -98,16 +98,13 @@ function Footer() {
                 }}
               >
                 <li>
-                  <Link href="/properties">Properties</Link>
+                  <Link href="/realty">Realty</Link>
                 </li>
                 <li>
-                  <Link href="/projects">Projects</Link>
+                  <Link href="/fracto">Fracto</Link>
                 </li>
                 <li>
-                  <Link href="/project-marketing">Project Marketing</Link>
-                </li>
-                <li>
-                  <Link href="/team">Team</Link>
+                  <Link href="/movies">Movies</Link>
                 </li>
               </ul>
             </div>
@@ -135,13 +132,13 @@ function Footer() {
                   <Link href="/about-us">About Us</Link>
                 </li>
                 <li>
+                  <Link href="/blogs">Blogs</Link>
+                </li>
+                <li>
                   <Link href="/careers">Careers</Link>
                 </li>
                 <li>
                   <Link href="/contact-us">Contact Us</Link>
-                </li>
-                <li>
-                  <Link href="/team">Team</Link>
                 </li>
               </ul>
             </div>

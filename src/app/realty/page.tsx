@@ -33,7 +33,7 @@ const Realty = () => {
         <div style={{ position: "relative" }}>
           <Image
             style={{ objectFit: "cover" }}
-            src="/assets/images3/realty/banner-2.jpg"
+            src="/assets/images3/realty/banner-3.jpg"
             className="w-100 d-block  news-banner banner hero-height"
             // className="w-100 d-block  news-banner hero-height"
             alt="News Banner"
@@ -102,7 +102,7 @@ const Realty = () => {
             </ul> */}
           </p>
 
-          <div
+          {/* <div
             style={{
               display: "flex",
               flexWrap: "wrap",
@@ -131,7 +131,7 @@ const Realty = () => {
                 className="mt-2"
                 style={{ fontSize: "20px", fontWeight: "400" }}
               >
-                Home to over 12000 Families
+                12000+ Areas delivered
               </p>
             </div>
             <div
@@ -158,7 +158,7 @@ const Realty = () => {
                 Total square footage developed 2100000
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
         <div>
           <MissionVisionV2 />
