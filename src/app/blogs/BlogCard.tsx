@@ -4,12 +4,22 @@ import { Col } from "react-bootstrap";
 
 function BlogCard({ item }) {
   return (
-    <Col lg={6} md={6} sm={12} key={item.id} className="p-0 p-md-2">
+    <Col
+      lg={6}
+      md={6}
+      sm={12}
+      key={item.id}
+      className="p-0 p-md-2"
+    >
       <div className={`item mb-30`}>
         <div className="row rest">
           <div className="col-md-6">
             <div className="img">
-              <img style={{ height: "300px" }} src={item?.image} alt="" />
+              <img
+                style={{ height: "300px" }}
+                src={item?.image}
+                alt=""
+              />
             </div>
           </div>
           <div className="col-md-6 valign">
