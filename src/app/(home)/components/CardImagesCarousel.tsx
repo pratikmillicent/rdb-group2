@@ -62,7 +62,10 @@ function DarkVariantExample({ spliti, data }: any) {
       <div className="container ">
         {spliti?.map((item: any, index: any) => (
           <Row key={index}>
-            <Col lg={3} className="p-0 d-none d-md-flex">
+            <Col
+              lg={3}
+              className="p-0 d-none d-md-flex"
+            >
               <div className="d-flex align-self-center  gap-4">
                 <div
                   className="bg-navy fw-semibold fs-5 align-self-center py-2 px-3"
@@ -130,7 +133,10 @@ function DarkVariantExample({ spliti, data }: any) {
 
             <Col className="d-inline d-md-none p-0 p-md-2">
               <div>
-                <div className="p-0 p-md-2 fs-7" key={index}>
+                <div
+                  className="p-0 p-md-2 fs-7"
+                  key={index}
+                >
                   {item?.date}
                 </div>
               </div>
@@ -145,7 +151,10 @@ function DarkVariantExample({ spliti, data }: any) {
               </span>
             </Col>
 
-            <Col lg={9} className="p-0">
+            <Col
+              lg={9}
+              className="p-0"
+            >
               <div className="container gallery-img">
                 <div className="blog-carsouel">
                   {loadSwiper && (
@@ -191,13 +200,17 @@ function DarkVariantExample({ spliti, data }: any) {
       </div>
 
       <div style={{ maxHeight: "50vh" }}>
-        <Modal show={showModal} onHide={handleClose} centered>
+        <Modal
+          show={showModal}
+          onHide={handleClose}
+          centered
+        >
           <Modal.Body>
             <Swiper
               spaceBetween={50}
               slidesPerView={1}
-              // initialSlide={activeIndex}
-              // onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
+              initialSlide={activeIndex}
+              onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
               navigation
               modules={[Navigation]}
             >
@@ -218,7 +231,10 @@ function DarkVariantExample({ spliti, data }: any) {
             </Swiper>
           </Modal.Body>
           <Modal.Footer>
-            <button onClick={handleClose} className="btn btn-golden">
+            <button
+              onClick={handleClose}
+              className="btn btn-golden"
+            >
               Close
             </button>
           </Modal.Footer>
@@ -283,7 +299,10 @@ const CarouselEvent = ({ data }) => {
         // console.log("out of ", spliti);
         return (
           <CarouselItem key={index}>
-            <DarkVariantExample spliti={spliti} data={data} />
+            <DarkVariantExample
+              spliti={spliti}
+              data={data}
+            />
           </CarouselItem>
         );
       })}

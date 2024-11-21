@@ -112,7 +112,10 @@ function Gallary2() {
   }, []);
 
   const renderSlide = (item: IImage) => (
-    <div className="mobile-padding" style={{ width: "100%" }}>
+    <div
+      className="mobile-padding"
+      style={{ width: "100%" }}
+    >
       <div className="">
         <div style={{ position: "relative", width: "100%" }}>
           <Image
@@ -159,8 +162,14 @@ function Gallary2() {
           }}
         >
           <div className="container-fluid rest">
-            <div className="row" style={{ marginBottom: "120px" }}>
-              <div className="" style={{ position: "relative" }}>
+            <div
+              className="row"
+              style={{ marginBottom: "120px" }}
+            >
+              <div
+                className=""
+                style={{ position: "relative" }}
+              >
                 <div className="work-crus work-crus2">
                   {loadSwiper && (
                     <Swiper
@@ -170,7 +179,10 @@ function Gallary2() {
                       onSwiper={(swiper) => (swiperRef.current = swiper)}
                     >
                       {events.map((item, i) => (
-                        <SwiperSlide onClick={() => openModal(i)} key={i}>
+                        <SwiperSlide
+                          onClick={() => openModal(i)}
+                          key={i}
+                        >
                           {renderSlide(item)}
                         </SwiperSlide>
                       ))}
@@ -223,7 +235,12 @@ function Gallary2() {
       </section>
 
       {/* Modal for displaying images */}
-      <Modal show={showModal} onHide={handleClose} centered size="lg">
+      <Modal
+        show={showModal}
+        onHide={handleClose}
+        centered
+        size="lg"
+      >
         <Modal.Body>
           <Swiper
             spaceBetween={50}

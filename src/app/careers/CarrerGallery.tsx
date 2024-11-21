@@ -74,6 +74,7 @@ function CarrerGallery() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const openModal = (index: number) => {
+    // console.log("index", index);
     setActiveIndex(index);
     setShowModal(true);
   };
@@ -95,9 +96,14 @@ function CarrerGallery() {
     setLoadSwiper(true);
   }, []);
 
-  const renderSlide = (item: IImage) => (
-    <div className="" style={{}}>
+  const renderSlide = (item: IImage, i) => (
+    <div
+      className=""
+      style={{}}
+    >
       <div>
+        {console.log("item-IImage", item)}
+        {console.log("i", i)}
         <div style={{ position: "relative", height: "300px" }}>
           <Image
             style={{ objectFit: "cover" }}
@@ -132,7 +138,10 @@ function CarrerGallery() {
         <div className="container">
           <div className="container-fluid rest">
             <div className="row">
-              <div className="col-12" style={{ position: "relative" }}>
+              <div
+                className="col-12"
+                style={{ position: "relative" }}
+              >
                 <div className="work-crus work-crus2">
                   {loadSwiper && (
                     <Swiper
@@ -142,9 +151,15 @@ function CarrerGallery() {
                       onSwiper={(swiper) => (swiperRef.current = swiper)}
                     >
                       {events.map((item, i) => (
-                        <span key={i} className="text-center">
-                          <SwiperSlide onClick={() => openModal(i)} key={i}>
-                            {renderSlide(item)}
+                        <span
+                          key={i}
+                          className="text-center"
+                        >
+                          <SwiperSlide
+                            onClick={() => openModal(i)}
+                            key={i}
+                          >
+                            {renderSlide(item, i)}
                           </SwiperSlide>
                         </span>
                       ))}
@@ -200,13 +215,17 @@ function CarrerGallery() {
 
       {/* Modal for displaying images */}
       <div style={{ maxHeight: "50vh" }}>
-        <Modal show={showModal} onHide={handleClose} centered>
+        <Modal
+          show={showModal}
+          onHide={handleClose}
+          centered
+        >
           <Modal.Body>
             <Swiper
               spaceBetween={0}
               slidesPerView={1}
-              // initialSlide={activeIndex}
-              // onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
+              initialSlide={activeIndex}
+              onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
               navigation
               modules={[Navigation]}
             >
@@ -225,7 +244,10 @@ function CarrerGallery() {
             </Swiper>
           </Modal.Body>
           <Modal.Footer>
-            <button onClick={handleClose} className="btn btn-golden">
+            <button
+              onClick={handleClose}
+              className="btn btn-golden"
+            >
               Close
             </button>
           </Modal.Footer>
