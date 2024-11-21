@@ -8,46 +8,131 @@ import Link from "next/link";
 const data = [
   {
     id: 1,
-    title: "Tising in our life became a info noise",
+    title:
+      "Why NRIs are investing in Indian real estate: Top reasons explained",
     // cover: "/assets/images/home/news2.jpg",
     cover: "/assets/images/news/news-detail-1.jpg",
     author: "Admin",
-    date: "August 6, 2021",
+    day: "18",
+    month: "Nov",
+    date: "November 18, 2024",
     category: "Real Estate",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus similique corrupti atque at quo ipsa porro, voluptas eos eligendi a provident ex quaerat, asperiores libero facere dignissimos hic.",
+      "NRIs are increasingly investing in Indian real estate due to favourable exchange rates, government reforms like RERA, and the country's...",
+    url: "https://www.moneycontrol.com/news/business/why-nris-are-investing-in-indian-real-estate-top-reasons-explained-12869437.html",
   },
   {
     id: 2,
-    title: "We create some things success in future growth",
+    title: "Must watch 2025 real estate trends you must know",
     cover: "/assets/images/news/news-detail-2.jpg",
     author: "Admin",
-    date: "August 6, 2021",
+    day: "18",
+    month: "Nov",
+    date: "November 18, 2024",
     category: "Real Estate",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus similique corrupti atque at quo ipsa porro, voluptas eos eligendi a provident ex quaerat, asperiores libero facere dignissimos hic.",
+      "As we approach 2025, the real estate industry is set to undergo significant changes shaped by emerging trends that focus on sustainability...",
+    url: "https://www.bizzbuzz.news/videos/must-watch-2025-real-estate-trends-you-must-know-1342593",
   },
   {
     id: 3,
-    title: "We create some things success in future growth",
+    title:
+      "Mumbai real estate: 5 Bollywood stars who have invested nearly ₹80 crore in properties in Bandra",
     cover:
       "https://www.ttrweekly.com/site/wp-content/uploads/2020/09/melbourne.jpg",
     author: "Admin",
-    date: "August 6, 2021",
+    day: "13",
+    month: "Nov",
+    date: "November 13, 2024",
     category: "Real Estate",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus similique corrupti atque at quo ipsa porro, voluptas eos eligendi a provident ex quaerat, asperiores libero facere dignissimos hic.",
+      "Mumbai’s Bandra is synonymous with Bollywood as this is the place where several actors and actresses ...",
+    url: "https://www.hindustantimes.com/real-estate/mumbai-real-estate-5-bollywood-stars-who-have-invested-in-properties-in-bandra-101731395034148.html",
   },
-  // Add more items as needed...
+  {
+    id: 4,
+    title:
+      "Jhamkudi OTT release date ShemarooMe: When to watch this Manasi Parekh-starrer Gujarati blockbuster",
+    cover:
+      "https://www.ttrweekly.com/site/wp-content/uploads/2020/09/melbourne.jpg",
+    author: "Admin",
+    day: "17",
+    month: "Oct",
+    date: "Octber 17, 2024",
+    category: "Real Estate",
+    description:
+      "Popular influencer Viraj Ghelani made his Gujarati debut with Jhamkudi earlier this year and it chan...",
+    url: "https://www.indiatimes.com/entertainment/binge/when-to-watch-jhamkudi-online-ott-shemaroome-release-date-manasi-parekh-gujarati-movie-644019.html",
+  },
+  {
+    id: 5,
+    title:
+      "Jhamkudi Week 1 Box Office: Gujarati horror-com trends extraordinarily; Nets 5.50 crores to emerge a super-hit",
+    cover:
+      "https://www.ttrweekly.com/site/wp-content/uploads/2020/09/melbourne.jpg",
+    author: "Admin",
+    day: "07",
+    month: "Jun",
+    date: "Jun 07, 2024",
+    category: "Real Estate",
+    description:
+      "Gujarati horror-comedy Jhamkudi, directed by Umang Vyas and...",
+    url: "https://www.pinkvilla.com/entertainment/box-office/jhamkudi-week-1-box-office-gujarati-horror-com-trends-extraordinarily-nets-5-50-crores-to-emerge-a-super-hit-1314094",
+  },
+  {
+    id: 6,
+    title:
+      "Guj CM congratulates ‘Kutch Express’ team for bagging three national awards",
+    cover:
+      "https://www.ttrweekly.com/site/wp-content/uploads/2020/09/melbourne.jpg",
+    author: "Admin",
+    day: "16",
+    month: "Aug",
+    date: "August 16, 2024",
+    category: "Real Estate",
+    description:
+      "Ahmedabad, Aug 16 (PTI) Gujarat Chief Minister Bhupendra Patel on Friday congratulated the producers...",
+    url: "https://theprint.in/feature/guj-cm-congratulates-kutch-express-team-for-bagging-three-national-awards/2226467/",
+  },
+  {
+    id: 7,
+    title:
+      "Fractional real estate is the 'new Gold' for savvy festive season investors",
+    cover:
+      "https://www.ttrweekly.com/site/wp-content/uploads/2020/09/melbourne.jpg",
+    author: "Admin",
+    day: "31",
+    month: "Oct",
+    date: "Oct 31, 2024",
+    category: "Real Estate",
+    description:
+      "Fractional ownership in real estate allows investors to invest even a small amount in a property. The investors can buy a ‘share’...",
+    url: "https://www.etnownews.com/real-estate/fractional-real-estate-is-the-new-gold-for-savvy-festive-season-investors-article-114818609",
+  },
+  {
+    id: 8,
+    title:
+      "Fractional Ownership: This realty segment to rise over 10 times by 2030 | Here are 3 top hotspots",
+    cover:
+      "https://www.ttrweekly.com/site/wp-content/uploads/2020/09/melbourne.jpg",
+    author: "Admin",
+    day: "29",
+    month: "May",
+    date: "May 29, 2024",
+    category: "Real Estate",
+    description:
+      "Fractional ownership in real estate allows investors to invest even a small amount in a..",
+    url: "https://www.etnownews.com/real-estate/fractional-real-https://www.financialexpress.com/money/fractional-ownership-this-realty-segment-to-rise-over-10-times-by-2030-here-are-3-top-hotspots-3506007/estate-is-the-new-gold-for-savvy-festive-season-investors-article-114818609",
+  },
 ];
 
 const swiperOptions = {
-  modules: [Navigation, Autoplay],
-  autoplay: {
-    delay: 1000,
-    disableOnInteraction: false,
-    pauseOnMouseEnter: true,
-  },
+  // modules: [Navigation, Autoplay],
+  // autoplay: {
+  //   delay: 1000,
+  //   disableOnInteraction: false,
+  //   pauseOnMouseEnter: true,
+  // },
   slidesPerView: 3,
   loop: true,
   spaceBetween: 10,
@@ -90,13 +175,13 @@ function News2() {
               id="content-carousel-container-unq-blog"
               className="swiper-container"
             >
-              {data?.map((item) => (
+              {data?.map(item => (
                 <SwiperSlide
                   key={item.id}
                   className="wow fadeInUp"
                   data-wow-delay=".1s"
                 >
-                  <Link href={"/newsDetails"}>
+                  <Link href={item?.url} target="_blank">
                     <div className="max-w-sm rounded overflow-hidden bg-white position-relative">
                       {/* Image */}
                       <div className="">
@@ -123,7 +208,34 @@ function News2() {
                             Fynley Wilkinson
                           </span>
                           <div className="bg-dark date-banner">
-                            <DateBanner />
+                            {/* <DateBanner /> */}
+                            <div
+                              className="date-wrapper bg-golden"
+                              style={{
+                                position: "absolute",
+                                // backgroundSize: "cover",,
+                                // bottom: "445px",
+                                top: "0px",
+                                left: "5px",
+                                // borderRadius: "5px",
+                              }}
+                            >
+                              <div
+                                className="date-box text-white bg-golden"
+                                style={{ fontSize: "32px", fontWeight: 700 }}
+                              >
+                                {item.day}
+                              </div>
+                              <div
+                                className="date-letter-box py-2 text-white"
+                                style={{
+                                  backgroundColor: "#D29530",
+                                  fontSize: "12px",
+                                }}
+                              >
+                                {item.month}
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -179,32 +291,32 @@ function News2() {
 
 export default News2;
 
-const DateBanner = () => {
-  return (
-    <>
-      <div
-        className="date-wrapper bg-golden"
-        style={{
-          position: "absolute",
-          backgroundSize: "cover",
-          bottom: "445px",
-          left: "5px",
-          borderRadius: "5px",
-        }}
-      >
-        <div
-          className="date-box text-white bg-golden"
-          style={{ fontSize: "32px", fontWeight: 700 }}
-        >
-          10
-        </div>
-        <div
-          className="date-letter-box py-2 text-white"
-          style={{ backgroundColor: "#D29530", fontSize: "12px" }}
-        >
-          NOV
-        </div>
-      </div>
-    </>
-  );
-};
+// const DateBanner = () => {
+//   return (
+//     <>
+//       <div
+//         className="date-wrapper bg-golden"
+//         style={{
+//           position: "absolute",
+//           backgroundSize: "cover",
+//           bottom: "445px",
+//           left: "5px",
+//           borderRadius: "5px",
+//         }}
+//       >
+//         <div
+//           className="date-box text-white bg-golden"
+//           style={{ fontSize: "32px", fontWeight: 700 }}
+//         >
+//           10
+//         </div>
+//         <div
+//           className="date-letter-box py-2 text-white"
+//           style={{ backgroundColor: "#D29530", fontSize: "12px" }}
+//         >
+//           NOV
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
