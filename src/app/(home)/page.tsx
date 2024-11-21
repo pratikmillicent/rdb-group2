@@ -55,7 +55,7 @@ export default function Home() {
 
   const videoData = [
     {
-      src: "/assets/video/intro.mp4",
+      src: "/assets/video/general.mp4",
       text: `Crafted with <span
          style="
               font-weight : 500
@@ -85,7 +85,7 @@ export default function Home() {
       link: "/movies",
     },
     {
-      src: "/assets/video/stratum.webm",
+      src: "/assets/video/stratum.mp4",
       text: "Stratum",
       link: "/stratum",
     },

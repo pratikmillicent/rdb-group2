@@ -29,7 +29,7 @@ const Realty = () => {
         <div style={{ position: "relative" }}>
           <Image
             style={{ objectFit: "cover" }}
-            src="/assets/images3/realty/banner.jpg"
+            src="/assets/images3/realty/banner-2.jpg"
             className="w-100 d-block  news-banner banner hero-height"
             // className="w-100 d-block  news-banner hero-height"
             alt="News Banner"

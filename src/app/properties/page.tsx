@@ -19,7 +19,7 @@ function Properties() {
       <main className="bg- text-black">
         <div style={{ position: "relative" }}>
           <Image
-            src="/assets/images3/properties/banner.jpg"
+            src="/assets/images3/properties/banner-2.jpg"
             className="w-100 d-block  news-banner banner hero-height"
             // className="w-100 d-block  news-banner hero-height"
             alt="News Banner"
