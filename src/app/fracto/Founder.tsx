@@ -11,18 +11,27 @@ function Founder() {
       <div style={{ flex: "1" }}>
         <Heading headTitle="Our Founder" />
         <p className="mobile-justify">
-          Dhaval Thakkar, with 15 years of experience in commercial and retail
-          real estate, is known for his attention to detail and passion for
-          innovation. His leadership has driven the company’s growth, delivering
-          over 1.5 million square feet of prime real estate across 14 cities in
-          India. Bold and forward-thinking, Dhaval focuses on diversification
-          and embracing new technologies to create value.
+          For realty page- Dhaval Thakkar is a dynamic leader with over 20 years
+          of experience in commercial and retail real estate, renowned for his
+          attention to detail and passion for innovation. His leadership has
+          been instrumental in the company’s growth, driving the delivery of
+          over 1.5 million square feet of prime real estate across India.
+          Dhaval’s approach is bold and forward-thinking, emphasizing
+          diversification and embracing new technologies to create meaningful
+          value from every challenge. What sets Dhaval apart is his ability to
+          inspire his team, fostering a culture of collaboration and creativity.
         </p>
         <p className="mobile-justify">
-          He inspires his team, fostering collaboration and creativity, and
-          believes growth is about building a sustainable, innovative future.
-          Dhaval’s vision has expanded the company’s reach and set new industry
-          standards, keeping the business agile and competitive.
+          In addition to his expertise in real estate, Dhaval plays a pivotal
+          role in managing real estate funds for developers and contributing to
+          the production and distribution of movies. His multifaceted
+          involvement reflects his strategic vision and adaptability across
+          diverse industries.
+        </p>
+        <p className="mobile-justify">
+          His dedication to continuous improvement has expanded the company’s
+          reach and set new industry standards, ensuring the business remains
+          agile and competitive in an ever-changing market.
         </p>
       </div>
       <div style={{ flex: ".4", position: "relative" }}>

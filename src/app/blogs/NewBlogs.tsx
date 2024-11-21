@@ -81,7 +81,7 @@ const NewBlogs = () => {
       date: "August 6, 2022",
       title:
         "Fractional Ownership: This realty segment to rise over 10 times by 2030 | Here are 3 top hotspots",
-      image: "assets/images3/blogs/building2.jpg",
+      image: "/assets/images3/blogs/building2.jpg",
       tags: ["Marketing", "Design"],
       author: "Admin",
       url: "fractional-ownership-this-realty-segment-to-rise-over-10-times-by-2030-here-are-3-top-hotspots",

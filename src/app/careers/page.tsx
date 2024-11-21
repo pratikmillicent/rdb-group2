@@ -46,7 +46,11 @@ const page = () => {
               // padding: "0 20px 20px 20px ",
             }}
           >
-            <Heading headTitle="Careers" color="white" isSpace={false} />
+            <Heading
+              headTitle="Careers"
+              color="white"
+              isSpace={false}
+            />
           </div>
         </div>
       </div>
@@ -115,7 +119,7 @@ const page = () => {
             {/* <p className="text-dark fw-900 mb-4">Open Positions</p> */}
 
             {/* <TestimonialCareer /> */}
-            <TestimonialVideo />
+            {/* <TestimonialVideo /> */}
 
             <div>
               <Heading headTitle="Current Openings" />

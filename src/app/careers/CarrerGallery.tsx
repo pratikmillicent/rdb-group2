@@ -99,8 +99,6 @@ function CarrerGallery() {
   const renderSlide = (item: IImage, i) => (
     <div className="" style={{}}>
       <div>
-        {console.log("item-IImage", item)}
-        {console.log("i", i)}
         <div style={{ position: "relative", height: "300px" }}>
           <Image
             style={{ objectFit: "cover" }}
@@ -167,7 +165,7 @@ function CarrerGallery() {
                 }}
               > */}
                 <div
-                  className="swiper-button-next text-dark fw-600 swiper-arrow-mobile-right"
+                  className="swiper-button-next text-dark fw-600 swiper-arrow-mobile-right-carrer-gallery"
                   style={{
                     fontWeight: "600",
                     height: "40px",
@@ -181,7 +179,7 @@ function CarrerGallery() {
                 ></div>
 
                 <div
-                  className="swiper-button-prev text-dark swiper-arrow-mobile-left"
+                  className="swiper-button-prev text-dark swiper-arrow-mobile-left-carrer-gallery"
                   style={{
                     fontWeight: "600",
                     height: "40px",
@@ -202,8 +200,8 @@ function CarrerGallery() {
       </section>
 
       {/* Modal for displaying images */}
-      <div style={{ maxHeight: "50vh" }}>
-        <Modal show={showModal} onHide={handleClose} centered>
+      <div>
+        <Modal size="md" show={showModal} onHide={handleClose} centered>
           <Modal.Body>
             <Swiper
               // spaceBetween={0}
@@ -217,7 +215,7 @@ function CarrerGallery() {
                 <SwiperSlide key={index}>
                   <div className="swiper-image-container">
                     <img
-                      style={{ height: "300px" }}
+                      style={{ maxHeight: "450px" }}
                       src={image.image}
                       alt={image.image}
                       className="landscape-image"
@@ -242,7 +240,7 @@ const swiperOptions = {
   speed: 1000,
   spaceBetween: 40,
   loop: true,
-  centeredSlides: false,
+  centeredSlides: true,
   slidesPerView: 4,
   // breakpoints: {
   //   0: {
@@ -266,8 +264,8 @@ const swiperOptions = {
     clickable: true,
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".swiper-arrow-mobile-right-carrer-gallery",
+    prevEl: ".swiper-arrow-mobile-left-carrer-gallery",
   },
 };
 
