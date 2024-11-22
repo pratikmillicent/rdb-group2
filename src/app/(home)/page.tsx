@@ -122,8 +122,8 @@ export default function Home() {
     const { src, text, link } = videoData[loopCount];
     let typingTimeout;
 
-    const typeText = (text) => {
-      setDisplayedText((prev) => prev + text.slice(0, 1));
+    const typeText = text => {
+      setDisplayedText(prev => prev + text.slice(0, 1));
 
       typingTimeout = setTimeout(() => typeText(text.slice(1)), 100);
     };
@@ -179,17 +179,6 @@ export default function Home() {
                 padding: "0 20px 20px 20px ",
               }}
             >
-              {/* {loopCount !== 0 && (
-                <img
-                  src="/rdb_1.svg"
-                  style={{
-                    height: isSmallScreen ? "80px" : "100px",
-                    width: "55px",
-                    objectFit: "contain",
-                  }}
-                />
-              )} */}
-
               <p
                 className=""
                 style={{
@@ -241,14 +230,10 @@ export default function Home() {
             <div className="d-lg-none">
               <MobileCarousel />
             </div>
-            {/* ) : isSmallScreen ? ( */}
-            {/* ) : null} */}
           </div>
         </div>
 
-        {/* <NewMobile /> */}
         <News2 />
-        {/* <News2 /> */}
         <VideoGallary />
       </main>
     </ParallaxProvider>

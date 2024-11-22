@@ -1,12 +1,8 @@
 "use client";
 import Heading from "@/components/heading/Heading";
-import ResumeUpload from "./components/ResumeUpload";
-import React from "react";
 import Image from "next/image";
-import TestimonialCareer from "./components/TestimonialCareer.jsx";
-import { Col, Row } from "react-bootstrap";
 import CarrerGallery from "./CarrerGallery";
-import TestimonialVideo from "./components/TestimonialVideo";
+import ResumeUpload from "./components/ResumeUpload";
 
 const page = () => {
   return (
@@ -15,10 +11,8 @@ const page = () => {
         <Image
           src="/assets/images3/careers/banner-4.jpg"
           className="circle-img career-banner banner"
-          // className="circle-img career-banner"
           alt="carrer page"
           style={{ objectFit: "cover" }}
-          // style={{ height: "100vh" }}
           width={800}
           height={500}
         />
@@ -37,30 +31,21 @@ const page = () => {
         >
           <div
             style={{
-              // marginTop: "100px",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
               height: "100%",
-              // padding: "0 20px 20px 20px ",
             }}
           >
-            <Heading
-              headTitle="Careers"
-              color="white"
-              isSpace={false}
-            />
+            <Heading headTitle="Careers" color="white" isSpace={false} />
           </div>
         </div>
       </div>
 
       <div className="">
         <div className="work-header ">
-          <div
-          // className="section-padding"
-          // style={{ paddingTop: "30px !important" }}
-          >
+          <div>
             <div>
               <div className="caption text-grey">
                 <section
@@ -116,15 +101,9 @@ const page = () => {
         <div className="d-flex gap-3 mb-60">
           <div className="text-grey container">
             <CarrerGallery />
-            {/* <p className="text-dark fw-900 mb-4">Open Positions</p> */}
-
-            {/* <TestimonialCareer /> */}
-            {/* <TestimonialVideo /> */}
 
             <div>
               <Heading headTitle="Current Openings" />
-
-              {/* <div className="fz-35 fw-600">Open Positions</div> */}
             </div>
             <p className="text-black fz-16 fw-400">
               At RD Brothers, the growth of your career is as important to us as

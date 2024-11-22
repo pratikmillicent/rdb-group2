@@ -33,42 +33,6 @@ const events: IEvent[] = [
   },
 ];
 
-// const mumbai: IImage[] = [
-//   {
-//     image: "/assets/images/movie/gallary/mumbai-premier/i (1).JPG",
-//   },
-//   {
-//     image: "/assets/images/movie/gallary/mumbai-premier/i (2).JPG",
-//   },
-//   {
-//     image: "/assets/images/movie/gallary/mumbai-premier/i (3).JPG",
-//   },
-//   {
-//     image: "/assets/images/movie/gallary/mumbai-premier/i (4).JPG",
-//   },
-//   {
-//     image: "/assets/images/movie/gallary/mumbai-premier/i (5).JPG",
-//   },
-//   {
-//     image: "/assets/images/movie/gallary/mumbai-premier/i (6).JPG",
-//   },
-//   {
-//     image: "/assets/images/movie/gallary/mumbai-premier/i (7).JPG",
-//   },
-//   {
-//     image: "/assets/images/movie/gallary/mumbai-premier/i (8).JPG",
-//   },
-//   {
-//     image: "/assets/images/movie/gallary/mumbai-premier/i (9).JPG",
-//   },
-// ];
-// const ahemdabad: IImage[] = [
-
-//   // {
-//   //   image: "/assets/images/career/gallary/1.jpg",
-//   // },
-// ];
-
 function CarrerGallery() {
   const [showModal, setShowModal] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -106,9 +70,6 @@ function CarrerGallery() {
             className="circle-img"
             alt="Landscape picture"
             fill
-            // width={600}
-            // height={250}
-            // style={{ height: "250px" }}
           />
 
           <h3
@@ -154,16 +115,6 @@ function CarrerGallery() {
                   )}
                 </div>
 
-                {/* <div
-                className=""
-                style={{
-                  position: "absolute",
-                  width: "89vw",
-                  alignItems: "center",
-                  top: "94%",
-                  alignContent: "center",
-                }}
-              > */}
                 <div
                   className="swiper-button-next text-dark fw-600 swiper-arrow-mobile-right-carrer-gallery"
                   style={{

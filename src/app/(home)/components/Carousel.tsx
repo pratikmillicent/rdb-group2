@@ -17,21 +17,16 @@ export default function Carroussel3D(props: any) {
     setShowArrows(props.showArrows);
   }, [props.offset, props.showArrows]);
 
-  // Auto-scroll logic
   useEffect(() => {
     const interval = setInterval(() => {
-      setGoToSlide((prev) => (prev + 1) % cards.length);
-    }, props.autoScrollInterval || 3000); // Auto-scroll interval in milliseconds
+      setGoToSlide(prev => (prev + 1) % cards.length);
+    }, props.autoScrollInterval || 3000);
 
-    return () => clearInterval(interval); // Clean up the interval on unmount
+    return () => clearInterval(interval);
   }, [cards.length]);
 
   return (
     <div>
-      {/* <div className="text-center mb-4 fz-16">
-        Explore our latest events, highlights, and activities.
-      </div> */}
-
       <div
         style={{
           width: props.width,
@@ -40,8 +35,7 @@ export default function Carroussel3D(props: any) {
         }}
       >
         <Carousel
-          offsetFn={(offsetFromCenter) => {
-            // console.log({ offsetFromCenter });
+          offsetFn={offsetFromCenter => {
             return {
               opacity: offsetFromCenter ? 0.8 : 1,
             };

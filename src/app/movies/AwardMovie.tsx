@@ -1,5 +1,4 @@
 import Heading from "@/components/heading/Heading";
-import { FaStarOfLife } from "react-icons/fa6";
 import "./award.css";
 
 const AwardMovie = () => {
@@ -31,40 +30,6 @@ const AwardMovie = () => {
       recipient: "Viral Shah",
       movie: "Kutch Express",
     },
-    // {
-    //   id: "04",
-    //   title:
-    //     "Best feature film Promoting National, Social and Enviorment Values - Silver Lotus Award",
-    //   year: 2024,
-    //   img: "/assets/images/movie/awards/4.jpg",
-    //   recipient: "Viral Shah",
-    //   movie: "Kutch Express",
-    // },
-    // {
-    //   id: "05",
-    //   title:
-    //     "Best feature film Promoting National, Social and Enviorment Values - Silver Lotus Award",
-    //   year: 2024,
-    //   img: "/assets/images/movie/awards/5.jpg",
-    //   recipient: "Viral Shah",
-    //   movie: "Kutch Express",
-    // },
-    // {
-    //   id: "12",
-    //   title: "Best Costume Design - Silver Lotus Award",
-    //   year: 2024,
-    //   img: "/assets/images/movie/awards/12.jpg",
-    //   recipient: "Niki Joshi",
-    //   movie: "Kutch Express",
-    // },
-    // {
-    //   id: "13",
-    //   title: "Best Costume Design - Silver Lotus Award",
-    //   year: 2024,
-    //   img: "/assets/images/movie/awards/13.jpg",
-    //   recipient: "Niki Joshi",
-    //   movie: "Kutch Express",
-    // },
   ];
 
   return (
@@ -79,10 +44,7 @@ const AwardMovie = () => {
             key={index}
             // style={{ margin: "5px" }}
           >
-            <img
-              src={award.img}
-              alt={award.title}
-            />
+            <img src={award.img} alt={award.title} />
           </div>
         ))}
       </div>

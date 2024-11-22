@@ -1,25 +1,15 @@
 "use client";
 // import Heading from "@/components/heading/Heading";
-import Image from "next/image";
-import React from "react";
-import SectionImage from "../(home)/components/SectionImage";
-import Advantage2 from "./Advantage2";
-import HowItWorks from "./HowItWorks";
-import Ourbrand from "./Ourbrand";
-import Contact from "./Contact";
-import Advantage from "./Advantage";
-import Investment from "./InvestmentOption";
-import About from "./About";
-import ProjectFracto from "./ProjectFracto";
 import Heading from "@/components/heading/Heading";
+import Image from "next/image";
+import Advantage2 from "./Advantage2";
+import Contact from "./Contact";
 import Cre from "./Cre";
-import Vision from "./Vision";
-import Mission from "./Mission";
-import FractoSectionImage from "./FractoVisionMission";
-import FractoAdvantage from "./FractoAdvantage";
-import "./howtowork2.css";
-import FractoAdvantageMobile from "./FractoAdvantageMobile";
 import Founder from "./Founder";
+import FractoAdvantage from "./FractoAdvantage";
+import FractoAdvantageMobile from "./FractoAdvantageMobile";
+import FractoSectionImage from "./FractoVisionMission";
+import "./howtowork2.css";
 
 const page = () => {
   return (
@@ -59,28 +49,6 @@ const page = () => {
             }}
           >
             <Heading headTitle="Fracto Prop" color="white" isSpace={false} />
-            {/* <div
-      style={{width: "fit-content", margin: "0 auto" }}
-      className="position-relative"
-    >
-      <h2
-        className="mb-80 mb-30 fs-2"
-        style={{ fontSize: `${fontSize} !important` }}
-      >
-        <span style={{ color }} ref={spanRef}>
-          {headTitle}
-        </span>
-      </h2>
-      <div
-        className="border-line position-absolute "
-        style={{
-          
-          top: "100%",
-          left: textAlign === "center" ? "12.5%" : "0",
-          right: textAlign === "center" ? "12.5%" : "70%",
-        }}
-      ></div>
-    </div> */}
           </div>
         </div>
       </div>
@@ -111,8 +79,6 @@ const page = () => {
           </p>
         </div>
         <FractoSectionImage />
-        {/* <Vision />
-        <Mission /> */}
 
         <Founder />
 
@@ -126,10 +92,6 @@ const page = () => {
         </div>
 
         <Advantage2 />
-
-        {/* <ProjectFracto /> */}
-
-        {/* <Ourbrand /> */}
         <Contact />
       </div>
     </>

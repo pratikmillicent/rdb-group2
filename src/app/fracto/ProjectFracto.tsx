@@ -39,7 +39,7 @@ const ProjectFracto = () => {
       <div className="gallery " style={{ overflowX: "hidden" }}>
         <div className="row grid md-marg">
           <Swiper {...swiperOptions}>
-            {Fractoproject.map((item) => (
+            {Fractoproject.map(item => (
               <div
                 className={`col-lg-4 col-md-6 items ${item.filter} info-overlay mb-0 px-2`}
                 key={item.id}
@@ -241,22 +241,4 @@ const Fractoproject = [
     year: "2023",
     title: "Character Design",
   },
-  // {
-  //   id: 7,
-  //   filter: "web",
-  //   image:
-  //     "https://img.staticmb.com/mbimages/project/Photo_h310_w462/Project-Photo-40-Omkar-1973-Mumbai-5019920_345_1366_310_462.jpg",
-
-  //   type: "Design ART",
-  //   year: "2023",
-  //   title: "Character Design",
-  // },
-  // {
-  //   id: 8,
-  //   filter: "app",
-  //   image: "https://www.ghar.tv/projectimages/168/photo-518.jpg",
-  //   type: "Design ART",
-  //   year: "2023",
-  //   title: "Character Design",
-  // },
 ];

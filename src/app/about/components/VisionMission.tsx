@@ -92,26 +92,6 @@ const VisionMission: React.FC = () => {
           className="col-12 col-md-6 d-flex justify-content-center align-items-center d-none d-sm-none d-md-block d-lg-block d-xl-block"
           style={{ height: "100vh" }}
         >
-          {/* <div
-            className="ratio ratio-4x3"
-            style={{ position: 'relative', width: '100%', height: '100%', margin: 0, padding: 0 }}
-          >
-            <Image
-              src={
-                selectedTab === "vision"
-                  ? "/assets/images/home/our-vision.jpg"
-                  : selectedTab === "mission"
-                    ? "/assets/images/home/our-mission.jpg"
-                    : "/assets/images/home/news1.jpg"
-              }
-              className={`img-fluid ${animate ? "fade-in" : ""}`}
-              alt={selectedTab}
-              layout="fill"
-              objectFit="cover"
-              style={{ margin: 0, padding: 0 }}
-            />
-          </div> */}
-
           <div className="">
             <div
               className="ratio ratio-4x3"

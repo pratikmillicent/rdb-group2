@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from "react";
-import { FaCircle } from "react-icons/fa";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay, Pagination, Parallax } from "swiper";
 import loadBackgroudImages from "@/utils/loadBackground";
+import { useEffect, useState } from "react";
+import { Autoplay, Navigation, Pagination, Parallax } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 import "./movieslider.css"; // Make sure to import Swiper CSS
-import Heading from "@/components/heading/Heading";
 
 const swiperOptions = {
   modules: [Navigation, Autoplay, Pagination, Parallax],
@@ -56,7 +54,7 @@ function MovieSlider() {
     >
       {loadSwiper && (
         <Swiper {...swiperOptions} className="swiper-container parallax-slider">
-          {data.map((item) => (
+          {data.map(item => (
             <SwiperSlide key={item.id}>
               <div className="bg-img valign" data-background={item.background}>
                 <div
@@ -96,25 +94,8 @@ function MovieSlider() {
         <h4 className="banner-heading banner">
           Creating Stories that Inspire, Entertain, and Resonate.
         </h4>
-        {/* <Heading
-                      headTitle="Creating Stories that Inspire, Entertain, and Resonate."
-                      color="white" 
-                      />*/}
       </div>
-      {/* <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              height: "100%",
-              padding: "0 20px",
-            }}
-          >
-            <h3 className="banner-heading hero-heading">
-              Creating Stories that Inspire, Entertain, and Resonate
-            </h3>
-          </div> */}
+
       <div className="slider-control position-absolute top-50 start-0 w-100 d-flex justify-content-between translate-middle-y">
         <div className="swiper-button-prev swiper-nav-ctrl d-flex align-items-center justify-content-center rounded-circle bg-light shadow-sm cursor-pointer">
           <i className="fas fa-chevron-left"></i>
@@ -130,13 +111,6 @@ function MovieSlider() {
 export default MovieSlider;
 
 const data = [
-  // {
-  //   id: 1,
-  //   background: "https://i.ytimg.com/vi/RiQJw0znUjw/maxresdefault.jpg",
-  //   year: "2020",
-  //   type: "movie",
-  //   title: "Golkeri",
-  // },
   {
     id: 2,
     background:

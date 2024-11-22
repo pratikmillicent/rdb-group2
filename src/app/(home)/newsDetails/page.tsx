@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import News2 from "../News2";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper";
 
@@ -11,7 +10,6 @@ const data = [
   {
     id: 1,
     title: "Tising in our life became a info noise",
-    // cover: "/assets/images/home/news2.jpg",
     cover:
       "https://gdoc.io/uploads/Twitter_Real_Estate_Newspaper_2_1600_900_1artboards_.jpg",
     author: "Admin",
@@ -42,7 +40,6 @@ const data = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus similique corrupti atque at quo ipsa porro, voluptas eos eligendi a provident ex quaerat, asperiores libero facere dignissimos hic.",
   },
-  // Add more items as needed...
 ];
 
 const swiperOptions = {
@@ -239,7 +236,7 @@ const Page = () => {
                   id="content-carousel-container-unq-blog"
                   className="swiper-container"
                 >
-                  {data?.map((item) => (
+                  {data?.map(item => (
                     <SwiperSlide
                       key={item.id}
                       className="wow fadeInUp"
@@ -290,36 +287,6 @@ const Page = () => {
                 </Swiper>
               )}
             </div>
-
-            {/* Navigation Buttons */}
-            {/* <div
-          className="swiper-button-next text-dark fw-600 news-arrow-mobile-right"
-          style={{
-            fontWeight: "600",
-            height: "40px",
-            width: "40px",
-            borderRadius: "50%",
-            // right: "-60px",
-            // top: "59%",
-            top: "18%",
-            transform: "translateY(-50%)",
-          }}
-        ></div>
-
-        <div
-          className="swiper-button-prev text-dark news-arrow-mobile-left"
-          style={{
-            fontWeight: "600",
-            height: "40px",
-            width: "40px",
-            borderRadius: "50%",
-            position: "absolute",
-            // left: "-60px",
-            top: "18%",
-            // top: "59%",
-            transform: "translateY(-50%)",
-          }}
-        /> */}
           </div>
         </section>
       </div>

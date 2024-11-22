@@ -1,19 +1,14 @@
 "use client";
 const DashboardCount = lazy(() => import("@/components/DashboardCount"));
 import CallToAction from "./components/CallToAction";
-// import CoreValue2 from "./components/CoreValue2";
-// import Team from "./components/Team";
-import DirectorCard from "./components/DirectorCard";
-import SectionImage from "../(home)/components/SectionImage";
-import TeamSection2 from "./components/TeamSection2";
-import Team from "./components/Team";
-import Experience from "./components/Experience";
-import { useInView } from "react-spring";
+import Heading from "@/components/heading/Heading";
+import Image from "next/image";
 import { lazy } from "react";
+import { useInView } from "react-spring";
 import AboutSectionImage from "./components/AboutSectionImage";
 import Director2 from "./components/Director2";
-import Image from "next/image";
-import Heading from "@/components/heading/Heading";
+import Experience from "./components/Experience";
+import Team from "./components/Team";
 
 const data = [
   { value: 1000, suffix: "+", label: "Developer Relationships" },

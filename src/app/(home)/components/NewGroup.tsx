@@ -154,20 +154,11 @@ const NewGroupGrid: React.FC = () => {
               </div>
               <div className="col-lg-6 sub-bg right">
                 {data?.map((item, index) => {
-                  // const isLastTwo = index == data.length - 2;
-                  // const isLast = index == data.length - 1;
-                  // const marginStyle = isLast
-                  //   ? { marginTop: "100px" }
-                  //   : isLastTwo
-                  //   ? { marginTop: "100px", marginBottom: "100px" }
-                  //   : { marginBottom: "150px" };
-
                   return (
                     <div
                       className={`cont ${index === 0 ? "active" : ""}`}
                       data-tab={`tab-${index + 1}`}
                       key={index}
-                      // style={marginStyle}
                     >
                       <div className="img-hiden">
                         <Image

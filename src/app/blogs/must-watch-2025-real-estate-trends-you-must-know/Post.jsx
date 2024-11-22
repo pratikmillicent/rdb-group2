@@ -136,37 +136,6 @@ function Post() {
             </div>
           </div>
         </div>
-        {/* <div className="info-area flex mt-20 pb-20">
-          <div>
-            <div className="tags flex">
-              <div className="valign">
-                <span>Tags :</span>
-              </div>
-              <div>
-                <Link href="/dark/blog-classic">Tech</Link>
-                <Link href="/dark/blog-classic">Geekfolio</Link>
-              </div>
-            </div>
-          </div>
-          <div className="ml-auto">
-            <div className="share-icon flex">
-              <div className="valign">
-                <span>Share :</span>
-              </div>
-              <div>
-                <a href="https://www.facebook.com/">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://www.twitter.com/">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="https://www.youtube.com/">
-                  <i className="fab fa-youtube"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <div className="author-area mt-50">
           <div className="flex">
             <div className="author-img mr-30">

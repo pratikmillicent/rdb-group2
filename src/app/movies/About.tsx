@@ -11,14 +11,7 @@ const About = () => {
         <div
           className="bg-opacity-50"
           style={{
-            // backgroundImage: `url(/assets/images/movie/about-bg-4.jpeg)`,
-            // backgroundSize: "cover",
-            // backgroundRepeat: "no-repeat",
-            // backgroundPosition: "center center",
             width: "100%",
-            // minHeight: "55vh", // 01
-            // minHeight: "80vh", // Ensures it takes full height
-            // filter: "hue-rotate(45deg)",
           }}
         >
           <div className="container">
@@ -38,10 +31,12 @@ const About = () => {
                       border: "3px solid var(--golden)",
                       borderTop: "none",
                       borderRight: "none",
-                      fontSize: 'large'
+                      fontSize: "large",
                     }}
                   >
-                    <strong style={{textAlign: 'center',fontStyle: 'italic'}}>
+                    <strong
+                      style={{ textAlign: "center", fontStyle: "italic" }}
+                    >
                       {" "}
                       Vision
                       <br />
@@ -68,10 +63,10 @@ const About = () => {
                       border: "3px solid var(--golden)",
                       borderTop: "none",
                       borderLeft: "none",
-                      fontSize:'large'
+                      fontSize: "large",
                     }}
                   >
-                    <strong style={{fontStyle: 'italic'}}>
+                    <strong style={{ fontStyle: "italic" }}>
                       {" "}
                       Mission
                       <br />

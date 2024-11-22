@@ -57,7 +57,7 @@ function TestimonialVideo() {
 
   const renderSlide = (item: Video) => (
     <div className="">
-      <div onClick={(e) => openVideo?.(e, item)}>
+      <div onClick={e => openVideo?.(e, item)}>
         <div style={{ position: "relative" }}>
           <svg
             style={{
@@ -78,10 +78,7 @@ function TestimonialVideo() {
               strokeWidth="15"
               stroke="#fff"
             />
-            <polygon
-              points="70, 55 70, 145 145, 100"
-              fill="#fff"
-            />
+            <polygon points="70, 55 70, 145 145, 100" fill="#fff" />
           </svg>
           <Image
             src={item?.image}
@@ -92,16 +89,6 @@ function TestimonialVideo() {
             style={{ height: "250px", objectFit: "cover" }}
           />
         </div>
-        {/* <div
-          style={{
-            background: "#fff",
-            padding: "16px",
-            fontSize: "20px",
-            fontWeight: "600",
-          }}
-        >
-          {item?.title}
-        </div> */}
       </div>
     </div>
   );
@@ -111,21 +98,15 @@ function TestimonialVideo() {
       <Heading headTitle="Employee Testimonials" />
       <div className="container">
         <div className="container-fluid rest">
-          <div
-            className="row"
-            style={{ marginBottom: "120px" }}
-          >
-            <div
-              className="col-12"
-              style={{ position: "relative" }}
-            >
+          <div className="row" style={{ marginBottom: "120px" }}>
+            <div className="col-12" style={{ position: "relative" }}>
               <div className="work-crus work-crus2">
                 {loadSwiper && (
                   <Swiper
                     {...swiperOptions}
                     id="content-carousel-container-unq-w"
                     className="swiper-container"
-                    onSwiper={(swiper) => (swiperRef.current = swiper)}
+                    onSwiper={swiper => (swiperRef.current = swiper)}
                   >
                     {data.map((item, i) => (
                       <SwiperSlide key={i}>{renderSlide(item)}</SwiperSlide>
@@ -135,16 +116,6 @@ function TestimonialVideo() {
                 )}
               </div>
 
-              {/* <div
-                className=""
-                style={{
-                  position: "absolute",
-                  width: "89vw",
-                  alignItems: "center",
-                  top: "94%",
-                  alignContent: "center",
-                }}
-              > */}
               <div
                 className="swiper-button-next text-dark fw-600 swiper-arrow-mobile-right-2"
                 style={{
