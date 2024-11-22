@@ -125,7 +125,7 @@ function Post() {
           <div className="flex">
             <div className="author-img mr-30">
               <div className="img">
-                <Image
+                <img
                   src="https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/blog/author1.jpg"
                   alt=""
                   className="circle-img"

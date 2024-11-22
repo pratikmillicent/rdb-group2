@@ -8,6 +8,13 @@ function ImageModal({
   onClose,
   onChange,
   children,
+}: {
+  showModal: boolean;
+  images: any[];
+  initial?: number;
+  onClose?: (key: (typeof images)[number]) => void;
+  onChange?: (key: (typeof images)[number]) => void;
+  children: (key: (typeof images)[number]) => any;
 }) {
   const [activeIndex, setActiveIndex] = useState(initial);
 
@@ -40,7 +47,7 @@ function ImageModal({
             alignItems: "center",
           }}
           onClick={() => {
-            onClose();
+            if (onClose) onClose(images[activeIndex]);
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: "40px" }}>

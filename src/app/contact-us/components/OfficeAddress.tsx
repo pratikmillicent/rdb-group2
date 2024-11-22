@@ -1,8 +1,4 @@
-import Image from "next/image";
 import React from "react";
-import { IoLocationSharp } from "react-icons/io5";
-import { FaPhoneAlt } from "react-icons/fa";
-import { MdOutlineMailOutline } from "react-icons/md";
 import Heading from "@/components/heading/Heading";
 
 const OfficeAddress = () => {

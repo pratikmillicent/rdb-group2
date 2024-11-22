@@ -2,31 +2,10 @@
 "use client";
 import Heading from "@/components/heading/Heading";
 import Image from "next/image";
-import { useState } from "react";
 import ContactComponent from "./components/ContactComponent";
 import OfficeAddress from "./components/OfficeAddress";
 
 const ContactUs = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
-
-  const handleChange = e => {
-    const { name, value } = e.target;
-    setFormData(prevState => ({
-      ...prevState,
-      [name]: value,
-    }));
-  };
-
-  const handleSubmit = e => {
-    e.preventDefault();
-    console.log(formData);
-  };
-
   return (
     <>
       <div style={{ position: "relative", height: "94vh" }}>

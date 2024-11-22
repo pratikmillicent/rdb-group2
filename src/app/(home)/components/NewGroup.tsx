@@ -1,10 +1,9 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useEffect } from "react";
 import Link from "next/link";
 import loadBackgroudImages from "@/common/loadBackgroudImages";
 import isInView from "@/common/isInView";
 import Heading from "@/components/heading/Heading";
-import Image from "next/image";
 import "./newgroup.css";
 
 interface DataItem {

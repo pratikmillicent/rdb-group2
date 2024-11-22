@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { BsBuildingFillCheck } from "react-icons/bs";
 import Heading from "@/components/heading/Heading";
 
 const data = [

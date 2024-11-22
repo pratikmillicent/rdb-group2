@@ -1,17 +1,10 @@
 "use client";
-import { useEffect, useState } from "react";
 import Image from "next/image";
 import Heading from "@/components/heading/Heading";
 import NewBlogs from "./NewBlogs";
 import "./blog.css";
 
 const Blog = () => {
-  const [loadSwiper, setLoadSwiper] = useState(false);
-
-  useEffect(() => {
-    setLoadSwiper(true);
-  }, []);
-
   return (
     <>
       <div style={{ position: "relative" }}>

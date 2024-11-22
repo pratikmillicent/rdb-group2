@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Col, Modal, Row } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 import "swiper/swiper-bundle.css";
 import Image from "next/image";
 import "./callToAction.css";

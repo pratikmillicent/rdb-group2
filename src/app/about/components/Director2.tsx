@@ -1,26 +1,9 @@
 import loadBackgroudImages from "@/utils/loadBackground";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Col, Row } from "react-bootstrap";
 import Image from "next/image";
 
 const Director2 = () => {
-  const RajThakkar = (
-    <>
-      <h5>Raj Thakkar - Founder</h5>
-      <p>
-        With over 21 years of experience in his family’s real estate business,
-        Raj has lent his focus to residential real estate in Mumbai. He has
-        delivered more than 1.2 million sq. ft., exclusively leading several
-        project marketing initiatives with some leading developers. Over the
-        years, he has sought to add an element of transparency to all aspects of
-        the business, prioritising relationships over deals. His charming and
-        friendly nature add a certain warmth to the business, while his
-        dedication and professionalism have earned him the trust of many
-        satisfied customers.
-      </p>
-    </>
-  );
-
   const DhavalThakkar = (
     <>
       <h3 className="text-center" style={{ color: "var(--navy)" }}>
@@ -51,16 +34,6 @@ const Director2 = () => {
       </p>
     </>
   );
-
-  const [info, setInfo] = useState("");
-
-  const handleMouseEnter = (text: any) => {
-    setInfo(text);
-  };
-
-  const handleMouseLeave = () => {
-    setInfo("");
-  };
 
   useEffect(() => {
     loadBackgroudImages();

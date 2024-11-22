@@ -6,15 +6,12 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
-import { Modal } from "react-bootstrap";
 import "./newgroup.css";
 import ImageModal from "@/components/ImageModal";
 
 function DarkVariantExample({ spliti }: any) {
   const [showModal, setShowModal] = useState(false);
   const [activeIndex, setActiveIndex] = useState(3);
-
-  const handleClose = () => setShowModal(false);
 
   const [loadSwiper, setLoadSwiper] = useState(false);
 

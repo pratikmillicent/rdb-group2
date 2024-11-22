@@ -1,14 +1,13 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import parallaxie from "@/utils/parallax";
 import { FaHandshake, FaMedal, FaUsers } from "react-icons/fa6";
 import { TbBulb } from "react-icons/tb";
 import "./callToAction.css";
 
 function CallToAction({}) {
-  const [active, setActive] = useState(0);
   useEffect(() => {
     parallaxie(`.sec-bg-img.parallaxie`, 0.4);
-  }, [active]);
+  }, []);
 
   return (
     <section
@@ -18,13 +17,7 @@ function CallToAction({}) {
       <div>
         <div
           className="w-100 sec-bg-img bg-img parallaxie"
-          data-background={
-            active === 0
-              ? "/assets/images/about/Core.jpg"
-              : active === 1
-              ? "assets/images/about/trust.webp"
-              : "assets/images/about/experties.webp"
-          }
+          data-background={"/assets/images/about/Core.jpg"}
         >
           <div className="">
             <div className="row text-center" style={{ color: "var(--golden)" }}>
