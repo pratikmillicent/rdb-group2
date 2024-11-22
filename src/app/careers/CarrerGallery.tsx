@@ -9,6 +9,8 @@ import "swiper/swiper-bundle.css";
 import Heading from "@/components/heading/Heading";
 import { Modal } from "react-bootstrap";
 import "../movies/gallery2.css";
+import { BiCaretLeft, BiCaretRight } from "react-icons/bi";
+import ImageModal from "@/components/ImageModal";
 
 SwiperCore.use([Navigation, Pagination]);
 
@@ -101,7 +103,7 @@ function CarrerGallery() {
                       {...swiperOptions}
                       id="content-carousel-container-unq-w"
                       className="swiper-container"
-                      onSwiper={swiper => (swiperRef.current = swiper)}
+                      onSwiper={(swiper) => (swiperRef.current = swiper)}
                     >
                       {events.map((item, i) => (
                         <span key={i} className="text-center">
@@ -151,7 +153,7 @@ function CarrerGallery() {
       </section>
 
       {/* Modal for displaying images */}
-      <div>
+      {/* <div>
         <Modal size="md" show={showModal} onHide={handleClose} centered>
           <Modal.Body>
             <Swiper
@@ -182,7 +184,14 @@ function CarrerGallery() {
             </button>
           </Modal.Footer>
         </Modal>
-      </div>
+      </div> */}
+
+      <ImageModal
+        showModal={showModal}
+        images={events.map((i) => i.image)}
+        onClose={() => setShowModal(false)}
+        initial={activeIndex}
+      />
     </>
   );
 }
