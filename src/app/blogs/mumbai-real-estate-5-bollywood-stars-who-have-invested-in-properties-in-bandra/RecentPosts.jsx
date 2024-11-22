@@ -20,26 +20,26 @@ function RecentPosts() {
         >
           <BlogCard
             item={{
-              id: 6,
+              id: 1,
               date: "August 6, 2022",
               title:
-                "Guj CM congratulates ‘Kutch Express’ team for bagging three national awards",
-              image: "/assets/images3/blogs/movie6.jpg",
+                "Navigating the Indian Real Estate Landscape: Insights from RD Brothers",
+              image: "/assets/images/blog/blog-3.jpg",
               tags: ["Marketing", "Design"],
               author: "Admin",
-              url: "guj-cm-congratulates-kutch-express-team-for-bagging-three-national-awards",
+              url: "why-nris-are-investing-in-indian-real-estate-top-reasons-explained",
             }}
           />
           <BlogCard
             item={{
-              id: 7,
+              id: 2,
               date: "August 6, 2022",
               title:
-                "Fractional real estate is the 'new Gold' for savvy festive season investors",
-              image: "/assets/images3/blogs/building1.jpg",
+                "10 Key Factors to Consider When Investing in Real Estate in India",
+              image: "/assets/images/blog/blog-1.webp",
               tags: ["Marketing", "Design"],
               author: "Admin",
-              url: "fractional-real-estate-is-the-new-gold-for-savvy-festive-season-investors",
+              url: "must-watch-2025-real-estate-trends-you-must-know",
             }}
           />
         </div>

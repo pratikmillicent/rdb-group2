@@ -20,26 +20,26 @@ function RecentPosts() {
         >
           <BlogCard
             item={{
-              id: 4,
+              id: 3,
               date: "August 6, 2022",
               title:
-                "Jhamkudi OTT release date ShemarooMe: When to watch this Manasi Parekh-starrer Gujarati blockbuster",
-              image: "/assets/images3/blogs/movies.jpg",
+                "How Proptech Is Revolutionizing Real Estate: Insights from RD Brothers",
+              image: "/assets/images/blog/blog-2.jpg",
               tags: ["Marketing", "Design"],
               author: "Admin",
-              url: "when-to-watch-jhamkudi-online-ott-shemaroome-release-date-manasi-parekh-gujarati-movie",
+              url: "mumbai-real-estate-5-bollywood-stars-who-have-invested-in-properties-in-bandra",
             }}
           />
           <BlogCard
             item={{
-              id: 5,
+              id: 1,
               date: "August 6, 2022",
               title:
-                "Jhamkudi Week 1 Box Office: Gujarati horror-com trends extraordinarily; Nets 5.50 crores to emerge a super-hit",
-              image: "/assets/images3/blogs/movie5.jpg",
+                "Navigating the Indian Real Estate Landscape: Insights from RD Brothers",
+              image: "/assets/images/blog/blog-3.jpg",
               tags: ["Marketing", "Design"],
               author: "Admin",
-              url: "jhamkudi-week-1-box-office-gujarati-horror-com-trends-extraordinarily-nets-5-50-crores-to-emerge-a-super-hit",
+              url: "why-nris-are-investing-in-indian-real-estate-top-reasons-explained",
             }}
           />
         </div>

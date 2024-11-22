@@ -16,8 +16,8 @@ function HeaderBlog() {
           <div className="col-lg-10">
             <div className="caption">
               <h1 className="fz-55 mt-30">
-                Mumbai real estate: 5 Bollywood stars who have invested nearly
-                ₹80 crore in properties in Bandra.
+                How Proptech Is Revolutionizing Real Estate: Insights from RD
+                Brothers
               </h1>
             </div>
             <div className="info d-flex mt-40 align-items-center">

@@ -23,7 +23,7 @@ function RecentPosts() {
               id: 3,
               date: "August 6, 2022",
               title:
-                "Mumbai real estate: 5 Bollywood stars who have invested nearly ₹80 crore in properties in Bandra",
+                "How Proptech Is Revolutionizing Real Estate: Insights from RD Brothers",
               image: "/assets/images/blog/blog-2.jpg",
               tags: ["Marketing", "Design"],
               author: "Admin",
@@ -32,15 +32,14 @@ function RecentPosts() {
           />
           <BlogCard
             item={{
-              id: 4,
+              id: 2,
               date: "August 6, 2022",
               title:
-                "Jhamkudi OTT release date ShemarooMe: When to watch this Manasi Parekh-starrer Gujarati blockbuster",
-              image:
-                "https://uithemez.com/i/geekfolio/dark/assets/imgs/blog/h4.jpg",
+                "10 Key Factors to Consider When Investing in Real Estate in India",
+              image: "/assets/images/blog/blog-1.webp",
               tags: ["Marketing", "Design"],
               author: "Admin",
-              url: "when-to-watch-jhamkudi-online-ott-shemaroome-release-date-manasi-parekh-gujarati-movie",
+              url: "must-watch-2025-real-estate-trends-you-must-know",
             }}
           />
         </div>
