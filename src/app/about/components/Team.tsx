@@ -193,7 +193,7 @@ function Team() {
               // spaceBetween={50}
               slidesPerView={1}
               initialSlide={activeIndex}
-              onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
+              onSlideChange={swiper => setActiveIndex(swiper.activeIndex)}
               navigation
               modules={[Navigation]}
             >
@@ -255,7 +255,7 @@ function Team() {
           </Modal.Footer>
         </Modal>
       </div>
-
+      {/* 
       <div
         style={{
           position: "absolute",
@@ -288,12 +288,12 @@ function Team() {
                     <div className="team-position fw-semibold text-black">
                       {person.position}
                     </div>
-                    {/* <p className="fz-16 px-3 mb-1">
+                    <p className="fz-16 px-3 mb-1">
                             {person.description}
-                          </p> */}
+                          </p>
                   </div>
                   <div className="social-icons">
-                    {/* Add social media links with icons */}
+                  
                     <a href={""} className="ms-0">
                       <i className="fab fa-facebook"></i>
                     </a>
@@ -307,13 +307,13 @@ function Team() {
                       <i className="fab fa-github"></i>
                     </a>
                   </div>
-                  {/* <button className="btn btn-pink mt-3">Learn More</button> */}
+           
                 </div>
               </div>
             </div>
           </SwiperSlide>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }
