@@ -12,7 +12,7 @@ const OfficeAddress = () => {
       address:
         "304, Eco Futurz,Opp. Samarth Aquastic,Near Om Terrace,New City light Road,Surat - 395007",
       phone: "+1 123-456-7890",
-      email: "info@example.com",
+      email: "surat@rdbrothers.com",
       image: "/assets/social-media/surat.png",
     },
     {
@@ -28,7 +28,7 @@ const OfficeAddress = () => {
       address:
         "C 2/01,The First Commercial Complex,B/H Keshav Baug Party,Plot Near Shivalik High Street,Vastrapur, Ahmedabad - 380015",
       phone: "+1 123-456-7890",
-      email: "info@example.com",
+      email: "ahmedabad@rdbrothers.com",
       image: "/assets/social-media/ahmedabad.png",
     },
   ];
@@ -104,7 +104,9 @@ const OfficeAddress = () => {
               </span>
               <span>
                 <i className="id-color far fa-envelope fz-12 fa-lg me-3 text-golden"></i>
-                <a href="mailto:contact@example.com">contact@example.com</a>
+                <a href="mailto:borivali@rdbrothers.com">
+                  borivali@rdbrothers.com
+                </a>
               </span>
             </address>
           </div>
@@ -135,12 +137,8 @@ const OfficeAddress = () => {
               </span>
               <span>
                 <i className="id-color far fa-envelope fz-12 fa-lg me-3 text-golden"></i>
-                <a href="mailto:contact@example.com">contact@example.com</a>
+                <a href="mailto:info@rdbrothers.com">info@rdbrothers.com</a>
               </span>
-              {/* <span>
-                <i className="id-color fa fa-file-pdf-o fa-lg"></i>
-                <a href="#">Download Brochure</a>
-              </span> */}
             </address>
           </div>
         </div>
@@ -210,7 +208,9 @@ const OfficeAddress = () => {
               </span>
               <span>
                 <i className="id-color far fa-envelope fz-12 fa-lg me-3 text-golden"></i>
-                <a href="mailto:contact@example.com">contact@example.com</a>
+                <a href="mailto:prem.parasia@rdbrothers.com">
+                  prem.parasia@rdbrothers.com
+                </a>
               </span>
             </address>
           </div>
