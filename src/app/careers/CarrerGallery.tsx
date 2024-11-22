@@ -25,13 +25,13 @@ interface IImage {
 
 const events: IEvent[] = [
   {
+    image: "/assets/images/career/gallary/1.jpg",
+  },
+  {
     image: "/assets/images/career/gallary/2.jpg",
   },
   {
     image: "/assets/images/career/gallary/3.jpg",
-  },
-  {
-    image: "/assets/images/career/gallary/1.jpg",
   },
 ];
 

@@ -1,8 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BiCaretLeft, BiCaretRight } from "react-icons/bi";
 
 function ImageModal({ showModal, images, initial = 0, onClose, children }) {
   const [activeIndex, setActiveIndex] = useState(initial);
+
+  useEffect(() => {
+    if (showModal) setActiveIndex(initial);
+  }, [showModal]);
 
   return (
     <>
@@ -18,7 +22,6 @@ function ImageModal({ showModal, images, initial = 0, onClose, children }) {
             alignItems: "center",
           }}
           onClick={() => {
-            setActiveIndex(initial);
             onClose();
           }}
         >
