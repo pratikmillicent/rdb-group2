@@ -327,7 +327,7 @@ const completedProjectsData = [
 const upcomingProjectsData = [
   {
     id: 1,
-    image: "/assets/images/realty/projects/2.jpg",
+    image: "/assets/images3/realty/borivali.jpg",
     description: "Borivali West",
   },
   // {
