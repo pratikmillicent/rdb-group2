@@ -3,15 +3,15 @@ import "../SectionImage.css";
 
 const images = {
   overview: "/assets/images3/home/aspirations.avif",
-  mission: "/assets/images3/home/future-outlook-2.png",
-  vision: "/assets/images3/home/what-drives-us-2.png",
+  mission: "/assets/images/home/future-outlook.jpg",
+  vision: "/assets/images3/home/future-outlook-2.png",
 };
 function SectionImage() {
   const [selectedTab, setSelectedTab] = useState("overview");
   const [currentImage, setCurrentImage] = useState(images[selectedTab]);
   const [animate, setAnimate] = useState(false);
 
-  const tabStyle = isSelected => ({
+  const tabStyle = (isSelected) => ({
     backgroundColor: isSelected ? "var(--golden)" : "transparent",
     color: isSelected ? "white" : "white",
     fontWeight: "600",
@@ -23,7 +23,7 @@ function SectionImage() {
     fontSize: "14px",
   });
 
-  const handleTabClick = tab => {
+  const handleTabClick = (tab) => {
     if (selectedTab !== tab) {
       setAnimate(true);
       setTimeout(() => {

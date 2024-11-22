@@ -56,12 +56,7 @@ export default function Home() {
   const videoData = [
     {
       src: "/assets/video/general-3.mp4",
-      text: `Crafted with <span
-          style="
-              font-weight : 500
-            "> Experience </span>, Built with <span style="
-              font-weight : 500
-            "> Trust </span>`,
+      text: `Built On Experience`,
       link: "/about",
     },
     {
@@ -85,7 +80,7 @@ export default function Home() {
       link: "/movies",
     },
     {
-      src: "/assets/video/stratum-3.mp4",
+      src: "/assets/video/stratum-4.mp4",
       text: "Stratum",
       link: "/stratum",
     },
@@ -122,8 +117,8 @@ export default function Home() {
     const { src, text, link } = videoData[loopCount];
     let typingTimeout;
 
-    const typeText = text => {
-      setDisplayedText(prev => prev + text.slice(0, 1));
+    const typeText = (text) => {
+      setDisplayedText((prev) => prev + text.slice(0, 1));
 
       typingTimeout = setTimeout(() => typeText(text.slice(1)), 100);
     };
@@ -242,14 +237,6 @@ export default function Home() {
 
 let cards = [
   {
-    key: 1,
-    content: <Card imagen="/assets/home/Event1.jpg" />,
-  },
-  {
-    key: 2,
-    content: <Card imagen="/assets/home/Event2.jpg" />,
-  },
-  {
     key: 3,
     content: <Card imagen="/assets/home/Event1.jpg" />,
   },
@@ -260,6 +247,14 @@ let cards = [
   {
     key: 5,
     content: <Card imagen="/assets/home/Event2.jpg" />,
+  },
+  {
+    key: 6,
+    content: <Card imagen="/assets/home/Event4.jpg" />,
+  },
+  {
+    key: 7,
+    content: <Card imagen="/assets/home/Event5.jpg" />,
   },
 ];
 
