@@ -9,14 +9,9 @@ import "swiper/swiper-bundle.css";
 import { Modal } from "react-bootstrap";
 import "./newgroup.css";
 
-function DarkVariantExample({ spliti, data }: any) {
+function DarkVariantExample({ spliti }: any) {
   const [showModal, setShowModal] = useState(false);
   const [activeIndex, setActiveIndex] = useState(3);
-
-  const openModal = (index: number) => {
-    setActiveIndex(index);
-    setShowModal(true);
-  };
 
   const handleClose = () => setShowModal(false);
 
@@ -158,7 +153,7 @@ function DarkVariantExample({ spliti, data }: any) {
                       id="content-carousel-container-unq-blog"
                       className="swiper-container"
                     >
-                      {item.images.map(item => (
+                      {item.images.map((item) => (
                         <SwiperSlide
                           key={item.id}
                           className="wow fadeInUp mb-2"
@@ -202,7 +197,7 @@ function DarkVariantExample({ spliti, data }: any) {
               modules={[Navigation]}
             >
               {spliti
-                .find(i => i.id === activeIndex)
+                .find((i) => i.id === activeIndex)
                 ?.images.map((image, index) => (
                   <SwiperSlide key={index}>
                     <div className="swiper-image-container">
@@ -236,7 +231,7 @@ function splitToNChunks(array, n) {
   return result;
 }
 
-const directionButtons = direction => {
+const directionButtons = (direction) => {
   // console.log("🚀 ~ directionButtons ~ direction:", direction);
   return (
     <span

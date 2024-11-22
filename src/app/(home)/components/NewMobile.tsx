@@ -72,7 +72,7 @@ function News2() {
                         zIndex: 10, // Ensures it's not hidden behind other elements
                       }}
                     >
-                      <DateBanner date={item.date} />
+                      <DateBanner />
                     </div>
                   </div>
                   {/* Content */}
@@ -106,7 +106,7 @@ function News2() {
   );
 }
 
-const DateBanner = ({ date }) => (
+const DateBanner = () => (
   <div className="date-wrapper bg-golden">
     <div
       className="date-box text-white bg-golden"

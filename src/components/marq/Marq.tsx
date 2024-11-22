@@ -1,6 +1,6 @@
 import React from "react";
 
-function Marq({ data }: { data: string[] }) {
+function Marq() {
   return (
     // <section className="serv-marq" style={{ backgroundColor: "#1F2D58" }}>
     //   <div className="container-fluid rest">

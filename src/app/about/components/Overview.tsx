@@ -106,7 +106,7 @@ const Overview = () => {
           </div>
         </div>
 
-        {OverviewData.map((data, key) => (
+        {OverviewData.map((data) => (
           <div className="row  p-3 mb-5" key={data?.id}>
             <div className="col-12 col-md-8">
               <div className="">

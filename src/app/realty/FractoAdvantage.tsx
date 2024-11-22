@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-function FractoAdvantage({ lightMode }) {
+function FractoAdvantage() {
   function openTab(event: any) {
     document
       .querySelectorAll(".tab-content")
