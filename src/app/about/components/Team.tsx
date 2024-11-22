@@ -255,65 +255,6 @@ function Team() {
           </Modal.Footer>
         </Modal>
       </div>
-
-      <div
-        style={{
-          position: "absolute",
-          top: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
-        }}
-      >
-        {data.map((person, index) => (
-          <SwiperSlide key={index}>
-            <div className="swiper-image-container p-0">
-              <div className="align-items-center">
-                <div className="text-center">
-                  <Image
-                    src={person.image}
-                    alt={person.name}
-                    width={150}
-                    height={150}
-                    className="rounded-circle team-image"
-                    style={{
-                      height: "150px",
-                      width: "150px",
-                      objectFit: "contain",
-                    }}
-                  />
-                </div>
-                <div className="text-center">
-                  <div className="mb-2">
-                    <h3 className="text-golden">{person.name}</h3>
-                    <div className="team-position fw-semibold text-black">
-                      {person.position}
-                    </div>
-                    {/* <p className="fz-16 px-3 mb-1">
-                            {person.description}
-                          </p> */}
-                  </div>
-                  <div className="social-icons">
-                    {/* Add social media links with icons */}
-                    <a href={""} className="ms-0">
-                      <i className="fab fa-facebook"></i>
-                    </a>
-                    <a href={""}>
-                      <i className="fab fa-twitter"></i>
-                    </a>
-                    <a href={""}>
-                      <i className="fab fa-linkedin"></i>
-                    </a>
-                    <a href={""}>
-                      <i className="fab fa-github"></i>
-                    </a>
-                  </div>
-                  {/* <button className="btn btn-pink mt-3">Learn More</button> */}
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-        ))}
-      </div>
     </div>
   );
 }
