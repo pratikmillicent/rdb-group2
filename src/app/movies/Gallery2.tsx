@@ -1,7 +1,7 @@
 //@ts-nocheck
 
 "use client";
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useState, useEffect, act } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination } from "swiper";
@@ -9,6 +9,7 @@ import "swiper/swiper-bundle.css";
 import "./gallery2.css";
 import Heading from "@/components/heading/Heading";
 import { Modal } from "react-bootstrap";
+import ImageModal from "@/components/ImageModal";
 
 SwiperCore.use([Navigation, Pagination]);
 
@@ -167,7 +168,7 @@ function Gallary2() {
                       {...swiperOptions}
                       id="content-carousel-container-unq-w"
                       className="swiper-container"
-                      onSwiper={swiper => (swiperRef.current = swiper)}
+                      onSwiper={(swiper) => (swiperRef.current = swiper)}
                     >
                       {events.map((item, i) => (
                         <SwiperSlide onClick={() => openModal(i)} key={i}>
@@ -213,7 +214,7 @@ function Gallary2() {
       </section>
 
       {/* Modal for displaying images */}
-      <Modal show={showModal} onHide={handleClose} centered size="lg">
+      {/* <Modal show={showModal} onHide={handleClose} centered size="lg">
         <Modal.Body>
           <Swiper
             spaceBetween={50}
@@ -248,7 +249,15 @@ function Gallary2() {
             </div>
           </div>
         </Modal.Footer>
-      </Modal>
+      </Modal> */}
+
+      <ImageModal
+        images={activeIndex === 0 ? mumbai : ahemdabad}
+        showModal={showModal}
+        onClose={handleClose}
+      >
+        {(i) => <img style={{ maxHeight: "450px" }} src={i.image} />}
+      </ImageModal>
     </>
   );
 }

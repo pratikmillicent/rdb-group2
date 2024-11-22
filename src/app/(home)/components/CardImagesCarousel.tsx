@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 import { Modal } from "react-bootstrap";
 import "./newgroup.css";
+import ImageModal from "@/components/ImageModal";
 
 function DarkVariantExample({ spliti }: any) {
   const [showModal, setShowModal] = useState(false);
@@ -185,7 +186,7 @@ function DarkVariantExample({ spliti }: any) {
         ))}
       </div>
 
-      <div style={{ maxHeight: "50vh" }}>
+      {/* <div style={{ maxHeight: "50vh" }}>
         <Modal show={showModal} onHide={handleClose} centered>
           <Modal.Body>
             <Swiper
@@ -200,6 +201,8 @@ function DarkVariantExample({ spliti }: any) {
                   <SwiperSlide key={index}>
                     <div className="swiper-image-container">
                       <Image
+                        width={500}
+                        height={300}
                         style={{ height: "300px" }}
                         src={image}
                         alt={image}
@@ -216,7 +219,15 @@ function DarkVariantExample({ spliti }: any) {
             </button>
           </Modal.Footer>
         </Modal>
-      </div>
+      </div> */}
+
+      <ImageModal
+        images={spliti.find((i) => i.id === activeIndex)?.images}
+        showModal={showModal}
+        onClose={() => setShowModal(false)}
+      >
+        {(i) => <img style={{ maxHeight: "450px" }} src={i} />}
+      </ImageModal>
     </>
   );
 }
