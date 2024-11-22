@@ -16,7 +16,8 @@ function HeaderBlog() {
           <div className="col-lg-10">
             <div className="caption">
               <h1 className="fz-55 mt-30">
-                Must-Watch: 2025 Real Estate Trends You Must Know!
+                10 Key Factors to Consider When Investing in Real Estate in
+                India
               </h1>
             </div>
             <div className="info d-flex mt-40 align-items-center">

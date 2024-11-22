@@ -16,8 +16,8 @@ function HeaderBlog() {
           <div className="col-lg-10">
             <div className="caption">
               <h1 className="fz-55 mt-30">
-                Why NRIs are investing in Indian real estate: Top reasons
-                explained
+                Navigating the Indian Real Estate Landscape: Insights from RD
+                Brothers
               </h1>
             </div>
             <div className="info d-flex mt-40 align-items-center">
