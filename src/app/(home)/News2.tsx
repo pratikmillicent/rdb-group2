@@ -11,7 +11,7 @@ const data = [
     title:
       "Why NRIs are investing in Indian real estate: Top reasons explained",
     // cover: "/assets/images/home/news2.jpg",
-    cover: "/assets/images/news/news-detail-1.jpg",
+    cover: "/assets/images3/news/news-image-1.avif",
     author: "Moneycontrol",
     day: "18",
     month: "Nov",
@@ -24,7 +24,7 @@ const data = [
   {
     id: 2,
     title: "Must watch 2025 real estate trends you must know",
-    cover: "/assets/images/news/news-detail-2.jpg",
+    cover: "/assets/images3/news/news-image-2.jpg",
     author: "Bizzbuzz",
     day: "18",
     month: "Nov",
@@ -38,8 +38,7 @@ const data = [
     id: 3,
     title:
       "Mumbai real estate: 5 Bollywood stars who have invested nearly ₹80 crore in properties in Bandra",
-    cover:
-      "https://www.ttrweekly.com/site/wp-content/uploads/2020/09/melbourne.jpg",
+    cover: "/assets/images3/news/news-image-3.avif",
     author: "Hindustan times",
     day: "13",
     month: "Nov",
@@ -53,8 +52,7 @@ const data = [
     id: 4,
     title:
       "Jhamkudi OTT release date ShemarooMe: When to watch this Manasi Parekh-starrer Gujarati blockbuster",
-    cover:
-      "https://www.ttrweekly.com/site/wp-content/uploads/2020/09/melbourne.jpg",
+    cover: "/assets/images3/news/news-image-4.webp",
     author: "Indiatimes",
     day: "17",
     month: "Oct",
@@ -68,8 +66,7 @@ const data = [
     id: 5,
     title:
       "Jhamkudi Week 1 Box Office: Gujarati horror-com trends extraordinarily; Nets 5.50 crores to emerge a super-hit",
-    cover:
-      "https://www.ttrweekly.com/site/wp-content/uploads/2020/09/melbourne.jpg",
+    cover: "/assets/images3/news/news-image-5.jpg",
     author: "Pinkvilla",
     day: "07",
     month: "Jun",
@@ -83,8 +80,7 @@ const data = [
     id: 6,
     title:
       "Guj CM congratulates ‘Kutch Express’ team for bagging three national awards",
-    cover:
-      "https://www.ttrweekly.com/site/wp-content/uploads/2020/09/melbourne.jpg",
+    cover: "/assets/images3/news/news-image-6.jpg",
     author: "Theprint",
     day: "16",
     month: "Aug",
@@ -98,8 +94,7 @@ const data = [
     id: 7,
     title:
       "Fractional real estate is the 'new Gold' for savvy festive season investors",
-    cover:
-      "https://www.ttrweekly.com/site/wp-content/uploads/2020/09/melbourne.jpg",
+    cover: "/assets/images3/news/news-image-7.jpg",
     author: "Etnownews",
     day: "31",
     month: "Oct",
@@ -113,8 +108,7 @@ const data = [
     id: 8,
     title:
       "Fractional Ownership: This realty segment to rise over 10 times by 2030 | Here are 3 top hotspots",
-    cover:
-      "https://www.ttrweekly.com/site/wp-content/uploads/2020/09/melbourne.jpg",
+    cover: "/assets/images3/news/news-image-8.jpg",
     author: "Etnownews",
     day: "29",
     month: "May",
