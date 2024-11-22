@@ -1,9 +1,5 @@
-import React, { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import BlogCard from "./BlogCard";
 import { Row } from "react-bootstrap";
-import { url } from "inspector";
+import BlogCard from "./BlogCard";
 
 const NewBlogs = () => {
   const data = [

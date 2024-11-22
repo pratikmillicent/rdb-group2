@@ -1,13 +1,9 @@
-import parallaxie from "@/common/parallaxie";
-import React, { useState, useEffect } from "react";
+import { useState } from "react";
 import "../SectionImage.css";
 
 const images = {
-  // overview: "/assets/images3/home/vision.jpg",
   overview: "/assets/images3/home/aspirations.avif",
-  // mission: "/assets/images3/home/vision.jpg",
   mission: "/assets/images3/home/future-outlook-2.png",
-  // vision: "/assets/images/home/what-drives-us-2.webp",
   vision: "/assets/images3/home/what-drives-us-2.png",
 };
 function SectionImage() {
@@ -15,21 +11,19 @@ function SectionImage() {
   const [currentImage, setCurrentImage] = useState(images[selectedTab]);
   const [animate, setAnimate] = useState(false);
 
-  const tabStyle = (isSelected) => ({
+  const tabStyle = isSelected => ({
     backgroundColor: isSelected ? "var(--golden)" : "transparent",
     color: isSelected ? "white" : "white",
     fontWeight: "600",
-    // padding: "10px 20px",
     cursor: "pointer",
     border: "none",
     outline: "none",
     transition: "background-color 0.3s, color 0.3s",
     borderRadius: "50px",
     fontSize: "14px",
-    // margin: "5px",
   });
 
-  const handleTabClick = (tab) => {
+  const handleTabClick = tab => {
     if (selectedTab !== tab) {
       setAnimate(true);
       setTimeout(() => {
@@ -41,10 +35,6 @@ function SectionImage() {
       setSelectedTab(tab);
     }
   };
-
-  // useEffect(() => {
-  //   parallaxie(".back-image.parallaxie", 0.1);
-  // }, [currentImage]);
 
   return (
     <>
@@ -128,41 +118,16 @@ function SectionImage() {
           } d-none d-sm-none d-md-block d-lg-block d-xl-block`}
         >
           <div
-            // className="back-image bg-img parallaxie"
-            // data-background={currentImage}
-            // data-overlay-dark="3"
-            // data-parallaxie={{
-            //   speed: "-0.4",
-            //   size: "auto",
-            // }}
             style={{
               backgroundImage: `url(${currentImage})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
               height: "100%",
-              // width: "100%",
-              // backgroundPosition: "center",
-              // backgroundSize: "100% 100%",
+
               backgroundRepeat: "no-repeat",
             }}
           />
         </div>
-
-        {/* <div
-          style={
-            selectedTab === "overview"
-              ? {
-                  position: "absolute",
-                  top: 0,
-                  left: "62vw",
-                  right: "15%",
-                  bottom: "20%",
-                  background: "var(--golden)",
-                  mixBlendMode: "multiply",
-                }
-              : { display: "none" }
-          }
-        ></div> */}
       </div>
     </>
   );

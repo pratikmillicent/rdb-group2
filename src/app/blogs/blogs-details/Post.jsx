@@ -64,38 +64,6 @@ function Post() {
               </div>
             </div>
           </div>
-          {/* 
-          <div className="row justify-content-center">
-            <div className="col-lg-10">
-              <div className="post-qoute mt-50">
-                <h6 className="fz-20">
-                  <span className="l-block">
-                    Increase your site traffic and gain new customers with a
-                    beautiful and functional blog.
-                  </span>
-                  <span className="sub-title main-color mt-20 mb-0">
-                    {" "}
-                    - ThemesCamp Universe
-                  </span>
-                </h6>
-              </div>
-            </div>
-          </div> */}
-
-          {/* <div className="mb-50 mt-50">
-            <div className="row">
-              <div className="col-sm-6">
-                <div className="iner-img sm-mb30">
-                  <img src="/dark/assets/imgs/blog/b2.jpg" alt="" />
-                </div>
-              </div>
-              <div className="col-sm-6">
-                <div className="iner-img">
-                  <img src="/dark/assets/imgs/blog/b3.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-          </div> */}
 
           <div className="row justify-content-center">
             <div className="col-lg-10">
@@ -153,42 +121,11 @@ function Post() {
             </div>
           </div>
         </div>
-        {/* <div className="info-area flex mt-20 pb-20">
-          <div>
-            <div className="tags flex">
-              <div className="valign">
-                <span>Tags :</span>
-              </div>
-              <div>
-                <Link href="/dark/blog-classic">Tech</Link>
-                <Link href="/dark/blog-classic">Geekfolio</Link>
-              </div>
-            </div>
-          </div>
-          <div className="ml-auto">
-            <div className="share-icon flex">
-              <div className="valign">
-                <span>Share :</span>
-              </div>
-              <div>
-                <a href="https://www.facebook.com/">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://www.twitter.com/">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="https://www.youtube.com/">
-                  <i className="fab fa-youtube"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <div className="author-area mt-50">
           <div className="flex">
             <div className="author-img mr-30">
               <div className="img">
-                <img
+                <Image
                   src="https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/blog/author1.jpg"
                   alt=""
                   className="circle-img"

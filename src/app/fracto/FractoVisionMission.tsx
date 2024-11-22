@@ -1,13 +1,7 @@
 import parallaxie from "@/common/parallaxie";
-import React, { useState, useEffect } from "react";
-import "./../(home)/SectionImage.css";
 import Heading from "@/components/heading/Heading";
-
-// const images = {
-//   overview: "/assets/images/home/about3.jpg",
-//   vision: "/assets/images/about/vission.png",
-//   mission: "/assets/images/about/mission.png",
-// };
+import { useEffect } from "react";
+import "./../(home)/SectionImage.css";
 
 function FractoSectionImage() {
   useEffect(() => {
@@ -24,9 +18,6 @@ function FractoSectionImage() {
         style={{ backgroundColor: "var(--navy)", paddingBottom: "30px" }}
       >
         <div className={`tab-content slide-in`}>
-          {/* <h5 className="mt-30" style={{ color: "var(--golden)" }}>
-            Vision
-          </h5> */}
           <Heading
             headTitle="Vision"
             color="#fff"
@@ -39,9 +30,6 @@ function FractoSectionImage() {
             long-term value for our investors and stakeholders.
           </p>
 
-          {/* <h5 className="mt-30" style={{ color: "var(--golden)" }}>
-            Mission
-          </h5> */}
           <Heading
             headTitle="Mission"
             color="#fff"
@@ -68,11 +56,7 @@ function FractoSectionImage() {
             size: "auto",
           }}
           style={{
-            // backgroundSize: "cover",
-            // backgroundPosition: "center",
             height: "100%",
-            // width: "100%",
-            // backgroundPosition: "center",
             backgroundSize: "50vw 100%",
           }}
         />

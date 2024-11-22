@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
 import Heading from "@/components/heading/Heading";
 import Image from "next/image";
-import "swiper/css"; // Import Swiper styles
-import "swiper/css/navigation"; // Import Navigation module styles
+import "swiper/css";
+import "swiper/css/navigation";
 
 const data = [
   {
@@ -38,7 +37,6 @@ const data = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus similique corrupti atque at quo ipsa porro, voluptas eos eligendi a provident ex quaerat, asperiores libero facere dignissimos hic.",
   },
-  // Add more items as needed...
 ];
 
 function News2() {
@@ -47,7 +45,7 @@ function News2() {
       <div className="container">
         <Heading headTitle="Latest News" />
         <div>
-          {data?.map((item) => (
+          {data?.map(item => (
             <div key={item.id} className="position-relative">
               <div>
                 <div className="max-w-sm rounded overflow-hidden bg-white mb-3 relative">
@@ -63,24 +61,21 @@ function News2() {
                         objectFit: "cover",
                       }}
                     />
-                    {/* Place the DateBanner dynamically within each card */}
                     <div
                       style={{
                         position: "absolute",
-                        top: "10px", // Adjusted top value for dynamic positioning
-                        left: "10px", // Adjusted left value
-                        zIndex: 10, // Ensures it's not hidden behind other elements
+                        top: "10px",
+                        left: "10px",
+                        zIndex: 10,
                       }}
                     >
                       <DateBanner date={item.date} />
                     </div>
                   </div>
-                  {/* Content */}
                   <div className="bg-grey" style={{ padding: "30px 40px" }}>
                     <div className="fw-700 fz-10 text-golden">LAW FIRM</div>
                     <div className="fw-600 fz-22 mb-2">{item.title}</div>
                     <p className="fz-16 fw-400">{item.description}</p>
-                    {/* Author */}
                     <div className="px-6 pt-4 pb-2">
                       <span className="text-grey news-firm">
                         Fynley Wilkinson
@@ -92,7 +87,6 @@ function News2() {
             </div>
           ))}
         </div>
-        {/* Navigation buttons */}
         <div
           className="swiper-button-prev"
           style={{ left: "0", right: "10px", top: "16px", color: "#000" }}

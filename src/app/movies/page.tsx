@@ -68,16 +68,7 @@ const page = () => {
 
       <AboutUs />
       <Founder />
-      {/* <About /> */}
-      {/* <div className="d-none d-md-block">
-        <Movieteam2 />
-        </div>
-        <div className="d-block d-md-none">
-        <MobileMovieTeam />
-        </div> */}
-      {/* <ParallaxSlider data={data} /> */}
-      {/* <MovieSlider /> */}
-      {/* <Awards /> */}
+
       <AwardMovie />
 
       <Project />

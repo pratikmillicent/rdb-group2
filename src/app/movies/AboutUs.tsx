@@ -1,47 +1,4 @@
-// import Heading from "@/components/heading/Heading";
-// import React from "react";
-
-// const OurMission = () => {
-//   return (
-//     <>
-//       <Heading headTitle="About" />
-//       <div
-//         className=""
-//         style={{
-//           height: "80dvh",
-//           width: "100vw",
-//           backgroundColor: "var(--background)",
-//         }}
-//       >
-//         <div
-//           className=""
-//           style={{
-//             backgroundImage: `url(/assets/images/movie/director-chair.jpg)`,
-//             backgroundSize: "contain", // Adjusted from contain to cover
-//             backgroundRepeat: "no-repeat",
-//             // backgroundPosition: "center center",
-//             width: "100%",
-//             height: "100%", // Increased height to ensure full section coverage
-//             filter: "hue-rotate(45deg)",
-//           }}
-//         >
-//           <div className="d-flex align-items-center">
-//             <div className="d-flex flex-column flex-lg-row justify-content-center text-lg-start py-4">
-//               <div className="d-flex flex-column justify-content-center align-items-start align-items-lg-start mb-4 mb-lg-0"></div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default OurMission;
-
-import React from "react";
 import "./ourmission.css";
-import Image from "next/image";
-import Heading from "@/components/heading/Heading";
 
 const AboutUs = () => {
   return (
@@ -67,12 +24,6 @@ const AboutUs = () => {
               style={{ marginBottom: "60px" }}
             >
               <div className="col-md-4" style={{}}>
-                {/* <span
-                className="p-title wow fadeInUp animated"
-                style={{ visibility: "visible", animationName: "fadeInUp" }}
-              >
-                Welcome
-              </span> */}
                 <br />
                 <div style={{ width: "fit-content", position: "relative" }}>
                   <h2
@@ -141,8 +92,6 @@ const AboutUs = () => {
               className="col-md-5 mb-sm-30 wow fadeInRight animated"
               style={{
                 background: "var(--navy)",
-                // border: "3px solid var(--golden)",
-
                 visibility: "visible",
                 animationDelay: "0.2s",
                 animationName: "fadeInRight",
@@ -171,8 +120,6 @@ const AboutUs = () => {
               className="col-md-5 mb-sm-30 wow fadeInRight animated"
               style={{
                 background: "var(--navy)",
-                // border: "3px solid var(--golden)",
-
                 visibility: "visible",
                 animationDelay: "0.4s",
                 animationName: "fadeInRight",

@@ -32,7 +32,7 @@ function MobileMovieTeam() {
 
   const renderSlide = (item: Video) => (
     <div className="">
-      <div onClick={(e) => openVideo?.(e, item)}>
+      <div onClick={e => openVideo?.(e, item)}>
         <div style={{ position: "relative" }}>
           <svg
             style={{
@@ -81,22 +81,13 @@ function MobileMovieTeam() {
                     {...swiperOptions}
                     id="content-carousel-container-unq-w"
                     className="swiper-container"
-                    onSwiper={(swiper) => (swiperRef.current = swiper)}
+                    onSwiper={swiper => (swiperRef.current = swiper)}
                     modules={[Navigation, Autoplay]}
                   >
-                    {data.map((item) => (
+                    {data.map(item => (
                       <SwiperSlide key={item.id}>
                         <div className="">
                           <div className="px-2">
-                            {/* <Image
-                              src={item.image}
-                              alt=""
-                              className="circle-img"
-                                style={{
-                                  height: "360px",
-                                  width: "260px",
-                                }}
-                            /> */}
                             <Image
                               src={item?.image}
                               className="circle-img"

@@ -196,8 +196,6 @@ function DarkVariantExample({ spliti, data }: any) {
             <Swiper
               spaceBetween={50}
               slidesPerView={1}
-              // initialSlide={activeIndex}
-              // onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
               navigation
               modules={[Navigation]}
             >
@@ -206,7 +204,7 @@ function DarkVariantExample({ spliti, data }: any) {
                 ?.images.map((image, index) => (
                   <SwiperSlide key={index}>
                     <div className="swiper-image-container">
-                      <img
+                      <Image
                         style={{ height: "300px" }}
                         src={image}
                         alt={image}
@@ -237,7 +235,6 @@ function splitToNChunks(array, n) {
 }
 
 const directionButtons = direction => {
-  // console.log("🚀 ~ directionButtons ~ direction:", direction);
   return (
     <span
       aria-hidden="true"
@@ -254,8 +251,6 @@ const directionButtons = direction => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        // border: "1px solid #d4af5f",
-        // backgroundColor: "white",
       }}
       className={`${direction} === Next ? button-next : button-prev swiper-arrow-mobile d-none d-md-block`}
     >
@@ -280,7 +275,6 @@ const CarouselEvent = ({ data }) => {
       className="d-flex flex-column gap-2  mb-3 mx-0 mx-md-3"
     >
       {splitarr.map((spliti, index) => {
-        // console.log("out of ", spliti);
         return (
           <CarouselItem key={index}>
             <DarkVariantExample spliti={spliti} data={data} />

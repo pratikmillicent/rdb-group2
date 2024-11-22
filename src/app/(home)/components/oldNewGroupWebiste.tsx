@@ -45,13 +45,6 @@ const data: DataItem[] = [
     title: "Aspect Infrastructure",
     text: "Beyond our real estate endeavors, we have made a significant impact in the entertainment industry. Our movie production arm is known for producing blockbuster commercial films that seamlessly blend creativity with business acumen. We are passionate about storytelling and bringing unique cinematic experiences to audiences worldwide, ensuring that our films resonate both commercially and culturally.",
   },
-  // {
-  //   id: 5,
-  //   image: "assets/images/home/business.jpg",
-  //   type: "Business",
-  //   title: "Luxury Glassware",
-  //   text: "We craft premium designs for agencies and global brands around the globe.",
-  // },
 ];
 
 const OldGroupGrid: React.FC = () => {
@@ -128,7 +121,6 @@ const OldGroupGrid: React.FC = () => {
             <div className="col-lg-12">
               <div className="position-re">
                 <div className="fz-50 fw-600 ">
-                  {/* <span className="text-golden">G</span>roups Websites */}
                   <div style={{ display: "flex", justifyContent: "center" }}>
                     <Heading headTitle="Our Business" />
                   </div>
@@ -188,7 +180,6 @@ const OldGroupGrid: React.FC = () => {
                         <FaBuilding fontSize={28} color="var(--golden)" />
                       </div>
                     </div>
-                    {/* <h2 className="mb-15 text-grey">{item.title}.</h2> */}
                     <div className="row">
                       <div
                         className="col-md-12 pb-4"

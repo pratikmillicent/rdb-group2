@@ -179,16 +179,6 @@ function Gallary2() {
                   )}
                 </div>
 
-                {/* <div
-                className=""
-                style={{
-                  position: "absolute",
-                  width: "89vw",
-                  alignItems: "center",
-                  top: "94%",
-                  alignContent: "center",
-                }}
-              > */}
                 <div
                   className="swiper-button-next text-dark fw-600 swiper-arrow-mobile-right"
                   style={{
@@ -248,14 +238,6 @@ function Gallary2() {
         </Modal.Body>
         <Modal.Footer>
           <div className="toast-header">
-            {/* <button
-              className="btn btn-5"
-              style={{ color: "#fff" }}
-              onClick={handleClose}
-            >
-              <span></span>
-              Close
-            </button> */}
             <div>
               <button
                 onClick={handleClose}

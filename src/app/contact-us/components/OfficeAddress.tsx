@@ -7,16 +7,6 @@ import Heading from "@/components/heading/Heading";
 
 const OfficeAddress = () => {
   const branchOffice = [
-    // {
-    //   branch: "Mumbai",
-    //   address:
-    //     "Office No. 1, 2nd floor,Esspee Tower,Opp. Oberoi Sky City,Datta Pada Road,Off W.E. Highway,Borivali (E) Mumbai - 400066",
-    //   phone: "+1 123-456-7890",
-    //   email: "info@example.com",
-    //   image:
-    //     "https://www.madebydesignesia.com/themes/justica/images/misc/p1.jpg",
-    //   // image : "/assets/images/office/"
-    // },
     {
       branch: "Surat",
       address:
@@ -41,14 +31,6 @@ const OfficeAddress = () => {
       email: "info@example.com",
       image: "/assets/social-media/ahmedabad.png",
     },
-    // {
-    //   branch: "Dubai",
-    //   address: "1102, Regal Towers,Business Bay",
-    //   phone: "+1 123-456-7890",
-    //   email: "info@example.com",
-    //   image:
-    //     "https://www.madebydesignesia.com/themes/justica/images/misc/p2.jpg",
-    // },
   ];
 
   return (
@@ -124,10 +106,6 @@ const OfficeAddress = () => {
                 <i className="id-color far fa-envelope fz-12 fa-lg me-3 text-golden"></i>
                 <a href="mailto:contact@example.com">contact@example.com</a>
               </span>
-              {/* <span>
-                <i className="id-color fa fa-file-pdf-o fa-lg"></i>
-                <a href="#">Download Brochure</a>
-              </span> */}
             </address>
           </div>
           <div className="col-md-4" style={{ backgroundSize: "cover" }}>
@@ -234,10 +212,6 @@ const OfficeAddress = () => {
                 <i className="id-color far fa-envelope fz-12 fa-lg me-3 text-golden"></i>
                 <a href="mailto:contact@example.com">contact@example.com</a>
               </span>
-              {/* <span>
-                <i className="id-color fa fa-file-pdf-o fa-lg"></i>
-                <a href="#">Download Brochure</a>
-              </span> */}
             </address>
           </div>
         </div>

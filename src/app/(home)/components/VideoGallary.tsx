@@ -47,14 +47,6 @@ const data: Video[] = [
     videoId: "AzwC6umvd1s",
     channel: "youtube",
   },
-  // {
-  //   image: "/assets/home/RDB_video_thumbnails/grand_celebration.png",
-  //   video: "/assets/video/JMKD_Mumbai_Premier.mp4",
-  //   title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
-  //   videoId: "AzwC6umvd1s",
-  //   channel: "youtube",
-  // },
-
   {
     image: "/assets/home/RDB_video_thumbnails/jamkudi.png",
     video: "/assets/video/JMKD_Mumbai_Premier.mp4",
@@ -105,7 +97,6 @@ function VideoGallary() {
       <div
         onClick={e => {
           setShowModal?.(e, item);
-          // console.log("first", item);
         }}
       >
         <div style={{ position: "relative" }}>
@@ -163,7 +154,6 @@ function VideoGallary() {
                         {renderSlide(item)}
                       </SwiperSlide>
                     ))}
-                    {/* <div className="swiper-pagination" /> */}
                   </Swiper>
                 )}
               </div>
@@ -194,7 +184,6 @@ function VideoGallary() {
                   transform: "translateY(-50%)",
                 }}
               />
-              {/* </div> */}
             </div>
           </div>
         </div>
@@ -215,19 +204,9 @@ function VideoGallary() {
                   <div className="swiper-image-container p-0">
                     <div className="align-items-center">
                       <div className="text-center">
-                        {/* <div className="w-100"> */}
                         <video width="500" height="500" controls>
                           <source src={item?.video} type="video/mp4" />
                         </video>
-                        {/* </div> */}
-                        {/* <Image
-                          src={item?.image}
-                          className="circle-img"
-                          alt="Landscape picture"
-                          width={800}
-                          height={300}
-                          style={{ height: "250px" }}
-                        /> */}
                       </div>
                     </div>
                   </div>
@@ -254,16 +233,11 @@ const swiperOptions = {
   spaceBetween: 40,
   loop: true,
   centeredSlides: true,
-  // slidesPerView: 4,
   breakpoints: {
     0: {
       slidesPerView: 1,
       spaceBetween: 30,
     },
-    // 480: {
-    //   slidesPerView: 2,
-    //   spaceBetween: 30,
-    // },
     640: {
       slidesPerView: 2,
       spaceBetween: 60,

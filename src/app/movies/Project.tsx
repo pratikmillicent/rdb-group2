@@ -1,28 +1,11 @@
-// import React from 'react'
-
-// const Project = () => {
-//   return (
-//     <div>Project</div>
-//   )
-// }
-
-// export default Probject
-
-import React, { useRef, useEffect, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper";
-import ModalVideo from "@/components/modal-video/ModalVideo";
 import Heading from "@/components/heading/Heading";
 import Image from "next/image";
-import Link from "next/link";
-import CarouselEvent from "../(home)/components/CardImagesCarousel";
-import PrevNext from "@/utils/PrevNext";
+import { useEffect, useState } from "react";
+import { Autoplay, Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const Project = () => {
   const [loadSwiper, setLoadSwiper] = useState(false);
-  const [isVideoOpen, setIsVideoOpen] = useState(null);
-  const latestPrevRef = useRef(null);
-  const latestNextRef = useRef(null);
 
   useEffect(() => {
     setLoadSwiper(true);
@@ -62,7 +45,7 @@ const Project = () => {
         slidesPerGroup: 4,
       },
     },
-    onSwiper: (swiper) => {
+    onSwiper: swiper => {
       setTimeout(() => {
         swiper.navigation.init();
         swiper.navigation.update();
@@ -98,9 +81,6 @@ const Project = () => {
             <div
               onClick={() => setActive(0)}
               style={{
-                // textDecoration: active === 0 ? "underline" : "none",
-                // textDecorationColor: "var(--navy)",
-                // textUnderlineOffset: "4px",
                 cursor: "pointer",
               }}
             >
@@ -109,9 +89,6 @@ const Project = () => {
             <div
               onClick={() => setActive(1)}
               style={{
-                // textDecoration: active === 1 ? "underline" : "none",
-                // textDecorationColor: "var(--navy)",
-                // textUnderlineOffset: "4px",
                 cursor: "pointer",
               }}
             >
@@ -140,7 +117,7 @@ const Project = () => {
                     id="content-carousel-container-unq-blog"
                     className="swiper-container"
                   >
-                    {completedProjectsData.map((item) => (
+                    {completedProjectsData.map(item => (
                       <SwiperSlide
                         key={item.id}
                         className="wow fadeInUp"
@@ -211,7 +188,7 @@ const Project = () => {
                     id="content-carousel-container-unq-blog"
                     className="swiper-container"
                   >
-                    {upcomingProjectsData.map((item) => (
+                    {upcomingProjectsData.map(item => (
                       <SwiperSlide
                         key={item.id}
                         className="wow fadeInUp"
