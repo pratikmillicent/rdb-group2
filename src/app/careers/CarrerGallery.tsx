@@ -188,10 +188,12 @@ function CarrerGallery() {
 
       <ImageModal
         showModal={showModal}
-        images={events.map((i) => i.image)}
+        images={events}
         onClose={() => setShowModal(false)}
         initial={activeIndex}
-      />
+      >
+        {(i) => <img style={{ maxHeight: "450px" }} src={i.image} />}
+      </ImageModal>
     </>
   );
 }

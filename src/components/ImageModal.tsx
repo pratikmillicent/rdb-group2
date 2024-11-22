@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BiCaretLeft, BiCaretRight } from "react-icons/bi";
 
-function ImageModal({ showModal, images, initial = 0, onClose }) {
+function ImageModal({ showModal, images, initial = 0, onClose, children }) {
   const [activeIndex, setActiveIndex] = useState(initial);
 
   return (
@@ -38,11 +38,9 @@ function ImageModal({ showModal, images, initial = 0, onClose }) {
             >
               <BiCaretLeft />
             </button>
-            <img
-              onClick={(e) => e.stopPropagation()}
-              style={{ maxHeight: "450px" }}
-              src={images[activeIndex]}
-            />
+            <div onClick={(e) => e.stopPropagation()}>
+              {children(images[activeIndex])}
+            </div>
             <button
               onClick={(e) => {
                 e.stopPropagation();
