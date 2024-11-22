@@ -112,10 +112,7 @@ function Gallary2() {
   }, []);
 
   const renderSlide = (item: IImage) => (
-    <div
-      className="mobile-padding"
-      style={{ width: "100%" }}
-    >
+    <div className="mobile-padding" style={{ width: "100%" }}>
       <div className="">
         <div style={{ position: "relative", width: "100%" }}>
           <Image
@@ -162,27 +159,18 @@ function Gallary2() {
           }}
         >
           <div className="container-fluid rest">
-            <div
-              className="row"
-              style={{ marginBottom: "120px" }}
-            >
-              <div
-                className=""
-                style={{ position: "relative" }}
-              >
+            <div className="row" style={{ marginBottom: "120px" }}>
+              <div className="" style={{ position: "relative" }}>
                 <div className="work-crus work-crus2">
                   {loadSwiper && (
                     <Swiper
                       {...swiperOptions}
                       id="content-carousel-container-unq-w"
                       className="swiper-container"
-                      onSwiper={(swiper) => (swiperRef.current = swiper)}
+                      onSwiper={swiper => (swiperRef.current = swiper)}
                     >
                       {events.map((item, i) => (
-                        <SwiperSlide
-                          onClick={() => openModal(i)}
-                          key={i}
-                        >
+                        <SwiperSlide onClick={() => openModal(i)} key={i}>
                           {renderSlide(item)}
                         </SwiperSlide>
                       ))}
@@ -235,18 +223,13 @@ function Gallary2() {
       </section>
 
       {/* Modal for displaying images */}
-      <Modal
-        show={showModal}
-        onHide={handleClose}
-        centered
-        size="lg"
-      >
+      <Modal show={showModal} onHide={handleClose} centered size="lg">
         <Modal.Body>
           <Swiper
             spaceBetween={50}
             slidesPerView={1}
             initialSlide={activeIndex}
-            onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
+            onSlideChange={swiper => setActiveIndex(swiper.activeIndex)}
             navigation // Enable navigation arrows
             modules={[Navigation]} // Import the Swiper navigation module
           >
@@ -295,23 +278,23 @@ const swiperOptions = {
   centeredSlides: false,
   slidesPerView: 3,
 
-  // breakpoints: {
-  //   0: {
-  //     slidesPerView: 1,
-  //     spaceBetween: 30,
-  //   },
-  //   640: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 60,
-  //   },
-  //   768: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 60,
-  //   },
-  //   1024: {
-  //     slidesPerView: 2,
-  //   },
-  // },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+    },
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 60,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 60,
+    },
+    1024: {
+      slidesPerView: 2,
+    },
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,

@@ -74,26 +74,26 @@ const AwardNews = () => {
 
   const swiperOptions = {
     modules: [Navigation, Autoplay],
-    // autoplay: {
-    //   delay: 1000,
-    //   disableOnInteraction: false,
-    //   pauseOnMouseEnter: true,
-    // },
+    autoplay: {
+      delay: 1000,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
+    },
     slidesPerView: 3,
     loop: true,
     spaceBetween: 0,
     speed: 1000,
-    // breakpoints: {
-    //   0: {
-    //     slidesPerView: 1,
-    //   },
-    //   640: {
-    //     slidesPerView: 2,
-    //   },
-    //   1024: {
-    //     slidesPerView: 3,
-    //   },
-    // },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      640: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+    },
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -147,10 +147,7 @@ const AwardNews = () => {
                     className="col-sm-1 col-md-3 text-center"
                     style={{ width: "70%" }}
                   >
-                    <img
-                      src={award.img}
-                      alt={award.title}
-                    />
+                    <img src={award.img} alt={award.title} />
                   </div>
                 </SwiperSlide>
               ))}
@@ -160,7 +157,7 @@ const AwardNews = () => {
       </div>
 
       {/* Navigation Buttons */}
-      <div
+      {/* <div
         className="swiper-button-next text-dark fw-600 news-arrow-mobile-right"
         style={{
           fontWeight: "600",
@@ -187,7 +184,7 @@ const AwardNews = () => {
           // top: "59%",
           transform: "translateY(-50%)",
         }}
-      />
+      /> */}
     </div>
   );
 };

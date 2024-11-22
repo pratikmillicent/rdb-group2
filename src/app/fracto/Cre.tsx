@@ -6,13 +6,11 @@ import { GiTakeMyMoney } from "react-icons/gi";
 import { GiMoebiusTriangle } from "react-icons/gi";
 import { ImProfile } from "react-icons/im";
 import { Navigation, Pagination, Autoplay } from "swiper";
+import "./cre.css";
 
 const Cre = () => {
   return (
-    <section
-      className=""
-      style={{ background: "var(--background)" }}
-    >
+    <section className="" style={{ background: "var(--background)" }}>
       <div className="">
         <div className="sec-lg-head">
           <div
@@ -20,8 +18,8 @@ const Cre = () => {
             style={{ justifyContent: "center", alignItems: "center" }}
           >
             <div
-              className="col-lg-6"
-              style={{ color: "var(--navy)", padding: "0 100px" }}
+              className="col-lg-6 fracto-text"
+              style={{ color: "var(--navy)" }}
             >
               <Heading
                 headTitle="Why Fracto?"

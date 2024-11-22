@@ -12,6 +12,7 @@ import {
 } from "react-icons/gi";
 import { MdPointOfSale, MdRealEstateAgent } from "react-icons/md";
 import { RiHotelFill } from "react-icons/ri";
+import "./properties.css";
 
 function Properties() {
   return (
@@ -88,12 +89,12 @@ function Properties() {
                 justifyContent: "center",
                 flexWrap: "wrap",
                 gap: "40px",
+                width: "100%",
               }}
             >
               <div
-                className="shadow p-4"
+                className="shadow p-4 circle-div"
                 style={{
-                  width: "calc((100% / 5) - 40px)",
                   textAlign: "center",
                   borderRadius: "50%",
                 }}
@@ -107,9 +108,8 @@ function Properties() {
                 </p>
               </div>
               <div
-                className="shadow p-4"
+                className="shadow p-4 circle-div"
                 style={{
-                  width: "calc((100% / 5) - 40px)",
                   textAlign: "center",
                   borderRadius: "50%",
                 }}
@@ -123,9 +123,8 @@ function Properties() {
                 </p>
               </div>
               <div
-                className="shadow p-4"
+                className="shadow p-4 circle-div"
                 style={{
-                  width: "calc((100% / 5) - 40px)",
                   textAlign: "center",
                   borderRadius: "50%",
                 }}
@@ -139,9 +138,8 @@ function Properties() {
                 </p>
               </div>
               <div
-                className="shadow p-4"
+                className="shadow p-4 circle-div"
                 style={{
-                  width: "calc((100% / 5) - 40px)",
                   textAlign: "center",
                   borderRadius: "50%",
                 }}
@@ -155,9 +153,8 @@ function Properties() {
                 </p>
               </div>
               <div
-                className="shadow p-4"
+                className="shadow p-4 circle-div"
                 style={{
-                  width: "calc((100% / 5) - 40px)",
                   textAlign: "center",
                   borderRadius: "50%",
                 }}
@@ -171,9 +168,8 @@ function Properties() {
                 </p>
               </div>
               <div
-                className="shadow p-4"
+                className="shadow p-4 circle-div"
                 style={{
-                  width: "calc((100% / 5) - 40px)",
                   textAlign: "center",
                   borderRadius: "50%",
                 }}
@@ -187,9 +183,8 @@ function Properties() {
                 </p>
               </div>
               <div
-                className="shadow p-4"
+                className="shadow p-4 circle-div"
                 style={{
-                  width: "calc((100% / 5) - 40px)",
                   textAlign: "center",
                   borderRadius: "50%",
                 }}
@@ -203,9 +198,8 @@ function Properties() {
                 </p>
               </div>
               <div
-                className="shadow p-4"
+                className="shadow p-4 circle-div"
                 style={{
-                  width: "calc((100% / 5) - 40px)",
                   textAlign: "center",
                   borderRadius: "50%",
                 }}
@@ -219,9 +213,8 @@ function Properties() {
                 </p>
               </div>
               <div
-                className="shadow p-4"
+                className="shadow p-4 circle-div"
                 style={{
-                  width: "calc((100% / 5) - 40px)",
                   textAlign: "center",
                   borderRadius: "50%",
                 }}

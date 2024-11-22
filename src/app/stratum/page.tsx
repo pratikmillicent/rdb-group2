@@ -3,6 +3,7 @@ import Heading from "@/components/heading/Heading";
 import Image from "next/image";
 import React from "react";
 import { GiArchiveResearch, GiCycle, GiMoneyStack } from "react-icons/gi";
+import "./stratum.css";
 
 function Stratum() {
   return (
@@ -60,13 +61,10 @@ function Stratum() {
           </p>
         </div>
 
-        <div
-          style={{ display: "flex", gap: "20px" }}
-          className="container section-padding"
-        >
+        <div className="container section-padding flex-box">
           <h3 style={{ color: "var(--navy)" }}>Services offered</h3>
 
-          <div style={{ display: "flex", gap: "40px" }}>
+          <div className="flex-box">
             <div className="shadow p-4" style={{ flex: 1 }}>
               <GiArchiveResearch fontSize={46} color="var(--golden)" />
               <p

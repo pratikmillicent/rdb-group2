@@ -1,0 +1,23 @@
+@media only screen and (min-width: 600px) {
+  .circle-div {
+    width: calc(100% - 40px) !important;
+  }
+}
+
+@media only screen and (min-width: 786px) {
+  .circle-div {
+    width: calc((100% / 2) - 40px) !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .circle-div {
+    width: calc((100% / 3) - 40px) !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .circle-div {
+    width: calc((100% / 5) - 40px) !important;
+  }
+}

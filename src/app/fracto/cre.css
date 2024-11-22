@@ -1,0 +1,9 @@
+.fracto-text {
+  padding: 0 100px;
+}
+
+@media only screen and (max-width: 990px) {
+  .fracto-text {
+    padding: 30px !important;
+  }
+}

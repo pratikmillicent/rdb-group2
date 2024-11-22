@@ -140,7 +140,7 @@ function CarrerGallery() {
                       {...swiperOptions}
                       id="content-carousel-container-unq-w"
                       className="swiper-container"
-                      onSwiper={(swiper) => (swiperRef.current = swiper)}
+                      onSwiper={swiper => (swiperRef.current = swiper)}
                     >
                       {events.map((item, i) => (
                         <span key={i} className="text-center">
@@ -207,7 +207,7 @@ function CarrerGallery() {
               // spaceBetween={0}
               slidesPerView={1}
               initialSlide={activeIndex}
-              onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
+              onSlideChange={swiper => setActiveIndex(swiper.activeIndex)}
               navigation
               modules={[Navigation]}
             >
@@ -242,23 +242,23 @@ const swiperOptions = {
   loop: true,
   centeredSlides: true,
   slidesPerView: 4,
-  // breakpoints: {
-  //   0: {
-  //     slidesPerView: 1,
-  //     spaceBetween: 30,
-  //   },
-  //   640: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 60,
-  //   },
-  //   768: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 60,
-  //   },
-  //   1024: {
-  //     slidesPerView: 2,
-  //   },
-  // },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+    },
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 60,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 60,
+    },
+    1024: {
+      slidesPerView: 4,
+    },
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
