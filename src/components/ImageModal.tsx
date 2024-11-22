@@ -1,11 +1,29 @@
 import React, { useEffect, useState } from "react";
 import { BiCaretLeft, BiCaretRight } from "react-icons/bi";
 
-function ImageModal({ showModal, images, initial = 0, onClose, children }) {
+function ImageModal({
+  showModal,
+  images,
+  initial = 0,
+  onClose,
+  onChange,
+  children,
+}) {
   const [activeIndex, setActiveIndex] = useState(initial);
 
   useEffect(() => {
     if (showModal) setActiveIndex(initial);
+  }, [showModal]);
+
+  useEffect(() => {
+    if (onChange) onChange(images[activeIndex]);
+  }, [activeIndex]);
+
+  useEffect(() => {
+    if (showModal) document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = "scroll";
+    };
   }, [showModal]);
 
   return (

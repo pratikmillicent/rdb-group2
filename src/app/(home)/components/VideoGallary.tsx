@@ -102,6 +102,7 @@ const data: Video[] = [
 
 function VideoGallary() {
   const swiperRef = useRef<SwiperCore>(null);
+  const vidRef = useRef();
   const [loadSwiper, setLoadSwiper] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -263,12 +264,29 @@ function VideoGallary() {
       <ImageModal
         images={data}
         initial={activeIndex}
-        onClose={() => setShowModal(false)}
+        onClose={() => {
+          setShowModal(false);
+        }}
+        onChange={(i) => {
+          if (vidRef.current) {
+            vidRef.current.pause();
+            vidRef.current.currentTime = 0;
+
+            vidRef.current.src = i.video;
+            vidRef.current.load();
+          }
+        }}
         showModal={showModal}
       >
         {(i) => (
-          <video width="500" height="500" controls>
-            <source src={i?.video} type="video/mp4" />
+          <video
+            ref={vidRef}
+            loading="lazy"
+            width="500"
+            style={{ maxHeight: "450px" }}
+            autoPlay
+          >
+            {/* <source src={i?.video} type="video/mp4" /> */}
           </video>
         )}
       </ImageModal>
