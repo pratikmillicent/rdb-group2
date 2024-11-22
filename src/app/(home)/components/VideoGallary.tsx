@@ -103,7 +103,7 @@ function VideoGallary() {
   const renderSlide = (item: Video) => (
     <div className="">
       <div
-        onClick={(e) => {
+        onClick={e => {
           setShowModal?.(e, item);
           // console.log("first", item);
         }}
@@ -128,10 +128,7 @@ function VideoGallary() {
               strokeWidth="15"
               stroke="#fff"
             />
-            <polygon
-              points="70, 55 70, 145 145, 100"
-              fill="#fff"
-            />
+            <polygon points="70, 55 70, 145 145, 100" fill="#fff" />
           </svg>
           <Image
             src={item?.image}
@@ -151,27 +148,18 @@ function VideoGallary() {
       <Heading headTitle="Our Gallery" />
       <div className="container">
         <div className="container-fluid rest">
-          <div
-            className="row"
-            style={{ marginBottom: "120px" }}
-          >
-            <div
-              className="col-12"
-              style={{ position: "relative" }}
-            >
+          <div className="row" style={{ marginBottom: "120px" }}>
+            <div className="col-12" style={{ position: "relative" }}>
               <div className="work-crus work-crus2">
                 {loadSwiper && (
                   <Swiper
                     {...swiperOptions}
                     id="content-carousel-container-unq-w"
                     className="swiper-container"
-                    onSwiper={(swiper) => (swiperRef.current = swiper)}
+                    onSwiper={swiper => (swiperRef.current = swiper)}
                   >
                     {data.map((item, i) => (
-                      <SwiperSlide
-                        onClick={() => openModal(i)}
-                        key={i}
-                      >
+                      <SwiperSlide onClick={() => openModal(i)} key={i}>
                         {renderSlide(item)}
                       </SwiperSlide>
                     ))}
@@ -212,16 +200,13 @@ function VideoGallary() {
         </div>
       </div>
       <div className="">
-        <Modal
-          show={showModal}
-          onHide={handleClose}
-        >
+        <Modal show={showModal} onHide={handleClose}>
           <Modal.Body>
             <Swiper
               spaceBetween={0}
               slidesPerView={1}
               initialSlide={activeIndex}
-              onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
+              onSlideChange={swiper => setActiveIndex(swiper.activeIndex)}
               navigation
               modules={[Navigation]}
             >
@@ -231,15 +216,8 @@ function VideoGallary() {
                     <div className="align-items-center">
                       <div className="text-center">
                         {/* <div className="w-100"> */}
-                        <video
-                          width="500"
-                          height="500"
-                          controls
-                        >
-                          <source
-                            src={item?.video}
-                            type="video/mp4"
-                          />
+                        <video width="500" height="500" controls>
+                          <source src={item?.video} type="video/mp4" />
                         </video>
                         {/* </div> */}
                         {/* <Image
@@ -276,25 +254,29 @@ const swiperOptions = {
   spaceBetween: 40,
   loop: true,
   centeredSlides: true,
-
-  slidesPerView: 4,
-  // breakpoints: {
-  //   0: {
-  //     slidesPerView: 1,
-  //     spaceBetween: 30,
-  //   },
-  //   640: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 60,
-  //   },
-  //   768: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 60,
-  //   },
-  //   1024: {
-  //     slidesPerView: 2,
-  //   },
-  // },
+  // slidesPerView: 4,
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+    },
+    // 480: {
+    //   slidesPerView: 2,
+    //   spaceBetween: 30,
+    // },
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 60,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 60,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 60,
+    },
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
