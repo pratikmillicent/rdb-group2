@@ -256,6 +256,10 @@ let cards = [
     key: 7,
     content: <Card imagen="/assets/home/Event5.jpg" />,
   },
+  {
+    key: 8,
+    content: <Card imagen="/assets/home/Event6.jpg" />,
+  },
 ];
 
 // CSS for the video transition
