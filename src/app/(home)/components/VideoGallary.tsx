@@ -128,10 +128,11 @@ function VideoGallary() {
     setLoadSwiper(true);
   }, []);
 
-  const renderSlide = (item: Video) => (
+  const renderSlide = (item: Video, i: number) => (
     <div className="">
       <div
-        onClick={e => {
+        onClick={(e) => {
+          openModal(i);
           setShowModal?.(e, item);
         }}
       >
@@ -183,12 +184,10 @@ function VideoGallary() {
                     {...swiperOptions}
                     id="content-carousel-container-unq-w"
                     className="swiper-container"
-                    onSwiper={swiper => (swiperRef.current = swiper)}
+                    onSwiper={(swiper) => (swiperRef.current = swiper)}
                   >
                     {data.map((item, i) => (
-                      <SwiperSlide onClick={() => openModal(i)} key={i}>
-                        {renderSlide(item)}
-                      </SwiperSlide>
+                      <SwiperSlide key={i}>{renderSlide(item, i)}</SwiperSlide>
                     ))}
                   </Swiper>
                 )}
@@ -267,7 +266,7 @@ function VideoGallary() {
         onClose={() => setShowModal(false)}
         showModal={showModal}
       >
-        {i => (
+        {(i) => (
           <video width="500" height="500" controls>
             <source src={i?.video} type="video/mp4" />
           </video>
@@ -280,7 +279,7 @@ function VideoGallary() {
 const swiperOptions = {
   speed: 1000,
   spaceBetween: 40,
-  loop: true,
+  loop: false,
   centeredSlides: true,
   breakpoints: {
     0: {
