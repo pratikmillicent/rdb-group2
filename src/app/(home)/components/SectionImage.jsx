@@ -6,9 +6,9 @@ const images = {
   // overview: "/assets/images3/home/vision.jpg",
   overview: "/assets/images3/home/aspirations.avif",
   // mission: "/assets/images3/home/vision.jpg",
-  mission: "/assets/images3/home/future-3.jpg",
+  mission: "/assets/images3/home/future-outlook-2.png",
   // vision: "/assets/images/home/what-drives-us-2.webp",
-  vision: "/assets/images3/home/mission.jpg",
+  vision: "/assets/images3/home/what-drives-us-2.png",
 };
 function SectionImage() {
   const [selectedTab, setSelectedTab] = useState("overview");
@@ -137,12 +137,12 @@ function SectionImage() {
             // }}
             style={{
               backgroundImage: `url(${currentImage})`,
-              // backgroundSize: "cover",
-              // backgroundPosition: "center",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
               height: "100%",
               // width: "100%",
               // backgroundPosition: "center",
-              backgroundSize: "100% 100%",
+              // backgroundSize: "100% 100%",
               backgroundRepeat: "no-repeat",
             }}
           />
