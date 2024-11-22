@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 import { Modal } from "react-bootstrap";
 import "./newgroup.css";
+import ImageModal from "@/components/ImageModal";
 
 function DarkVariantExample({ spliti }: any) {
   const [showModal, setShowModal] = useState(false);
@@ -185,14 +186,12 @@ function DarkVariantExample({ spliti }: any) {
         ))}
       </div>
 
-      <div style={{ maxHeight: "50vh" }}>
+      {/* <div style={{ maxHeight: "50vh" }}>
         <Modal show={showModal} onHide={handleClose} centered>
           <Modal.Body>
             <Swiper
               spaceBetween={50}
               slidesPerView={1}
-              // initialSlide={activeIndex}
-              // onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
               navigation
               modules={[Navigation]}
             >
@@ -201,7 +200,9 @@ function DarkVariantExample({ spliti }: any) {
                 ?.images.map((image, index) => (
                   <SwiperSlide key={index}>
                     <div className="swiper-image-container">
-                      <img
+                      <Image
+                        width={500}
+                        height={300}
                         style={{ height: "300px" }}
                         src={image}
                         alt={image}
@@ -218,7 +219,15 @@ function DarkVariantExample({ spliti }: any) {
             </button>
           </Modal.Footer>
         </Modal>
-      </div>
+      </div> */}
+
+      <ImageModal
+        images={spliti.find((i) => i.id === activeIndex)?.images}
+        showModal={showModal}
+        onClose={() => setShowModal(false)}
+      >
+        {(i) => <img style={{ maxHeight: "450px" }} src={i} />}
+      </ImageModal>
     </>
   );
 }
@@ -232,7 +241,6 @@ function splitToNChunks(array, n) {
 }
 
 const directionButtons = (direction) => {
-  // console.log("🚀 ~ directionButtons ~ direction:", direction);
   return (
     <span
       aria-hidden="true"
@@ -249,8 +257,6 @@ const directionButtons = (direction) => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        // border: "1px solid #d4af5f",
-        // backgroundColor: "white",
       }}
       className={`${direction} === Next ? button-next : button-prev swiper-arrow-mobile d-none d-md-block`}
     >
@@ -275,7 +281,6 @@ const CarouselEvent = ({ data }) => {
       className="d-flex flex-column gap-2  mb-3 mx-0 mx-md-3"
     >
       {splitarr.map((spliti, index) => {
-        // console.log("out of ", spliti);
         return (
           <CarouselItem key={index}>
             <DarkVariantExample spliti={spliti} data={data} />

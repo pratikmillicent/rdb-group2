@@ -27,7 +27,7 @@ const data: DataItem[] = [
   },
   {
     id: 2,
-    image: "assets/images3/home/realty-9.jpg",
+    image: "assets/images3/home/realty-10.jpg",
     logo: "assets/images/home/rdb-realty.png",
     type: "Realty",
     title: "Aspect Bullion & Refinery",
@@ -154,30 +154,13 @@ const NewGroupGrid: React.FC = () => {
               </div>
               <div className="col-lg-6 sub-bg right">
                 {data?.map((item, index) => {
-                  // const isLastTwo = index == data.length - 2;
-                  // const isLast = index == data.length - 1;
-                  // const marginStyle = isLast
-                  //   ? { marginTop: "100px" }
-                  //   : isLastTwo
-                  //   ? { marginTop: "100px", marginBottom: "100px" }
-                  //   : { marginBottom: "150px" };
-
                   return (
                     <div
+                      style={{ margin: "80px 0" }}
                       className={`cont ${index === 0 ? "active" : ""}`}
                       data-tab={`tab-${index + 1}`}
                       key={index}
-                      // style={marginStyle}
                     >
-                      <div className="img-hiden">
-                        <Image
-                          src={item.image}
-                          alt="Landscape picture"
-                          width={800}
-                          height={500}
-                        />
-                      </div>
-
                       <div className="pt-2">
                         <div className="">
                           <div className="d-flex align-items-center justify-content-between w-100 gap-3 mb-4 ">

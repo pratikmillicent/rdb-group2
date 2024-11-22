@@ -11,7 +11,6 @@ function EighteenDimensions() {
           <Image
             src="/assets/images3/eighteen-dimensions/banner.webp"
             className="w-100 d-block  news-banner banner hero-height"
-            // className="w-100 d-block  news-banner hero-height"
             alt="News Banner"
             style={{ objectFit: "cover" }}
             width={800}

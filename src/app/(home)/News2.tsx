@@ -11,8 +11,8 @@ const data = [
     title:
       "Why NRIs are investing in Indian real estate: Top reasons explained",
     // cover: "/assets/images/home/news2.jpg",
-    cover: "/assets/images/news/news-detail-1.jpg",
-    author: "Admin",
+    cover: "/assets/images3/news/news-image-1.avif",
+    author: "Moneycontrol",
     day: "18",
     month: "Nov",
     date: "November 18, 2024",
@@ -24,8 +24,8 @@ const data = [
   {
     id: 2,
     title: "Must watch 2025 real estate trends you must know",
-    cover: "/assets/images/news/news-detail-2.jpg",
-    author: "Admin",
+    cover: "/assets/images3/news/news-image-2.jpg",
+    author: "Bizzbuzz",
     day: "18",
     month: "Nov",
     date: "November 18, 2024",
@@ -38,9 +38,8 @@ const data = [
     id: 3,
     title:
       "Mumbai real estate: 5 Bollywood stars who have invested nearly ₹80 crore in properties in Bandra",
-    cover:
-      "https://www.ttrweekly.com/site/wp-content/uploads/2020/09/melbourne.jpg",
-    author: "Admin",
+    cover: "/assets/images3/news/news-image-3.avif",
+    author: "Hindustan times",
     day: "13",
     month: "Nov",
     date: "November 13, 2024",
@@ -53,9 +52,8 @@ const data = [
     id: 4,
     title:
       "Jhamkudi OTT release date ShemarooMe: When to watch this Manasi Parekh-starrer Gujarati blockbuster",
-    cover:
-      "https://www.ttrweekly.com/site/wp-content/uploads/2020/09/melbourne.jpg",
-    author: "Admin",
+    cover: "/assets/images3/news/news-image-4.webp",
+    author: "Indiatimes",
     day: "17",
     month: "Oct",
     date: "Octber 17, 2024",
@@ -68,9 +66,8 @@ const data = [
     id: 5,
     title:
       "Jhamkudi Week 1 Box Office: Gujarati horror-com trends extraordinarily; Nets 5.50 crores to emerge a super-hit",
-    cover:
-      "https://www.ttrweekly.com/site/wp-content/uploads/2020/09/melbourne.jpg",
-    author: "Admin",
+    cover: "/assets/images3/news/news-image-5.jpg",
+    author: "Pinkvilla",
     day: "07",
     month: "Jun",
     date: "Jun 07, 2024",
@@ -83,9 +80,8 @@ const data = [
     id: 6,
     title:
       "Guj CM congratulates ‘Kutch Express’ team for bagging three national awards",
-    cover:
-      "https://www.ttrweekly.com/site/wp-content/uploads/2020/09/melbourne.jpg",
-    author: "Admin",
+    cover: "/assets/images3/news/news-image-6.jpg",
+    author: "Theprint",
     day: "16",
     month: "Aug",
     date: "August 16, 2024",
@@ -98,9 +94,8 @@ const data = [
     id: 7,
     title:
       "Fractional real estate is the 'new Gold' for savvy festive season investors",
-    cover:
-      "https://www.ttrweekly.com/site/wp-content/uploads/2020/09/melbourne.jpg",
-    author: "Admin",
+    cover: "/assets/images3/news/news-image-7.jpg",
+    author: "Etnownews",
     day: "31",
     month: "Oct",
     date: "Oct 31, 2024",
@@ -113,9 +108,8 @@ const data = [
     id: 8,
     title:
       "Fractional Ownership: This realty segment to rise over 10 times by 2030 | Here are 3 top hotspots",
-    cover:
-      "https://www.ttrweekly.com/site/wp-content/uploads/2020/09/melbourne.jpg",
-    author: "Admin",
+    cover: "/assets/images3/news/news-image-8.jpg",
+    author: "Etnownews",
     day: "29",
     month: "May",
     date: "May 29, 2024",
@@ -127,12 +121,12 @@ const data = [
 ];
 
 const swiperOptions = {
-  // modules: [Navigation, Autoplay],
-  // autoplay: {
-  //   delay: 1000,
-  //   disableOnInteraction: false,
-  //   pauseOnMouseEnter: true,
-  // },
+  modules: [Navigation, Autoplay],
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  },
   slidesPerView: 3,
   loop: true,
   spaceBetween: 10,
@@ -199,25 +193,22 @@ function News2() {
                       </div>
                       {/* Content */}
                       <div className="bg-grey" style={{ padding: "30px 40px" }}>
-                        <div className="fw-700 fz-10 text-golden">LAW FIRM</div>
+                        <div className="fw-700 fz-10 text-golden">
+                          {item.author}
+                        </div>
                         <div className="fw-600 fz-22 mb-2">{item.title}</div>
                         <p className="fz-16 fw-400">{item.description}</p>
                         {/* Author */}
                         <div className="px-6 pt-4 pb-2">
-                          <span className="text-grey news-firm">
-                            Fynley Wilkinson
-                          </span>
                           <div className="bg-dark date-banner">
                             {/* <DateBanner /> */}
                             <div
                               className="date-wrapper bg-golden"
                               style={{
                                 position: "absolute",
-                                // backgroundSize: "cover",,
-                                // bottom: "445px",
+
                                 top: "0px",
                                 left: "5px",
-                                // borderRadius: "5px",
                               }}
                             >
                               <div
@@ -246,77 +237,9 @@ function News2() {
             </Swiper>
           )}
         </div>
-
-        {/* Navigation Buttons */}
-        {/* <div
-          className="swiper-button-next text-dark fw-600 news-arrow-mobile-right"
-          style={{
-            fontWeight: "600",
-            height: "40px",
-            width: "40px",
-            borderRadius: "50%",
-            // right: "-60px",
-            // top: "59%",
-            top: "18%",
-            transform: "translateY(-50%)",
-          }}
-        ></div>
-
-        <div
-          className="swiper-button-prev text-dark news-arrow-mobile-left"
-          style={{
-            fontWeight: "600",
-            height: "40px",
-            width: "40px",
-            borderRadius: "50%",
-            position: "absolute",
-            // left: "-60px",
-            top: "18%",
-            // top: "59%",
-            transform: "translateY(-50%)",
-          }}
-        /> */}
       </div>
     </section>
   );
 }
 
-// const DateBanner = ({ date }) => {
-//   return (
-//     <div className="date-wrapper bg-golden">
-//       <span>{date}</span>
-//     </div>
-//   );
-// };
-
 export default News2;
-
-// const DateBanner = () => {
-//   return (
-//     <>
-//       <div
-//         className="date-wrapper bg-golden"
-//         style={{
-//           position: "absolute",
-//           backgroundSize: "cover",
-//           bottom: "445px",
-//           left: "5px",
-//           borderRadius: "5px",
-//         }}
-//       >
-//         <div
-//           className="date-box text-white bg-golden"
-//           style={{ fontSize: "32px", fontWeight: 700 }}
-//         >
-//           10
-//         </div>
-//         <div
-//           className="date-letter-box py-2 text-white"
-//           style={{ backgroundColor: "#D29530", fontSize: "12px" }}
-//         >
-//           NOV
-//         </div>
-//       </div>
-//     </>
-//   );
-// };

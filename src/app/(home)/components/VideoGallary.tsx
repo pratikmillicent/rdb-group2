@@ -8,6 +8,7 @@ import "swiper/swiper-bundle.css";
 import Heading from "@/components/heading/Heading";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Col, Modal, Row } from "react-bootstrap";
+import ImageModal from "@/components/ImageModal";
 
 SwiperCore.use([Navigation, Pagination]);
 
@@ -21,43 +22,35 @@ interface Video {
 const data: Video[] = [
   {
     image: "/assets/home/RDB_video_thumbnails/100cr.png",
-    video: "/assets/video/JMKD_AHM_Premier_Compressed.mp4",
+    video: "/assets/video/video-gallery/100cr.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
   },
   {
     image: "/assets/home/RDB_video_thumbnails/area_conference.png",
-    video: "/assets/video/JMKD_Mumbai_Premier.mp4",
+    video: "/assets/video/video-gallery/area-conference.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
   },
   {
     image: "/assets/home/RDB_video_thumbnails/codeword_upgrade.png",
-    video: "/assets/video/JMKD_Mumbai_Premier.mp4",
+    video: "/assets/video/video-gallery/codeword-upgreade.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
   },
   {
     image: "/assets/home/RDB_video_thumbnails/deliver.png",
-    video: "/assets/video/JMKD_Mumbai_Premier.mp4",
+    video: "/assets/video/video-gallery/deliver.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
   },
-  // {
-  //   image: "/assets/home/RDB_video_thumbnails/grand_celebration.png",
-  //   video: "/assets/video/JMKD_Mumbai_Premier.mp4",
-  //   title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
-  //   videoId: "AzwC6umvd1s",
-  //   channel: "youtube",
-  // },
-
   {
     image: "/assets/home/RDB_video_thumbnails/jamkudi.png",
-    video: "/assets/video/JMKD_Mumbai_Premier.mp4",
+    video: "/assets/video/video-gallery/jumkudi.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
@@ -65,7 +58,42 @@ const data: Video[] = [
 
   {
     image: "/assets/home/RDB_video_thumbnails/kandivali.png",
-    video: "/assets/video/JMKD_Mumbai_Premier.mp4",
+    video: "/assets/video/video-gallery/kandivali.mp4",
+    title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
+    videoId: "AzwC6umvd1s",
+    channel: "youtube",
+  },
+  {
+    image: "/assets/home/RDB_video_thumbnails/grand_celebration.png",
+    video: "/assets/video/video-gallery/grand-celebrate.mp4",
+    title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
+    videoId: "AzwC6umvd1s",
+    channel: "youtube",
+  },
+  {
+    image: "/assets/home/RDB_video_thumbnails/project_lauched.png",
+    video: "/assets/video/video-gallery/new poject.mp4",
+    title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
+    videoId: "AzwC6umvd1s",
+    channel: "youtube",
+  },
+  {
+    image: "/assets/home/RDB_video_thumbnails/rudra_paradise.png",
+    video: "/assets/video/video-gallery/rundra-paradise.mp4",
+    title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
+    videoId: "AzwC6umvd1s",
+    channel: "youtube",
+  },
+  {
+    image: "/assets/home/RDB_video_thumbnails/span_insta.png",
+    video: "/assets/video/video-gallery/span-insta.mp4",
+    title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
+    videoId: "AzwC6umvd1s",
+    channel: "youtube",
+  },
+  {
+    image: "/assets/home/RDB_video_thumbnails/statum_event.png",
+    video: "/assets/video/video-gallery/stratum.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
@@ -105,7 +133,6 @@ function VideoGallary() {
       <div
         onClick={e => {
           setShowModal?.(e, item);
-          // console.log("first", item);
         }}
       >
         <div style={{ position: "relative" }}>
@@ -163,7 +190,6 @@ function VideoGallary() {
                         {renderSlide(item)}
                       </SwiperSlide>
                     ))}
-                    {/* <div className="swiper-pagination" /> */}
                   </Swiper>
                 )}
               </div>
@@ -194,12 +220,11 @@ function VideoGallary() {
                   transform: "translateY(-50%)",
                 }}
               />
-              {/* </div> */}
             </div>
           </div>
         </div>
       </div>
-      <div className="">
+      {/* <div className="">
         <Modal show={showModal} onHide={handleClose}>
           <Modal.Body>
             <Swiper
@@ -215,19 +240,9 @@ function VideoGallary() {
                   <div className="swiper-image-container p-0">
                     <div className="align-items-center">
                       <div className="text-center">
-                        {/* <div className="w-100"> */}
                         <video width="500" height="500" controls>
                           <source src={item?.video} type="video/mp4" />
                         </video>
-                        {/* </div> */}
-                        {/* <Image
-                          src={item?.image}
-                          className="circle-img"
-                          alt="Landscape picture"
-                          width={800}
-                          height={300}
-                          style={{ height: "250px" }}
-                        /> */}
                       </div>
                     </div>
                   </div>
@@ -244,7 +259,20 @@ function VideoGallary() {
             </button>
           </Modal.Footer>
         </Modal>
-      </div>
+      </div> */}
+
+      <ImageModal
+        images={data}
+        initial={activeIndex}
+        onClose={() => setShowModal(false)}
+        showModal={showModal}
+      >
+        {i => (
+          <video width="500" height="500" controls>
+            <source src={i?.video} type="video/mp4" />
+          </video>
+        )}
+      </ImageModal>
     </>
   );
 }
@@ -254,16 +282,11 @@ const swiperOptions = {
   spaceBetween: 40,
   loop: true,
   centeredSlides: true,
-  // slidesPerView: 4,
   breakpoints: {
     0: {
       slidesPerView: 1,
       spaceBetween: 30,
     },
-    // 480: {
-    //   slidesPerView: 2,
-    //   spaceBetween: 30,
-    // },
     640: {
       slidesPerView: 2,
       spaceBetween: 60,

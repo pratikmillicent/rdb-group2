@@ -56,12 +56,7 @@ export default function Home() {
   const videoData = [
     {
       src: "/assets/video/general-3.mp4",
-      text: `Crafted with <span
-          style="
-              font-weight : 500
-            "> Experience </span>, Built with <span style="
-              font-weight : 500
-            "> Trust </span>`,
+      text: `Built On Experience`,
       link: "/about",
     },
     {
@@ -85,7 +80,7 @@ export default function Home() {
       link: "/movies",
     },
     {
-      src: "/assets/video/stratum-3.mp4",
+      src: "/assets/video/stratum-4.mp4",
       text: "Stratum",
       link: "/stratum",
     },
@@ -179,17 +174,6 @@ export default function Home() {
                 padding: "0 20px 20px 20px ",
               }}
             >
-              {/* {loopCount !== 0 && (
-                <img
-                  src="/rdb_1.svg"
-                  style={{
-                    height: isSmallScreen ? "80px" : "100px",
-                    width: "55px",
-                    objectFit: "contain",
-                  }}
-                />
-              )} */}
-
               <p
                 className=""
                 style={{
@@ -241,14 +225,10 @@ export default function Home() {
             <div className="d-lg-none">
               <MobileCarousel />
             </div>
-            {/* ) : isSmallScreen ? ( */}
-            {/* ) : null} */}
           </div>
         </div>
 
-        {/* <NewMobile /> */}
         <News2 />
-        {/* <News2 /> */}
         <VideoGallary />
       </main>
     </ParallaxProvider>
@@ -256,14 +236,6 @@ export default function Home() {
 }
 
 let cards = [
-  {
-    key: 1,
-    content: <Card imagen="/assets/home/Event1.jpg" />,
-  },
-  {
-    key: 2,
-    content: <Card imagen="/assets/home/Event2.jpg" />,
-  },
   {
     key: 3,
     content: <Card imagen="/assets/home/Event1.jpg" />,
@@ -275,6 +247,14 @@ let cards = [
   {
     key: 5,
     content: <Card imagen="/assets/home/Event2.jpg" />,
+  },
+  {
+    key: 6,
+    content: <Card imagen="/assets/home/Event4.jpg" />,
+  },
+  {
+    key: 7,
+    content: <Card imagen="/assets/home/Event5.jpg" />,
   },
 ];
 

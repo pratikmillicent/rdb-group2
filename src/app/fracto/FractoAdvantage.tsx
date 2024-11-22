@@ -2,45 +2,6 @@ import React from "react";
 import "./howtowork2.css";
 import Heading from "@/components/heading/Heading";
 
-// const mediaItems = [
-//   {
-//     id: 1,
-//     name: "Dis"cover"",
-//     description:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus officiis corporis aut ipsa dolorem cupiditate magnam ea minima. Culpa.",
-//   },
-//   {
-//     id: 2,
-//     name: "Choose",
-//     description:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus officiis corporis aut ipsa dolorem cupiditate magnam ea minima. Culpa.",
-//   },
-//   {
-//     id: 3,
-//     name: "Customize",
-//     description:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus officiis corporis aut ipsa dolorem cupiditate magnam ea minima. Culpa.",
-//   },
-//   {
-//     id: 4,
-//     name: "Order",
-//     description:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus officiis corporis aut ipsa dolorem cupiditate magnam ea minima. Culpa.",
-//   },
-//   {
-//     id: 5,
-//     name: "Enjoy",
-//     description:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus officiis corporis aut ipsa dolorem cupiditate magnam ea minima. Culpa.",
-//   },
-//   {
-//     id: 6,
-//     name: "Customize",
-//     description:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus officiis corporis aut ipsa dolorem cupiditate magnam ea minima. Culpa.",
-//   },
-// ];
-
 const mediaItems = [
   {
     id: 1,
@@ -66,18 +27,6 @@ const mediaItems = [
     description:
       "We manage the asset from acquisition to exit. Investors enjoy a hands-off investment experience.",
   },
-  // {
-  //   id: 5,
-  //   name: "Enjoy",
-  //   description:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus officiis corporis aut ipsa dolorem cupiditate magnam ea minima. Culpa.",
-  // },
-  // {
-  //   id: 6,
-  //   name: "Customize",
-  //   description:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus officiis corporis aut ipsa dolorem cupiditate magnam ea minima. Culpa.",
-  // },
 ];
 
 const FractoAdvantage = () => {

@@ -1,17 +1,6 @@
-import React from "react";
-import {
-  FaMapMarkerAlt,
-  FaFacebook,
-  FaTwitter,
-  FaLinkedin,
-  FaInstagramSquare,
-} from "react-icons/fa";
 import Heading from "@/components/heading/Heading";
-import { useState } from "react";
-import Link from "next/link";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { IoLogoYoutube } from "react-icons/io5";
 import SocialIcon from "@/components/social-icon/SocialIcon";
+import { useState } from "react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({

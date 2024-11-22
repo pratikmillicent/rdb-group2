@@ -5,15 +5,6 @@ import { Navigation, Autoplay } from "swiper";
 //= Scripts
 import loadBackgroudImages from "@/common/loadBackgroudImages";
 import Heading from "@/components/heading/Heading";
-//= Data
-// const brandsData = [
-//   "https://as1.ftcdn.net/v2/jpg/02/99/04/20/1000_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg",
-// ];
-
-// const appData = {
-//   author: "ThemesCamp",
-//   author_link: "https://themeforest.net/user/themescamp",
-// };
 
 const testimonialsData = [
   {
@@ -200,45 +191,6 @@ function TestimonialCareer() {
           }}
         />
       </div>
-      {/* <div className="clients-carso section-padding pb-0">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div
-                className="swiper5"
-                data-carousel="swiper"
-                data-items="6"
-                data-loop="true"
-                data-space="30"
-                data-speed="1000"
-              >
-                {loadSwiper && (
-                  <Swiper
-                    {...brandsSwiperOptions}
-                    id="content-carousel-container-unq-clients"
-                  >
-                    {brandsData.map(item => (
-                      <SwiperSlide key={item}>
-                        <div className="item">
-                          <div className="img icon-img-100">
-                            <a href={appData.author_link}>
-                              <img src={"/dark/" + item} alt="" /> 
-                            </a>
-                          </div>
-                        </div>
-                      </SwiperSlide>
-                    ))}
-                  </Swiper>
-                )}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* <div
-        className="bg-pattern bg-img bg-repeat border"
-        data-background="/dark/assets/imgs/patterns/noise.png"
-      ></div> */}
     </section>
   );
 }

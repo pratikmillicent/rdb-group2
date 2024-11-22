@@ -9,6 +9,8 @@ import "swiper/swiper-bundle.css";
 import Heading from "@/components/heading/Heading";
 import { Modal } from "react-bootstrap";
 import "../movies/gallery2.css";
+import { BiCaretLeft, BiCaretRight } from "react-icons/bi";
+import ImageModal from "@/components/ImageModal";
 
 SwiperCore.use([Navigation, Pagination]);
 
@@ -23,51 +25,15 @@ interface IImage {
 
 const events: IEvent[] = [
   {
+    image: "/assets/images/career/gallary/1.jpg",
+  },
+  {
     image: "/assets/images/career/gallary/2.jpg",
   },
   {
     image: "/assets/images/career/gallary/3.jpg",
   },
-  {
-    image: "/assets/images/career/gallary/1.jpg",
-  },
 ];
-
-// const mumbai: IImage[] = [
-//   {
-//     image: "/assets/images/movie/gallary/mumbai-premier/i (1).JPG",
-//   },
-//   {
-//     image: "/assets/images/movie/gallary/mumbai-premier/i (2).JPG",
-//   },
-//   {
-//     image: "/assets/images/movie/gallary/mumbai-premier/i (3).JPG",
-//   },
-//   {
-//     image: "/assets/images/movie/gallary/mumbai-premier/i (4).JPG",
-//   },
-//   {
-//     image: "/assets/images/movie/gallary/mumbai-premier/i (5).JPG",
-//   },
-//   {
-//     image: "/assets/images/movie/gallary/mumbai-premier/i (6).JPG",
-//   },
-//   {
-//     image: "/assets/images/movie/gallary/mumbai-premier/i (7).JPG",
-//   },
-//   {
-//     image: "/assets/images/movie/gallary/mumbai-premier/i (8).JPG",
-//   },
-//   {
-//     image: "/assets/images/movie/gallary/mumbai-premier/i (9).JPG",
-//   },
-// ];
-// const ahemdabad: IImage[] = [
-
-//   // {
-//   //   image: "/assets/images/career/gallary/1.jpg",
-//   // },
-// ];
 
 function CarrerGallery() {
   const [showModal, setShowModal] = useState(false);
@@ -106,9 +72,6 @@ function CarrerGallery() {
             className="circle-img"
             alt="Landscape picture"
             fill
-            // width={600}
-            // height={250}
-            // style={{ height: "250px" }}
           />
 
           <h3
@@ -140,7 +103,7 @@ function CarrerGallery() {
                       {...swiperOptions}
                       id="content-carousel-container-unq-w"
                       className="swiper-container"
-                      onSwiper={swiper => (swiperRef.current = swiper)}
+                      onSwiper={(swiper) => (swiperRef.current = swiper)}
                     >
                       {events.map((item, i) => (
                         <span key={i} className="text-center">
@@ -154,16 +117,6 @@ function CarrerGallery() {
                   )}
                 </div>
 
-                {/* <div
-                className=""
-                style={{
-                  position: "absolute",
-                  width: "89vw",
-                  alignItems: "center",
-                  top: "94%",
-                  alignContent: "center",
-                }}
-              > */}
                 <div
                   className="swiper-button-next text-dark fw-600 swiper-arrow-mobile-right-carrer-gallery"
                   style={{
@@ -200,7 +153,7 @@ function CarrerGallery() {
       </section>
 
       {/* Modal for displaying images */}
-      <div>
+      {/* <div>
         <Modal size="md" show={showModal} onHide={handleClose} centered>
           <Modal.Body>
             <Swiper
@@ -231,7 +184,16 @@ function CarrerGallery() {
             </button>
           </Modal.Footer>
         </Modal>
-      </div>
+      </div> */}
+
+      <ImageModal
+        showModal={showModal}
+        images={events}
+        onClose={() => setShowModal(false)}
+        initial={activeIndex}
+      >
+        {(i) => <img style={{ maxHeight: "450px" }} src={i.image} />}
+      </ImageModal>
     </>
   );
 }

@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import Heading from "@/components/heading/Heading";
@@ -104,15 +103,6 @@ function News2() {
   return (
     <section className="blog-modern">
       <div className="container">
-        {/* <div className="sec-lg-head mb-10">
-          <div className="row" style={{ position: "relative" }}>
-            <div className="col-lg-12">
-              <div>
-                <Heading headTitle="Latest News" />
-              </div>
-            </div>
-          </div>
-        </div> */}
         <Heading headTitle="Latest News" />
 
         <div className="blog-carsouel">
@@ -122,7 +112,7 @@ function News2() {
               id="content-carousel-container-unq-blog"
               className="swiper-container"
             >
-              {data?.map((item) => (
+              {data?.map(item => (
                 <SwiperSlide
                   key={item.id}
                   className="wow fadeInUp"
@@ -141,16 +131,13 @@ function News2() {
                         }}
                         height={500}
                       />
-                      {/* Date Badge */}
                       <div className="absolute top-2 left-2 bg-orange-600 text-white rounded-lg p-2">
                         <div className="text-center font-bold text-lg">
                           {item.date}
                         </div>
-                        {/* <div className="text-center text-sm">NOV</div> */}
                       </div>
                     </div>
 
-                    {/* Content */}
                     <div className="px-6 py-4">
                       <div className="text-orange-600 font-semibold text-sm mb-2">
                         {item.category}
@@ -161,7 +148,6 @@ function News2() {
                       </p>
                     </div>
 
-                    {/* Author */}
                     <div className="px-6 pt-4 pb-2">
                       <span className="text-gray-600 text-sm">
                         {item.author}

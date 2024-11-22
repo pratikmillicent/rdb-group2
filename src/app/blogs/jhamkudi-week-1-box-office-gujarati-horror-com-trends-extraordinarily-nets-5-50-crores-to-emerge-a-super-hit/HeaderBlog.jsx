@@ -15,15 +15,6 @@ function HeaderBlog() {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="caption">
-              {/* <div className="sub-title fz-12">
-                <a href="#0">
-                  <span>Marketing</span>
-                </a>
-                <span> , </span>
-                <a href="#0">
-                  <span>Design</span>
-                </a>
-              </div> */}
               <h1 className="fz-55 mt-30">
                 Jhamkudi Week 1 Box Office: Gujarati horror-com trends
                 extraordinarily; Nets 5.50 crores to emerge a super-hit
@@ -56,10 +47,6 @@ function HeaderBlog() {
                 </div>
               </div>
               <div className="right-info ml-auto">
-                {/* <div>
-                  <span className="pe-7s-comment fz-18 mr-10"></span>
-                  <span className="opacity-7">02 Comments</span>
-                </div> */}
                 <SocialIcon />
               </div>
             </div>
