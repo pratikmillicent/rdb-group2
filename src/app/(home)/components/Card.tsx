@@ -19,7 +19,7 @@ function Card({ imagen }: any) {
       className={Styles.card}
       style={{
         ...props3,
-        height: "80vh",
+        maxHeight: "min(70dvh, calc(100dvh - 120px))",
         width: "320px",
       }}
       onMouseEnter={() => setShown(true)}
