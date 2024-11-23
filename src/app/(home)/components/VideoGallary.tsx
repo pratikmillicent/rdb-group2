@@ -21,35 +21,35 @@ interface Video {
 
 const data: Video[] = [
   {
-    image: "/assets/home/RDB_video_thumbnails/100cr.png",
+    image: "/assets/images3/home/gallary/100cr.png",
     video: "/assets/video/video-gallery/100cr.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
   },
   {
-    image: "/assets/home/RDB_video_thumbnails/area_conference.png",
+    image: "/assets/images3/home/gallary/area_conference.png",
     video: "/assets/video/video-gallery/area-conference.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
   },
   {
-    image: "/assets/home/RDB_video_thumbnails/codeword_upgrade.png",
+    image: "/assets/images3/home/gallary/codeword_upgrade.png",
     video: "/assets/video/video-gallery/codeword-upgreade.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
   },
   {
-    image: "/assets/home/RDB_video_thumbnails/deliver.png",
+    image: "/assets/images3/home/gallary/deliver.png",
     video: "/assets/video/video-gallery/deliver.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
   },
   {
-    image: "/assets/home/RDB_video_thumbnails/jamkudi.png",
+    image: "/assets/images3/home/gallary/jamkudi.png",
     video: "/assets/video/video-gallery/jumkudi.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
@@ -57,42 +57,42 @@ const data: Video[] = [
   },
 
   {
-    image: "/assets/home/RDB_video_thumbnails/kandivali.png",
+    image: "/assets/images3/home/gallary/kandivali.png",
     video: "/assets/video/video-gallery/kandivali.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
   },
   {
-    image: "/assets/home/RDB_video_thumbnails/grand_celebration.png",
+    image: "/assets/images3/home/gallary/grand_celebration.png",
     video: "/assets/video/video-gallery/grand-celebrate.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
   },
   {
-    image: "/assets/home/RDB_video_thumbnails/project_lauched.png",
+    image: "/assets/images3/home/gallary/project_lauched.png",
     video: "/assets/video/video-gallery/new poject.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
   },
   {
-    image: "/assets/home/RDB_video_thumbnails/rudra_paradise.png",
+    image: "/assets/images3/home/gallary/rudra_paradise.png",
     video: "/assets/video/video-gallery/rundra-paradise.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
   },
   {
-    image: "/assets/home/RDB_video_thumbnails/span_insta.png",
+    image: "/assets/images3/home/gallary/span_insta.png",
     video: "/assets/video/video-gallery/span-insta.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
   },
   {
-    image: "/assets/home/RDB_video_thumbnails/statum_event.png",
+    image: "/assets/images3/home/gallary/statum_event.png",
     video: "/assets/video/video-gallery/stratum.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
@@ -298,7 +298,7 @@ const swiperOptions = {
   speed: 1000,
   spaceBetween: 40,
   loop: false,
-  centeredSlides: true,
+  centeredSlides: false,
   breakpoints: {
     0: {
       slidesPerView: 1,

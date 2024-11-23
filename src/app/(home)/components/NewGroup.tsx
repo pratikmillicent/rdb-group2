@@ -18,7 +18,7 @@ interface DataItem {
 const data: DataItem[] = [
   {
     id: 1,
-    image: "assets/images3/home/properties-2.jpg",
+    image: "assets/images3/home/group/properties.jpg",
     logo: "assets/images/home/rdb-property.png",
     type: "Properties",
     title: "Aspect Global Ventures Pvt.Ltd.",
@@ -26,7 +26,7 @@ const data: DataItem[] = [
   },
   {
     id: 2,
-    image: "assets/images3/home/realty-11.jpg",
+    image: "assets/images3/home/group/realty.jpg",
     logo: "assets/images/home/rdb-realty.png",
     type: "Realty",
     title: "Aspect Bullion & Refinery",
@@ -34,7 +34,7 @@ const data: DataItem[] = [
   },
   {
     id: 3,
-    image: "assets/images3/home/fracto-8.jpg",
+    image: "assets/images3/home/group/fracto.jpg",
     logo: "assets/images/home/rdb-movie.png",
     type: "Fracto",
     title: "Aspect Infrastructure",
@@ -42,7 +42,7 @@ const data: DataItem[] = [
   },
   {
     id: 4,
-    image: "assets/images3/home/movie.avif",
+    image: "assets/images3/home/group/movie.avif",
     logo: "assets/images/home/rdb-movie.png",
     type: "Movies",
     title: "Aspect Infrastructure",
@@ -50,7 +50,7 @@ const data: DataItem[] = [
   },
   {
     id: 5,
-    image: "assets/images3/home/stratum-3.jpg",
+    image: "assets/images3/home/group/stratum.jpg",
     logo: "assets/images/home/rdb-movie.png",
     type: "Stratum",
     title: "Aspect Infrastructure",
@@ -58,7 +58,7 @@ const data: DataItem[] = [
   },
   {
     id: 6,
-    image: "assets/images3/home/18d-3.jpg",
+    image: "assets/images3/home/group/18d.jpg",
     logo: "assets/images/home/rdb-movie.png",
     type: "Eighteen Dimensions",
     title: "Aspect Infrastructure",

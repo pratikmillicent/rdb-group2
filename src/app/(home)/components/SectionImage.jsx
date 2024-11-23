@@ -2,12 +2,12 @@ import { useState } from "react";
 import "../SectionImage.css";
 
 const images = {
-  overview: "/assets/images3/home/aspirations.avif",
-  mission: "/assets/images/home/future-outlook.jpg",
-  vision: "/assets/images3/home/future-outlook-2.png",
+  aspirations: "/assets/images3/home/about/aspirations.avif",
+  outlook: "/assets/images3/home/about/future-outlook.jpg",
+  whatDrivesUs: "/assets/images3/home/about/what-drives-us.png",
 };
 function SectionImage() {
-  const [selectedTab, setSelectedTab] = useState("overview");
+  const [selectedTab, setSelectedTab] = useState("aspirations");
   const [currentImage, setCurrentImage] = useState(images[selectedTab]);
   const [animate, setAnimate] = useState(false);
 
@@ -51,41 +51,41 @@ function SectionImage() {
           </div>
           <div className="w-100 mb-4 d-flex flex-wrap justify-content-start">
             <button
-              style={tabStyle(selectedTab === "overview")}
-              onClick={() => handleTabClick("overview")}
+              style={tabStyle(selectedTab === "aspirations")}
+              onClick={() => handleTabClick("aspirations")}
               className="btn section-mobile"
             >
               Our Aspiration
             </button>
             <button
-              style={tabStyle(selectedTab === "mission")}
-              onClick={() => handleTabClick("mission")}
+              style={tabStyle(selectedTab === "outlook")}
+              onClick={() => handleTabClick("outlook")}
               className="btn section-mobile"
             >
               Future Outlook
             </button>
             <button
-              style={tabStyle(selectedTab === "vision")}
-              onClick={() => handleTabClick("vision")}
+              style={tabStyle(selectedTab === "whatDrivesUs")}
+              onClick={() => handleTabClick("whatDrivesUs")}
               className="btn section-mobile"
             >
               What Drives Us
             </button>
           </div>
           <div className={`tab-content ${animate ? "slide-in" : ""}`}>
-            {selectedTab === "overview" && (
+            {selectedTab === "aspirations" && (
               <p className="text-white fz-16 fw-400 w-100">
                 We aspire to be a global leader, setting new standards of
                 excellence and innovation across diverse industries. With a
                 relentless focus on purpose-driven ventures, we aim to create
                 lasting value for our stakeholders, inspire progress, and
-                positively impact the global marketplace. Through our visionary
-                leadership and commitment to innovation, we strive to shape a
-                future where every endeavor contributes meaningfully to the
-                world.
+                positively impact the global marketplace. Through our
+                whatDrivesUsary leadership and commitment to innovation, we
+                strive to shape a future where every endeavor contributes
+                meaningfully to the world.
               </p>
             )}
-            {selectedTab === "mission" && (
+            {selectedTab === "outlook" && (
               <p className="text-white fz-16 fw-400">
                 Looking ahead, we see immense potential for growth and
                 diversification across our ventures. In real estate, we plan to
@@ -98,16 +98,17 @@ function SectionImage() {
                 to remain ahead of industry trends.
               </p>
             )}
-            {selectedTab === "vision" && (
+            {selectedTab === "whatDrivesUs" && (
               <p className="text-white fz-16 fw-400 pb-5">
                 We are driven by a passion for excellence, innovation, and
                 making a meaningful impact. Our commitment to purpose-driven
                 ventures fuels our determination to lead across diverse
                 industries, constantly pushing the boundaries of what’s
-                possible. Guided by our vision to deliver exceptional value, we
-                thrive on challenges, embrace opportunities for growth, and
-                remain steadfast in our pursuit of creating a sustainable, more
-                innovative world for our stakeholders and communities.
+                possible. Guided by our whatDrivesUs to deliver exceptional
+                value, we thrive on challenges, embrace opportunities for
+                growth, and remain steadfast in our pursuit of creating a
+                sustainable, more innovative world for our stakeholders and
+                communities.
               </p>
             )}
           </div>
