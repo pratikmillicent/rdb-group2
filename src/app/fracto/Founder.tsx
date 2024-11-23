@@ -11,15 +11,15 @@ function Founder() {
       <div style={{ flex: "1" }}>
         <Heading headTitle="Our Founder" />
         <p className="mobile-justify">
-          For realty page- Dhaval Thakkar is a dynamic leader with over 20 years
-          of experience in commercial and retail real estate, renowned for his
-          attention to detail and passion for innovation. His leadership has
-          been instrumental in the company’s growth, driving the delivery of
-          over 1.5 million square feet of prime real estate across India.
-          Dhaval’s approach is bold and forward-thinking, emphasizing
-          diversification and embracing new technologies to create meaningful
-          value from every challenge. What sets Dhaval apart is his ability to
-          inspire his team, fostering a culture of collaboration and creativity.
+          Dhaval Thakkar is a dynamic leader with over 20 years of experience in
+          commercial and retail real estate, renowned for his attention to
+          detail and passion for innovation. His leadership has been
+          instrumental in the company’s growth, driving the delivery of over 1.5
+          million square feet of prime real estate across India. Dhaval’s
+          approach is bold and forward-thinking, emphasizing diversification and
+          embracing new technologies to create meaningful value from every
+          challenge. What sets Dhaval apart is his ability to inspire his team,
+          fostering a culture of collaboration and creativity.
         </p>
         <p className="mobile-justify">
           In addition to his expertise in real estate, Dhaval plays a pivotal

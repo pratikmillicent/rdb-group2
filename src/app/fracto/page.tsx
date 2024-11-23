@@ -48,7 +48,7 @@ const page = () => {
               padding: "0 20px",
             }}
           >
-            <Heading headTitle="Fracto Prop" color="white" isSpace={false} />
+            <Heading headTitle="FractoProp" color="white" isSpace={false} />
           </div>
         </div>
       </div>
