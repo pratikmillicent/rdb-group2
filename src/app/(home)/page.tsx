@@ -260,6 +260,10 @@ let cards = [
     key: 8,
     content: <Card imagen="/assets/home/Event6.jpg" />,
   },
+  {
+    key: 9,
+    content: <Card imagen="/assets/home/Event7.jpg" />,
+  },
 ];
 
 // CSS for the video transition
