@@ -9,7 +9,7 @@ const page = () => {
     <>
       <div style={{ position: "relative" }}>
         <Image
-          src="/assets/images3/careers/banner-4.jpg"
+          src="/assets/images3/careers/banner.jpg"
           className="circle-img career-banner banner"
           alt="carrer page"
           style={{ objectFit: "cover" }}
@@ -84,7 +84,6 @@ const page = () => {
                         </div>
                         <div className="col-lg-6">
                           <img
-                            // style={{ height: "80vh" }}
                             src="/assets/images3/careers/motivation.jpg"
                             alt="cre"
                           />

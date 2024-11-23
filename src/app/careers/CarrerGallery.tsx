@@ -25,13 +25,13 @@ interface IImage {
 
 const events: IEvent[] = [
   {
-    image: "/assets/images/career/gallary/1.jpg",
+    image: "/assets/images3/careers/gallary/1.jpg",
   },
   {
-    image: "/assets/images/career/gallary/2.jpg",
+    image: "/assets/images3/careers/gallary/2.jpg",
   },
   {
-    image: "/assets/images/career/gallary/3.jpg",
+    image: "/assets/images3/careers/gallary/3.jpg",
   },
 ];
 
@@ -112,7 +112,6 @@ function CarrerGallery() {
                           </SwiperSlide>
                         </span>
                       ))}
-                      {/* <div className="swiper-pagination" /> */}
                     </Swiper>
                   )}
                 </div>
@@ -145,46 +144,11 @@ function CarrerGallery() {
                     transform: "translateY(-50%)",
                   }}
                 />
-                {/* </div> */}
               </div>
             </div>
           </div>
         </div>
       </section>
-
-      {/* Modal for displaying images */}
-      {/* <div>
-        <Modal size="md" show={showModal} onHide={handleClose} centered>
-          <Modal.Body>
-            <Swiper
-              // spaceBetween={0}
-              slidesPerView={1}
-              initialSlide={activeIndex}
-              onSlideChange={swiper => setActiveIndex(swiper.activeIndex)}
-              navigation
-              modules={[Navigation]}
-            >
-              {events.map((image, index) => (
-                <SwiperSlide key={index}>
-                  <div className="swiper-image-container">
-                    <img
-                      style={{ maxHeight: "450px" }}
-                      src={image.image}
-                      alt={image.image}
-                      className="landscape-image"
-                    />
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </Modal.Body>
-          <Modal.Footer>
-            <button onClick={handleClose} className="btn btn-golden">
-              Close
-            </button>
-          </Modal.Footer>
-        </Modal>
-      </div> */}
 
       <ImageModal
         showModal={showModal}

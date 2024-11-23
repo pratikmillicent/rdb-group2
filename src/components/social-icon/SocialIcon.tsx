@@ -14,12 +14,6 @@ const socialIconData = [
     alt: "Facebook",
     color: "#3b5998", // Facebook color
   },
-  //   {
-  //     icon: "x-twitter",
-  //     url: "https://x.com",
-  //     alt: "X (formerly Twitter)",
-  //     color: "#000000", // X color
-  //   },
   {
     icon: "/assets/social-media/linkedin.svg",
     url: "https://www.linkedin.com/company/rd-brothers-property-consultant-llp/",
@@ -47,17 +41,7 @@ const SocialIcon = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="d-inline-flex align-items-center text-decoration-none"
-            // style={{ color: social.color }}
           >
-            {/* <i
-              className={`fab fa-${social.icon} fa-2x`}
-              style={{
-                background: social.icon === "instagram" ? social.color : "none",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor:
-                  social.icon === "instagram" ? "transparent" : social.color,
-              }}
-            ></i> */}
             <Image
               src={social.icon}
               alt={social.icon}
@@ -66,7 +50,6 @@ const SocialIcon = () => {
               style={{
                 width: "24px",
                 height: "24px",
-                // objectFit: "cover",
               }}
             />
           </a>

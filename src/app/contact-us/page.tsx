@@ -1,4 +1,3 @@
-// check
 "use client";
 import Heading from "@/components/heading/Heading";
 import Image from "next/image";
@@ -10,7 +9,7 @@ const ContactUs = () => {
     <>
       <div style={{ position: "relative", height: "94vh" }}>
         <Image
-          src="/assets/images3/contact/banner-2.jpg"
+          src="/assets/images3/contact/banner.jpg"
           className="circle-img contact-banner banner"
           alt="carrer page"
           style={{ objectFit: "cover" }}
@@ -40,7 +39,6 @@ const ContactUs = () => {
               padding: "0 20px",
             }}
           >
-            {/* <h3 className="banner-heading hero-heading">Contact us</h3> */}
             <Heading headTitle="Contact Us" color="white" isSpace={false} />
           </div>
         </div>
