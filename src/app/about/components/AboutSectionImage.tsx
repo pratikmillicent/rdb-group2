@@ -2,9 +2,8 @@ import { useState } from "react";
 import "../../(home)/SectionImage.css";
 
 const images = {
-  overview: "/assets/images/home/about3.jpg",
-  vision: "/assets/images/about/vision.jpeg",
-  mission: "/assets/images3/about/mission-2.jpg",
+  vision: "/assets/images3/about/vision-mission/vision.jpeg",
+  mission: "/assets/images3/about/vision-mission/mission.jpg",
 };
 
 function AboutSectionImage() {
@@ -12,7 +11,7 @@ function AboutSectionImage() {
   const [currentImage, setCurrentImage] = useState(images[selectedTab]);
   const [animate, setAnimate] = useState(false);
 
-  const tabStyle = isSelected => ({
+  const tabStyle = (isSelected) => ({
     backgroundColor: isSelected ? "var(--golden)" : "transparent",
     color: isSelected ? "white" : "white",
     fontWeight: "600",
@@ -24,7 +23,7 @@ function AboutSectionImage() {
     fontSize: "14px",
   });
 
-  const handleTabClick = tab => {
+  const handleTabClick = (tab) => {
     if (selectedTab !== tab) {
       setAnimate(true);
       setTimeout(() => {
