@@ -9,42 +9,42 @@ const data = [
   {
     id: 1,
     title: "Tising in our life became a info noise",
-    cover: "/assets/images/home/news2.jpg",
+    cover: "/assets/images/home/news2.webp",
     author: "Admin",
     date: "august 6, 2021",
   },
   {
     id: 2,
     title: "We create some things for your success in future growth",
-    cover: "/assets/images/home/news1.jpg",
+    cover: "/assets/images/home/news1.webp",
     author: "Admin",
     date: "august 6, 2021",
   },
   {
     id: 3,
     title: "Creative advertising in our life became a info noise",
-    cover: "/assets/images/home/news2.jpg",
+    cover: "/assets/images/home/news2.webp",
     author: "Admin",
     date: "august 6, 2021",
   },
   {
     id: 4,
     title: "Creative advertising in our life became a info noise",
-    cover: "/assets/images/home/news1.jpg",
+    cover: "/assets/images/home/news1.webp",
     author: "Admin",
     date: "august 6, 2021",
   },
   {
     id: 5,
     title: "Creative advertising in our life became a info noise",
-    cover: "/assets/images/home/news2.jpg",
+    cover: "/assets/images/home/news2.webp",
     author: "Admin",
     date: "august 6, 2021",
   },
   {
     id: 6,
     title: "Creative advertising in our life became a info noise",
-    cover: "/assets/images/home/news1.jpg",
+    cover: "/assets/images/home/news1.webp",
     author: "Admin",
     date: "august 6, 2021",
   },
@@ -134,7 +134,7 @@ function News() {
               id="content-carousel-container-unq-blog"
               className="swiper-container"
             >
-              {data?.map(item => (
+              {data?.map((item) => (
                 <SwiperSlide
                   key={item.id}
                   className="wow fadeInUp"

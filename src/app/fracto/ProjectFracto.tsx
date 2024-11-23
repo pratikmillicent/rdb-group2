@@ -39,7 +39,7 @@ const ProjectFracto = () => {
       <div className="gallery " style={{ overflowX: "hidden" }}>
         <div className="row grid md-marg">
           <Swiper {...swiperOptions}>
-            {Fractoproject.map(item => (
+            {Fractoproject.map((item) => (
               <div
                 className={`col-lg-4 col-md-6 items ${item.filter} info-overlay mb-0 px-2`}
                 key={item.id}
@@ -197,7 +197,7 @@ const Fractoproject = [
     id: 2,
     filter: "app",
     image:
-      "https://media.istockphoto.com/id/1350424607/photo/seating-area-with-a-sofa-next-to-a-beige-living-room-wall.jpg?s=612x612&w=0&k=20&c=BynGhd6Gw6R1nfWn_JdGywwFoy1oHfZM0wARToOsPRE=",
+      "https://media.istockphoto.com/id/1350424607/photo/seating-area-with-a-sofa-next-to-a-beige-living-room-wall.webp?s=612x612&w=0&k=20&c=BynGhd6Gw6R1nfWn_JdGywwFoy1oHfZM0wARToOsPRE=",
     type: "Design ART",
     year: "2023",
     title: "Character Design",
@@ -215,7 +215,7 @@ const Fractoproject = [
     id: 4,
     filter: "web",
     image:
-      "https://media.istockphoto.com/id/905480644/photo/modern-new-light-interior-of-kitchen-with-white-furniture-and-dining-table.jpg?s=612x612&w=0&k=20&c=kuhJgH_1Zw1fecpkZLbQRQTwRGf-T-RbNxqvBEUlP3w=",
+      "https://media.istockphoto.com/id/905480644/photo/modern-new-light-interior-of-kitchen-with-white-furniture-and-dining-table.webp?s=612x612&w=0&k=20&c=kuhJgH_1Zw1fecpkZLbQRQTwRGf-T-RbNxqvBEUlP3w=",
 
     type: "Design ART",
     year: "2023",
@@ -225,7 +225,7 @@ const Fractoproject = [
     id: 5,
     filter: "app",
     image:
-      "https://static.squareyards.com/resources/images/mumbai/project-image/raiaskaran-tech-park-project-project-large-image1.jpg",
+      "https://static.squareyards.com/resources/images/mumbai/project-image/raiaskaran-tech-park-project-project-large-image1.webp",
 
     type: "Design ART",
     year: "2023",
@@ -235,7 +235,7 @@ const Fractoproject = [
     id: 6,
     filter: "brand",
     image:
-      "https://www.adanirealty.com/-/media/Project/Realty/Residential/Pune/Atelier-Greens/Carousel-Images/3.jpg",
+      "https://www.adanirealty.com/-/media/Project/Realty/Residential/Pune/Atelier-Greens/Carousel-Images/3.webp",
 
     type: "Design ART",
     year: "2023",

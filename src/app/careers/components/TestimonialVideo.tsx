@@ -26,13 +26,13 @@ const data: Video[] = [
     channel: "youtube",
   },
   {
-    image: "/assets/images/career/testimonial-2.jpeg",
+    image: "/assets/images/career/testimonial-2.webp",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
   },
   {
-    image: "/assets/images/career/testimonial-3.jpg",
+    image: "/assets/images/career/testimonial-3.webp",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
@@ -57,7 +57,7 @@ function TestimonialVideo() {
 
   const renderSlide = (item: Video) => (
     <div className="">
-      <div onClick={e => openVideo?.(e, item)}>
+      <div onClick={(e) => openVideo?.(e, item)}>
         <div style={{ position: "relative" }}>
           <svg
             style={{
@@ -106,7 +106,7 @@ function TestimonialVideo() {
                     {...swiperOptions}
                     id="content-carousel-container-unq-w"
                     className="swiper-container"
-                    onSwiper={swiper => (swiperRef.current = swiper)}
+                    onSwiper={(swiper) => (swiperRef.current = swiper)}
                   >
                     {data.map((item, i) => (
                       <SwiperSlide key={i}>{renderSlide(item)}</SwiperSlide>

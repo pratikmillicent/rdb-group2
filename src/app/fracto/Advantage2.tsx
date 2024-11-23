@@ -17,7 +17,7 @@ const Advantage = () => {
       >
         <div className="col-md-5 col-12 img-hide">
           <img
-            src="assets/images3/fracto/howitworks.png"
+            src="assets/images3/fracto/howitworks.webp"
             alt="Commercial Property Financing Solutions"
             className="img-fluid "
             style={{

@@ -1,25 +1,25 @@
 const data = [
   {
     id: 1,
-    image: "/assets/images/about/testimonial4.jpg",
+    image: "/assets/images/about/testimonial4.webp",
     name: "adrian parody",
     position: "Co-Founder",
   },
   {
     id: 2,
-    image: "/assets/images/about/testimonial.jpg",
+    image: "/assets/images/about/testimonial.webp",
     name: "adrian parody",
     position: "Co-Founder",
   },
   {
     id: 3,
-    image: "/assets/images/about/testimonial3.jpg",
+    image: "/assets/images/about/testimonial3.webp",
     name: "adrian parody",
     position: "Co-Founder",
   },
   {
     id: 4,
-    image: "/assets/images/about/testimonial2.jpg",
+    image: "/assets/images/about/testimonial2.webp",
     name: "adrian parody",
     position: "Co-Founder",
   },
@@ -38,7 +38,7 @@ function Team() {
       <section className="team-crev section-padding sub-bg">
         <div className="container">
           <div className="row md-marg">
-            {data.map(item => (
+            {data.map((item) => (
               <div className="col-lg-4" key={item.id}>
                 <div className="swiper-slide mb-50">
                   <div className="item">

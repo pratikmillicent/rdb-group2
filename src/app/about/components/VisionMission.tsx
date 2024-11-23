@@ -108,10 +108,10 @@ const VisionMission: React.FC = () => {
                 style={{ height: "100vh" }}
                 data-background={
                   selectedTab === "vision"
-                    ? "/assets/images/home/our-vision.jpg"
+                    ? "/assets/images/home/our-vision.webp"
                     : selectedTab === "mission"
-                    ? "/assets/images/home/our-mission.jpg"
-                    : "/assets/images/home/news1.jpg"
+                    ? "/assets/images/home/our-mission.webp"
+                    : "/assets/images/home/news1.webp"
                 }
               ></div>
             </div>

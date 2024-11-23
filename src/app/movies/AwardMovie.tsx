@@ -8,7 +8,7 @@ const AwardMovie = () => {
       title:
         "Best feature film Promoting National, Social and Enviorment Values - Silver Lotus Award",
       year: 2024,
-      img: "/assets/images3/awards/1.jpg",
+      img: "/assets/images3/awards/1.webp",
       recipient: "Viral Shah",
       movie: "Kutch Express",
     },
@@ -17,7 +17,7 @@ const AwardMovie = () => {
       title:
         "Best feature film Promoting National, Social and Enviorment Values - Silver Lotus Award",
       year: 2024,
-      img: "/assets/images3/awards/2.jpg",
+      img: "/assets/images3/awards/2.webp",
       recipient: "Viral Shah",
       movie: "Kutch Express",
     },
@@ -26,7 +26,7 @@ const AwardMovie = () => {
       title:
         "Best feature film Promoting National, Social and Enviorment Values - Silver Lotus Award",
       year: 2024,
-      img: "/assets/images3/awards/3.jpg",
+      img: "/assets/images3/awards/3.webp",
       recipient: "Viral Shah",
       movie: "Kutch Express",
     },

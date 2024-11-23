@@ -8,7 +8,7 @@ const DirectorCard2 = () => {
       <li className="stack-card" id="card1">
         <div className="stack-card-body">
           <Image
-            src="/assets/images3/directors/raj.jpg"
+            src="/assets/images3/directors/raj.webp"
             alt="Raj Thakkar"
             width={600}
             height={400}
@@ -48,7 +48,7 @@ const DirectorCard2 = () => {
         <div className="stack-card-body">
           <Image
             className="img-responsive rounded"
-            src="/assets/images3/directors/dhaval.jpg"
+            src="/assets/images3/directors/dhaval.webp"
             alt="Raj Thakkar"
             width={600}
             height={400}

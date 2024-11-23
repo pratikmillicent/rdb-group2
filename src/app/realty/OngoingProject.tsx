@@ -163,7 +163,7 @@ const data = [
   {
     id: 1,
     picture:
-      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/4.jpg",
+      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/4.webp",
     name: "Leonard Heiser",
     position: "Customer",
     content:
@@ -172,7 +172,7 @@ const data = [
   {
     id: 2,
     picture:
-      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/3.jpg",
+      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/3.webp",
     name: "Leonard Heiser",
     position: "Customer",
     content:
@@ -181,7 +181,7 @@ const data = [
   {
     id: 3,
     picture:
-      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/1.jpg",
+      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/1.webp",
     name: "Leonard Heiser",
     position: "Customer",
     content:
@@ -190,7 +190,7 @@ const data = [
   {
     id: 4,
     picture:
-      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/2.jpg",
+      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/2.webp",
     name: "Leonard Heiser",
     position: "Customer",
     content:

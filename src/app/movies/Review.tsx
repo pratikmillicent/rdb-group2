@@ -56,7 +56,7 @@ function Review() {
           <div
             className="col-lg-4 "
             style={{
-              background: "url(/assets/images/movie/film_projector.jpg)",
+              background: "url(/assets/images3/movies/film_projector.webp)",
               backgroundSize: "100% 100%",
               backgroundRepeat: "no-repeat",
             }}

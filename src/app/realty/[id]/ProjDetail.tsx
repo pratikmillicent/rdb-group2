@@ -94,7 +94,7 @@ const ProjectDetail: React.FC = () => {
             </div>
             <div className="col-md-4">
               <Image
-                src="https://www.ghar.tv/projectimages/168/photo-518.jpg"
+                src="https://www.ghar.tv/projectimages/168/photo-518.webp"
                 alt="image"
                 style={{
                   height: "250px",
@@ -108,7 +108,7 @@ const ProjectDetail: React.FC = () => {
             </div>
             <div className="col-md-4">
               <Image
-                src="https://img.staticmb.com/mbimages/project/Photo_h310_w462/Project-Photo-40-Omkar-1973-Mumbai-5019920_345_1366_310_462.jpg"
+                src="https://img.staticmb.com/mbimages/project/Photo_h310_w462/Project-Photo-40-Omkar-1973-Mumbai-5019920_345_1366_310_462.webp"
                 alt="image"
                 style={{
                   height: "250px",

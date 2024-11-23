@@ -35,7 +35,7 @@ function Founder() {
         <div style={{ flex: ".4", position: "relative" }}>
           <Image
             alt="Dhaval Thakkar"
-            src="/assets/images3/directors/dhaval.jpg"
+            src="/assets/images3/directors/dhaval.webp"
             style={{ zIndex: 1 }}
             width={100}
             height={100}

@@ -24,7 +24,7 @@ function RecentPosts() {
               date: "August 6, 2022",
               title:
                 "Navigating the Indian Real Estate Landscape: Insights from RD Brothers",
-              image: "/assets/images/blog/blog-3.jpg",
+              image: "/assets/images/blog/blog-3.webp",
               tags: ["Marketing", "Design"],
               author: "Admin",
               url: "why-nris-are-investing-in-indian-real-estate-top-reasons-explained",

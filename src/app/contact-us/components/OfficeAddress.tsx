@@ -9,7 +9,7 @@ const OfficeAddress = () => {
         "304, Eco Futurz,Opp. Samarth Aquastic,Near Om Terrace,New City light Road,Surat - 395007",
       phone: "+1 123-456-7890",
       email: "surat@rdbrothers.com",
-      image: "/assets/images3/contact/offices/surat.png",
+      image: "/assets/images3/contact/offices/surat.webp",
     },
     {
       branch: "Vadodara",
@@ -17,7 +17,7 @@ const OfficeAddress = () => {
         "Office No. 420,Neptune Edge,Sarabhai Campus,Nr. Genda Circle, Vadiwadi,Vadodara - 390023",
       email: "info@example.com",
       phone: "+1 123-456-7890",
-      image: "/assets/images3/contact/offices/baroda.png",
+      image: "/assets/images3/contact/offices/baroda.webp",
     },
     {
       branch: "Ahmedabad",
@@ -25,7 +25,7 @@ const OfficeAddress = () => {
         "C 2/01,The First Commercial Complex,B/H Keshav Baug Party,Plot Near Shivalik High Street,Vastrapur, Ahmedabad - 380015",
       phone: "+1 123-456-7890",
       email: "ahmedabad@rdbrothers.com",
-      image: "/assets/images3/contact/offices/ahmedabad.png",
+      image: "/assets/images3/contact/offices/ahmedabad.webp",
     },
   ];
 
@@ -36,7 +36,7 @@ const OfficeAddress = () => {
         <div className="d-md-flex d-block gap-3">
           <div className="col-md-4" style={{ backgroundSize: "cover" }}>
             <img
-              src={"/assets/images3/contact/offices/goregaon.jpg"}
+              src={"/assets/images3/contact/offices/goregaon.webp"}
               alt=""
               className="img-fluid"
               style={{ marginBottom: "15px", height: "250px" }}
@@ -74,7 +74,7 @@ const OfficeAddress = () => {
           </div>
           <div className="col-md-4" style={{ backgroundSize: "cover" }}>
             <img
-              src={"/assets/images3/contact/offices/borivali-2.png"}
+              src={"/assets/images3/contact/offices/borivali-2.webp"}
               alt=""
               className="img-fluid"
               style={{ marginBottom: "15px", height: "250px" }}
@@ -108,7 +108,7 @@ const OfficeAddress = () => {
           </div>
           <div className="col-md-4" style={{ backgroundSize: "cover" }}>
             <img
-              src={"/assets/images3/contact/offices/mumbai-metro.jpeg"}
+              src={"/assets/images3/contact/offices/mumbai-metro.webp"}
               alt=""
               className="img-fluid"
               style={{ marginBottom: "15px", height: "250px" }}
@@ -182,7 +182,7 @@ const OfficeAddress = () => {
         <div className="d-flex gap-3">
           <div className="col-md-4" style={{ backgroundSize: "cover" }}>
             <img
-              src={"/assets/images3/contact/offices/dubai.jpg"}
+              src={"/assets/images3/contact/offices/dubai.webp"}
               alt=""
               className="img-fluid"
               style={{ marginBottom: "15px", height: "250px" }}

@@ -47,8 +47,8 @@ function MissionVisonSvg() {
         clip-path="url(#shape-img)"
         height="100%"
         width="100%"
-        // xlinkHref="assets/images2/our-vision-mission-large.jpg"
-        xlinkHref="https://megaone.acrothemes.com/agency-hotspot/images/slider-img.png"
+        // xlinkHref="assets/images2/our-vision-mission-large.webp"
+        xlinkHref="https://megaone.acrothemes.com/agency-hotspot/images/slider-img.webp"
       ></image>
     </svg>
   );

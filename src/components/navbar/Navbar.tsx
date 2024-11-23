@@ -179,7 +179,7 @@ function Navbar() {
                 width: "160px",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "100% 100%",
-                backgroundImage: "url(/rdb_logo-small.png)",
+                backgroundImage: "url(/rdb_logo-small.webp)",
               }}
               className="logo-responsive"
               // alt="logo"

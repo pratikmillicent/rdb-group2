@@ -25,7 +25,7 @@ function About() {
                 <div>
                   <div className="icon-img-50 mr-60">
                     <Image
-                      src={`/assets/images2/icon1.png`}
+                      src={`/assets/images2/icon1.webp`}
                       alt="Landscape picture"
                       width={800}
                       height={500}
@@ -61,7 +61,7 @@ function About() {
                 <div>
                   <div className="icon-img-50 mr-60">
                     <Image
-                      src={`/assets/images2/icon2.png`}
+                      src={`/assets/images2/icon2.webp`}
                       alt="Landscape picture"
                       width={800}
                       height={500}
@@ -97,7 +97,7 @@ function About() {
                 <div>
                   <div className="icon-img-50 mr-60">
                     <Image
-                      src={`/assets/images2/icon3.png`}
+                      src={`/assets/images2/icon3.webp`}
                       alt="Landscape picture"
                       width={800}
                       height={500}
@@ -136,7 +136,7 @@ function About() {
               <div className="image-frame"></div>
 
               <Image
-                src={`/assets/images2/about-img.jpg`}
+                src={`/assets/images2/about-img.webp`}
                 alt="Landscape picture"
                 width={800}
                 height={500}

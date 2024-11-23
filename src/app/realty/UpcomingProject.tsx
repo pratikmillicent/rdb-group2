@@ -88,7 +88,7 @@ const data = [
     number: "01",
     title: "Lodha Agency",
     image:
-      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/4.jpg",
+      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/4.webp",
     details:
       "Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     marqText: "Lodha Agency",
@@ -98,7 +98,7 @@ const data = [
     number: "02",
     title: "Thakur Realty",
     image:
-      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/3.jpg",
+      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/3.webp",
     details:
       "Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     marqText: "Thakur Realty",
@@ -108,7 +108,7 @@ const data = [
     number: "03",
     title: "Sunrise Residency",
     image:
-      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/1.jpg",
+      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/1.webp",
     details:
       "Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     marqText: "Sunrise Residency",

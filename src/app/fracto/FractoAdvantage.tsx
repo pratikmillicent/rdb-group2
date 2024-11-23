@@ -70,7 +70,7 @@ const FractoAdvantage = () => {
               </div>
             </div>
             <img
-              src="assets/images3/fracto/transparency.jpg"
+              src="assets/images3/fracto/transparency.webp"
               alt=""
               className="img-responsive"
               height="100%"
@@ -112,7 +112,7 @@ const FractoAdvantage = () => {
               </div>
             </div>
             <img
-              src="assets/images3/fracto/accessibility.jpg"
+              src="assets/images3/fracto/accessibility.webp"
               alt=""
               className="img-responsive"
               height="100%"
@@ -154,7 +154,7 @@ const FractoAdvantage = () => {
               </div>
             </div>
             <img
-              src="assets/images3/fracto/technology.jpg"
+              src="assets/images3/fracto/technology.webp"
               alt=""
               className="img-responsive"
               height="100%"
@@ -196,7 +196,7 @@ const FractoAdvantage = () => {
               </div>
             </div>
             <img
-              src="assets/images3/fracto/e2e.jpg"
+              src="assets/images3/fracto/e2e.webp"
               alt=""
               className="img-responsive"
               height="100%"

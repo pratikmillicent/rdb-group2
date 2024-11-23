@@ -7,7 +7,7 @@ import "./VisionMission2.css";
 const VisionMission: React.FC = () => {
   const [selectedTab, setSelectedTab] = useState<string>("about");
   const [imageSrc, setImageSrc] = useState<string>(
-    "/assets/images/home/news1.jpg"
+    "/assets/images/home/news1.webp"
   );
   const [displayText, setDisplayText] = useState<string>(
     "With a team of over 40 dedicated professionals, averaging more than 7 years of experience each, we add a touch of Professionalism to everything we do."
@@ -31,19 +31,19 @@ const VisionMission: React.FC = () => {
     setSelectedTab(tab);
     switch (tab) {
       case "vision":
-        setImageSrc("/assets/images/home/our-vision.jpg");
+        setImageSrc("/assets/images/home/our-vision.webp");
         setDisplayText(
           "Making Real Estate simple and effective through the use of defined processes and technology."
         );
         break;
       case "mission":
-        setImageSrc("/assets/images/home/our-mission.jpg");
+        setImageSrc("/assets/images/home/our-mission.webp");
         setDisplayText(
           "To deliver professionalism and add a touch of Indian warmth to the way property is managed across India and overseas."
         );
         break;
       default:
-        setImageSrc("/assets/images/home/news1.jpg");
+        setImageSrc("/assets/images/home/news1.webp");
         setDisplayText(
           "With a team of over 40 dedicated professionals, averaging more than 7 years of experience each, we add a touch of Professionalism to everything we do."
         );

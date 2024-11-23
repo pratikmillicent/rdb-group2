@@ -238,31 +238,31 @@ export default function Home() {
 let cards = [
   {
     key: 3,
-    content: <Card imagen="/assets/images3/home/spotlight/spotlight-1.jpg" />,
+    content: <Card imagen="/assets/images3/home/spotlight/spotlight-1.webp" />,
   },
   {
     key: 4,
-    content: <Card imagen="/assets/images3/home/spotlight/spotlight-3.jpg" />,
+    content: <Card imagen="/assets/images3/home/spotlight/spotlight-3.webp" />,
   },
   {
     key: 5,
-    content: <Card imagen="/assets/images3/home/spotlight/spotlight-2.jpg" />,
+    content: <Card imagen="/assets/images3/home/spotlight/spotlight-2.webp" />,
   },
   {
     key: 6,
-    content: <Card imagen="/assets/images3/home/spotlight/spotlight-4.jpg" />,
+    content: <Card imagen="/assets/images3/home/spotlight/spotlight-4.webp" />,
   },
   {
     key: 7,
-    content: <Card imagen="/assets/images3/home/spotlight/spotlight-5.jpg" />,
+    content: <Card imagen="/assets/images3/home/spotlight/spotlight-5.webp" />,
   },
   {
     key: 8,
-    content: <Card imagen="/assets/images3/home/spotlight/spotlight-6.jpg" />,
+    content: <Card imagen="/assets/images3/home/spotlight/spotlight-6.webp" />,
   },
   {
     key: 9,
-    content: <Card imagen="/assets/images3/home/spotlight/spotlight-7.jpg" />,
+    content: <Card imagen="/assets/images3/home/spotlight/spotlight-7.webp" />,
   },
 ];
 

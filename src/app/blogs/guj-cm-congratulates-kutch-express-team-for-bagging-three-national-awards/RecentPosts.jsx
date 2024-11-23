@@ -24,7 +24,7 @@ function RecentPosts() {
               date: "August 6, 2022",
               title:
                 "Fractional real estate is the 'new Gold' for savvy festive season investors",
-              image: "/assets/images3/blogs/building1.jpg",
+              image: "/assets/images3/blogs/building1.webp",
               tags: ["Marketing", "Design"],
               author: "Admin",
               url: "fractional-real-estate-is-the-new-gold-for-savvy-festive-season-investors",
@@ -36,7 +36,7 @@ function RecentPosts() {
               date: "August 6, 2022",
               title:
                 "Jhamkudi OTT release date ShemarooMe: When to watch this Manasi Parekh-starrer Gujarati blockbuster",
-              image: "/assets/images3/blogs/movies.jpg",
+              image: "/assets/images3/blogs/movies.webp",
               tags: ["Marketing", "Design"],
               author: "Admin",
               url: "when-to-watch-jhamkudi-online-ott-shemaroome-release-date-manasi-parekh-gujarati-movie",

@@ -46,7 +46,7 @@ const LatestNews = () => {
         slidesPerGroup: 3,
       },
     },
-    onSwiper: swiper => {
+    onSwiper: (swiper) => {
       setTimeout(() => {
         swiper.navigation.init();
         swiper.navigation.update();
@@ -79,7 +79,7 @@ const data = [
   },
   {
     id: 2,
-    image: "/assets/images2/news2.jpg",
+    image: "/assets/images2/news2.webp",
     description: "Best Place for Real Estate Investment in Mumbai...",
     link: "https://www.hiranandani.com/is-thane-the-best-real-estate-investment-destination.aspx",
   },

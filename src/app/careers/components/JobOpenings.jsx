@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "/assets/images/career/career-head-logo.png";
+import bgImage from "/assets/images/career/career-head-logo.webp";
 import { Card } from "react-bootstrap";
 
 const data = [

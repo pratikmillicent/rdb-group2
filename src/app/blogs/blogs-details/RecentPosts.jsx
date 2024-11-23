@@ -24,7 +24,7 @@ function RecentPosts() {
               date: "August 6, 2022",
               title: "Free advertising for your online business.",
               image:
-                "https://uithemez.com/i/geekfolio/dark/assets/imgs/blog/h1.jpg",
+                "https://uithemez.com/i/geekfolio/dark/assets/imgs/blog/h1.webp",
               tags: ["Marketing", "Design"],
               author: "Admin",
             }}
@@ -35,7 +35,7 @@ function RecentPosts() {
               date: "August 6, 2022",
               title: "Free advertising for your online business.",
               image:
-                "https://uithemez.com/i/geekfolio/dark/assets/imgs/blog/h1.jpg",
+                "https://uithemez.com/i/geekfolio/dark/assets/imgs/blog/h1.webp",
               tags: ["Marketing", "Design"],
               author: "Admin",
             }}

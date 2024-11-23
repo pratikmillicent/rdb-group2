@@ -17,7 +17,7 @@ function CallToAction({}) {
       <div>
         <div
           className="w-100 sec-bg-img bg-img parallaxie"
-          data-background={"/assets/images3/about/call-to-action.jpg"}
+          data-background={"/assets/images3/about/call-to-action.webp"}
         >
           <div className="">
             <div className="row text-center" style={{ color: "var(--golden)" }}>

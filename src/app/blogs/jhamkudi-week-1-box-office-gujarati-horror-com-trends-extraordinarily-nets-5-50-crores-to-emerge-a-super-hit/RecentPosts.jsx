@@ -24,7 +24,7 @@ function RecentPosts() {
               date: "August 6, 2022",
               title:
                 "Jhamkudi Week 1 Box Office: Gujarati horror-com trends extraordinarily; Nets 5.50 crores to emerge a super-hit",
-              image: "/assets/images3/blogs/movie5.jpg",
+              image: "/assets/images3/blogs/movie5.webp",
               tags: ["Marketing", "Design"],
               author: "Admin",
               url: "jhamkudi-week-1-box-office-gujarati-horror-com-trends-extraordinarily-nets-5-50-crores-to-emerge-a-super-hit",
@@ -36,7 +36,7 @@ function RecentPosts() {
               date: "August 6, 2022",
               title:
                 "Mumbai real estate: 5 Bollywood stars who have invested nearly ₹80 crore in properties in Bandra",
-              image: "/assets/images/blog/blog-2.jpg",
+              image: "/assets/images/blog/blog-2.webp",
               tags: ["Marketing", "Design"],
               author: "Admin",
               url: "mumbai-real-estate-5-bollywood-stars-who-have-invested-in-properties-in-bandra",

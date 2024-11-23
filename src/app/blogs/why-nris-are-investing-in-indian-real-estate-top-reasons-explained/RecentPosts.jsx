@@ -24,7 +24,7 @@ function RecentPosts() {
               date: "August 6, 2022",
               title:
                 "How Proptech Is Revolutionizing Real Estate: Insights from RD Brothers",
-              image: "/assets/images/blog/blog-2.jpg",
+              image: "/assets/images/blog/blog-2.webp",
               tags: ["Marketing", "Design"],
               author: "Admin",
               url: "mumbai-real-estate-5-bollywood-stars-who-have-invested-in-properties-in-bandra",

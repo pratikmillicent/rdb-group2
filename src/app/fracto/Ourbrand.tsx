@@ -1,44 +1,44 @@
 import Image from "next/image";
 import React from "react";
-import ambience from "assetsimages\brandsambience.png";
+import ambience from "assetsimages\brandsambience.webp";
 import Heading from "@/components/heading/Heading";
 
 const Ourbrand = () => {
   const clients = [
     {
       name: "EMAAR",
-      logo: "https://gtftechnologies.com/real-estate-landing-page-mumbai/images/brands/emaar.png",
+      logo: "https://gtftechnologies.com/real-estate-landing-page-mumbai/images/brands/emaar.webp",
     },
 
     {
       name: "JINDAL REALTY",
-      logo: "https://gtftechnologies.com/real-estate-landing-page-mumbai/images/brands/jindal-realty.png",
+      logo: "https://gtftechnologies.com/real-estate-landing-page-mumbai/images/brands/jindal-realty.webp",
     },
 
     {
       name: "SKA",
-      logo: "https://gtftechnologies.com/real-estate-landing-page-mumbai/images/brands/ska-orion.png",
+      logo: "https://gtftechnologies.com/real-estate-landing-page-mumbai/images/brands/ska-orion.webp",
     },
 
     {
       name: "PYRAMID",
-      logo: "https://gtftechnologies.com/real-estate-landing-page-mumbai/images/brands/pyramid.png",
+      logo: "https://gtftechnologies.com/real-estate-landing-page-mumbai/images/brands/pyramid.webp",
     },
     {
       name: "AIPL",
-      logo: "https://gtftechnologies.com/real-estate-landing-page-mumbai/images/brands/aipl.png",
+      logo: "https://gtftechnologies.com/real-estate-landing-page-mumbai/images/brands/aipl.webp",
     },
     {
       name: "DN HOMES",
-      logo: "https://gtftechnologies.com/real-estate-landing-page-mumbai/images/brands/dn-homes.png",
+      logo: "https://gtftechnologies.com/real-estate-landing-page-mumbai/images/brands/dn-homes.webp",
     },
     {
       name: "RAHEJA",
-      logo: "https://gtftechnologies.com/real-estate-landing-page-mumbai/images/brands/raheja.png",
+      logo: "https://gtftechnologies.com/real-estate-landing-page-mumbai/images/brands/raheja.webp",
     },
     {
       name: "SHETH",
-      logo: "https://gtftechnologies.com/real-estate-landing-page-mumbai/images/brands/sheth.png",
+      logo: "https://gtftechnologies.com/real-estate-landing-page-mumbai/images/brands/sheth.webp",
     },
   ];
   return (

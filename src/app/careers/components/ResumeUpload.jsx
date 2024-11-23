@@ -39,14 +39,13 @@ const ResumeUpload = () => {
       <div className="container mt-60">
         <div className="row">
           <div className="col-lg-6 d-flex flex-column align-items-start">
-
             <p className="fz-16 fw-400">
               Can't find a position that fits your profile? Submit your resume,
               and we will keep you in mind for opportunities in the future.
             </p>
 
             <Image
-              src="/assets/images2/resume-img.png"
+              src="/assets/images3/careers/resume-img.webp"
               alt="Resume Illustration"
               className="img-fluid"
               style={{ maxHeight: "450px" }}
@@ -79,7 +78,9 @@ const ResumeUpload = () => {
                             </div>
                           </div>
                           <div className="col-lg-6">
-                            <label htmlFor="form_email fz-16 fw-400">Email</label>
+                            <label htmlFor="form_email fz-16 fw-400">
+                              Email
+                            </label>
                             <div className="form-group mb-30 mt-5">
                               <input
                                 style={{ background: "var(--white)" }}
@@ -94,7 +95,9 @@ const ResumeUpload = () => {
                             </div>
                           </div>
                           <div className="col-12">
-                            <label htmlFor="form_resume fz-16 fw-400">Resume</label>
+                            <label htmlFor="form_resume fz-16 fw-400">
+                              Resume
+                            </label>
                             <div className="form-group mb-30 mt-5">
                               <input
                                 style={{ background: "var(--white)" }}
@@ -107,7 +110,9 @@ const ResumeUpload = () => {
                             </div>
                           </div>
                           <div className="col-12">
-                            <label htmlFor="form_coverLetter fz-16 fw-400">Cover Letter</label>
+                            <label htmlFor="form_coverLetter fz-16 fw-400">
+                              Cover Letter
+                            </label>
                             <div className="form-group mt-5">
                               <textarea
                                 style={{ background: "var(--white)" }}

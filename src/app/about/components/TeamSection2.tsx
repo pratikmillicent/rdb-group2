@@ -11,7 +11,7 @@ const teamMembers1 = [
     title: "Consultant",
     description:
       "Lorem Ipsum aenean commodo dolig trium. Proin qual de suis erestopius.",
-    imgSrc: "/assets/images2/Main-team-1.jpg",
+    imgSrc: "/assets/images2/Main-team-1.webp",
     social: {
       facebook: "#",
       twitter: "#",
@@ -23,7 +23,7 @@ const teamMembers1 = [
     title: "PR Manager",
     description:
       "Lorem Ipsum aenean commodo dolig trium. Proin qual de suis erestopius.",
-    imgSrc: "/assets/images2/Main-team-2.jpg",
+    imgSrc: "/assets/images2/Main-team-2.webp",
     social: {
       facebook: "#",
       twitter: "#",
@@ -35,7 +35,7 @@ const teamMembers1 = [
     title: "Photographer",
     description:
       "Lorem Ipsum aenean commodo dolig trium. Proin qual de suis erestopius.",
-    imgSrc: "/assets/images2/Main-team-3.jpg",
+    imgSrc: "/assets/images2/Main-team-3.webp",
     social: {
       facebook: "#",
       twitter: "#",
@@ -47,7 +47,7 @@ const teamMembers1 = [
     title: "Consultant",
     description:
       "Lorem Ipsum aenean commodo dolig trium. Proin qual de suis erestopius.",
-    imgSrc: "/assets/images2/Main-team-4.jpg",
+    imgSrc: "/assets/images2/Main-team-4.webp",
     social: {
       facebook: "#",
       twitter: "#",
@@ -62,7 +62,7 @@ const teamMembers2 = [
     title: "Consultant",
     description:
       "Lorem Ipsum aenean commodo dolig trium. Proin qual de suis erestopius.",
-    imgSrc: "/assets/images2/Main-team-1.jpg",
+    imgSrc: "/assets/images2/Main-team-1.webp",
     social: {
       facebook: "#",
       twitter: "#",
@@ -74,7 +74,7 @@ const teamMembers2 = [
     title: "PR Manager",
     description:
       "Lorem Ipsum aenean commodo dolig trium. Proin qual de suis erestopius.",
-    imgSrc: "/assets/images2/Main-team-2.jpg",
+    imgSrc: "/assets/images2/Main-team-2.webp",
     social: {
       facebook: "#",
       twitter: "#",
@@ -86,7 +86,7 @@ const teamMembers2 = [
     title: "Photographer",
     description:
       "Lorem Ipsum aenean commodo dolig trium. Proin qual de suis erestopius.",
-    imgSrc: "/assets/images2/Main-team-3.jpg",
+    imgSrc: "/assets/images2/Main-team-3.webp",
     social: {
       facebook: "#",
       twitter: "#",
@@ -98,7 +98,7 @@ const teamMembers2 = [
     title: "Consultant",
     description:
       "Lorem Ipsum aenean commodo dolig trium. Proin qual de suis erestopius.",
-    imgSrc: "/assets/images2/Main-team-4.jpg",
+    imgSrc: "/assets/images2/Main-team-4.webp",
     social: {
       facebook: "#",
       twitter: "#",

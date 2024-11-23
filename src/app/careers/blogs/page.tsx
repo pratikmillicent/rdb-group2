@@ -143,7 +143,7 @@ const Blog = () => {
   return (
     <>
       <Image
-        src="/assets/images/blog/banner.png"
+        src="/assets/images/blog/banner.webp"
         className="circle-img blog-banner"
         alt="Landscape picture"
         // style={{ height: "100vh" }}
@@ -166,7 +166,7 @@ const Blog = () => {
             <div className="blog-carsouel">
               {loadSwiper && (
                 <div className="row">
-                  {data.map(item => (
+                  {data.map((item) => (
                     <div
                       key={item.id}
                       className="col-lg-4 col-md-6 col-sm-6 mb-30"

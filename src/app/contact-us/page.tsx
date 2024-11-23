@@ -9,7 +9,7 @@ const ContactUs = () => {
     <>
       <div style={{ position: "relative", height: "94vh" }}>
         <Image
-          src="/assets/images3/contact/banner.jpg"
+          src="/assets/images3/contact/banner.webp"
           className="circle-img contact-banner banner"
           alt="carrer page"
           style={{ objectFit: "cover" }}

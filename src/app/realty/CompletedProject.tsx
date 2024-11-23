@@ -115,7 +115,7 @@ const data = [
   {
     id: 1,
     image:
-      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/4.jpg",
+      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/4.webp",
     year: "2023",
     type: "Branding",
     width: 5,
@@ -123,7 +123,7 @@ const data = [
   {
     id: 2,
     image:
-      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/3.jpg",
+      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/3.webp",
     year: "2023",
     type: "Branding",
     width: 6,
@@ -131,7 +131,7 @@ const data = [
   {
     id: 3,
     image:
-      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/1.jpg",
+      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/1.webp",
     year: "2023",
     type: "Branding",
     width: 6,
@@ -139,7 +139,7 @@ const data = [
   {
     id: 4,
     image:
-      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/2.jpg",
+      "https://geekfolio-nextjs.themescamp.com/dark/assets/imgs/arch/works/2.webp",
     year: "2023",
     type: "Branding",
     width: 6,

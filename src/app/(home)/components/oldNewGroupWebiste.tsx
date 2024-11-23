@@ -25,14 +25,14 @@ const data: DataItem[] = [
   },
   {
     id: 2,
-    image: "assets/images/home/img2.jpg",
+    image: "assets/images/home/img2.webp",
     type: "Realty",
     title: "Aspect Bullion & Refinery",
     text: "In the real estate domain, we are recognized for our unmatched expertise and premium services, particularly in luxury property development and land acquisition. Our focus on quality and innovation sets us apart, ensuring that we not only meet but exceed the expectations of our clients. We pride ourselves on delivering projects that embody luxury, functionality, and long-term value..",
   },
   {
     id: 3,
-    image: "assets/images/home/Fractal.jpg",
+    image: "assets/images/home/Fractal.webp",
     type: "Fracto",
     title: "Aspect Infrastructure",
     text: "As pioneers in the Proptech sector, we integrate technology with real estate to deliver cutting-edge solutions that enhance the way we buy, sell, and manage properties. Our Proptech initiatives are designed to streamline processes, improve transparency, and provide our clients with innovative tools that redefine the real estate investment experience.",

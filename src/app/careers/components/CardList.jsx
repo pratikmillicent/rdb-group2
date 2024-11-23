@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Card from "./Card";
-import '../Animate.css'
+import "../Animate.css";
 
 const locations = [
   "All Location",
@@ -21,24 +21,24 @@ const CardList = ({ data }) => {
     setSelectedLocation(location);
   };
 
-  useEffect(()=>{
-    if(animate){
-      const timer = setTimeout (()=> setAnimate(false),500)
-      return ()=> clearTimeout (timer)
+  useEffect(() => {
+    if (animate) {
+      const timer = setTimeout(() => setAnimate(false), 500);
+      return () => clearTimeout(timer);
     }
-  }, [animate])
+  }, [animate]);
 
   const filteredCards =
     selectedLocation === "All Location"
       ? data
-      : data.filter(card => card.location === selectedLocation);
+      : data.filter((card) => card.location === selectedLocation);
 
   return (
     <div className="container mt-60">
       <div
         className="bg-golden p-5"
         style={{
-          backgroundImage: `url(/assets/images/career/career-head-logo.png)`,
+          backgroundImage: `url(/assets/images/career/career-head-logo.webp)`,
           borderTopLeftRadius: "8px",
           borderTopRightRadius: "8px",
           backgroundSize: "contain",
@@ -82,7 +82,12 @@ const CardList = ({ data }) => {
       </div>
       <div className="row justify-content-center">
         {filteredCards.map((item, index) => (
-          <div className={`col-lg-4 col-md-6 col-sm-12 mt-30 mb-4 ${animate ? 'fade-in' : ""} `} key={index}>
+          <div
+            className={`col-lg-4 col-md-6 col-sm-12 mt-30 mb-4 ${
+              animate ? "fade-in" : ""
+            } `}
+            key={index}
+          >
             <Card
               icon={item.icon}
               position={item.position}

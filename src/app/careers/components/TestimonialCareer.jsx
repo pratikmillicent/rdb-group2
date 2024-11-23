@@ -12,7 +12,7 @@ const testimonialsData = [
     content:
       "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.",
     image:
-      "https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1121796/pexels-photo-1121796.webp?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     author: "Leonard Heiser",
     position: "CEO",
   },
@@ -20,7 +20,7 @@ const testimonialsData = [
     id: 2,
     content:
       "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.",
-    image: "assets/imgs/testim/4.jpg",
+    image: "assets/imgs/testim/4.webp",
     author: "Leonard Heiser",
     position: "CEO",
   },
@@ -28,7 +28,7 @@ const testimonialsData = [
     id: 3,
     content:
       "I have been hiring people in this space for a number of years and I have never seen this level of professiona lism. It really feels like you are working with a team that can get the job done ",
-    image: "assets/imgs/testim/3.jpg",
+    image: "assets/imgs/testim/3.webp",
     author: "Leonard Heiser",
     position: "CEO",
   },
@@ -36,7 +36,7 @@ const testimonialsData = [
     id: 4,
     content:
       "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.",
-    image: "assets/imgs/testim/4.jpg",
+    image: "assets/imgs/testim/4.webp",
     author: "Leonard Heiser",
     position: "CEO",
   },
@@ -112,7 +112,7 @@ function TestimonialCareer() {
                   id="content-carousel-container-unq-testim"
                   className="swiper-container"
                 >
-                  {testimonialsData.map(item => (
+                  {testimonialsData.map((item) => (
                     <SwiperSlide key={item.id}>
                       <div
                         className="item bg-white"
@@ -137,7 +137,7 @@ function TestimonialCareer() {
                             <div className="img circle-60">
                               <img
                                 src={
-                                  "https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                  "https://images.pexels.com/photos/1121796/pexels-photo-1121796.webp?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                                 }
                                 alt="person"
                                 className="circle-img"

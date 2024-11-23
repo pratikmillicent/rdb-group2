@@ -63,7 +63,7 @@ const Gallery = () => {
         className="grid-gallery justify-content-center p-5"
         style={{
           height: "90dvh",
-          backgroundImage: "url(/assets/images/movie/gallery_strip.jpg)",
+          backgroundImage: "url(/assets/images/movie/gallery_strip.webp)",
         }}
       >
         {images.map((image, index) => (
@@ -84,7 +84,7 @@ const Gallery = () => {
             spaceBetween={50}
             slidesPerView={1}
             initialSlide={activeIndex}
-            onSlideChange={swiper => setActiveIndex(swiper.activeIndex)}
+            onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
             navigation // Enable navigation arrows
             modules={[Navigation]} // Import the Swiper navigation module
           >

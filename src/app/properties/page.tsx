@@ -20,7 +20,7 @@ function Properties() {
       <main className="bg- text-black">
         <div style={{ position: "relative" }}>
           <Image
-            src="/assets/images3/properties/banner.jpg"
+            src="/assets/images3/properties/banner.webp"
             className="w-100 d-block  news-banner banner hero-height"
             alt="News Banner"
             style={{ objectFit: "cover" }}

@@ -58,8 +58,8 @@ const NewSideImage: React.FC = () => {
                     <Image
                       src={
                         selectedTab === "vision"
-                          ? "/assets/images/home/our-vision.jpg"
-                          : "assets/images/home/our-mission.jpg"
+                          ? "/assets/images/home/our-vision.webp"
+                          : "assets/images/home/our-mission.webp"
                       }
                       alt="mission-vision"
                       width={800}

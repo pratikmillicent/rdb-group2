@@ -2,8 +2,8 @@ import { useState } from "react";
 import "../../(home)/SectionImage.css";
 
 const images = {
-  vision: "/assets/images3/about/vision-mission/vision.jpeg",
-  mission: "/assets/images3/about/vision-mission/mission.jpg",
+  vision: "/assets/images3/about/vision-mission/vision.webp",
+  mission: "/assets/images3/about/vision-mission/mission.webp",
 };
 
 function AboutSectionImage() {

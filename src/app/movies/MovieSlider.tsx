@@ -54,7 +54,7 @@ function MovieSlider() {
     >
       {loadSwiper && (
         <Swiper {...swiperOptions} className="swiper-container parallax-slider">
-          {data.map(item => (
+          {data.map((item) => (
             <SwiperSlide key={item.id}>
               <div className="bg-img valign" data-background={item.background}>
                 <div
@@ -122,7 +122,7 @@ const data = [
   {
     id: 3,
     background:
-      "https://theunbiasedguy.com/wp-content/uploads/2024/05/Jhamkudi.png",
+      "https://theunbiasedguy.com/wp-content/uploads/2024/05/Jhamkudi.webp",
     year: "2024",
     type: "movie",
     title: "Jhamkudi",

@@ -151,7 +151,7 @@ function Footer() {
                 <div className="logo">
                   <Link href="#">
                     <Image
-                      src="/rdb_logo-small.png"
+                      src="/rdb_logo-small.webp"
                       className="w-100"
                       alt="rdb group"
                       width={800}

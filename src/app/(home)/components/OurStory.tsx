@@ -18,7 +18,7 @@ const OurStory = () => {
           }}
         >
           <Image
-            src={`/assets/images2/Dhaval.jpg`}
+            src={`/assets/images2/Dhaval.webp`}
             alt="Landscape picture"
             width={800}
             style={{
@@ -29,7 +29,7 @@ const OurStory = () => {
             height={500}
           />
           <Image
-            src={`/assets/images2/Raj.jpg`}
+            src={`/assets/images2/Raj.webp`}
             alt="Landscape picture"
             width={800}
             style={{

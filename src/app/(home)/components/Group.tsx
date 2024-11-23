@@ -10,7 +10,7 @@ const data = [
   },
   {
     id: 2,
-    image: "/assets/images/home/proptech.jpg",
+    image: "/assets/images/home/proptech.webp",
     title: "Proptech",
   },
   {

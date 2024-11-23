@@ -208,12 +208,12 @@ export default Project;
 const ongoingProjectsData = [
   {
     id: 1,
-    image: "/assets/images/realty/projects/2.jpg",
+    image: "/assets/images/realty/projects/2.webp",
     description: "Skyline Tower in South Mumbai - Expected Completion in 2025",
   },
   {
     id: 2,
-    image: "/assets/images/realty/projects/3.jpg",
+    image: "/assets/images/realty/projects/3.webp",
     description: "Tech Park in Andheri - Expected Completion in 2024",
   },
 ];
@@ -221,17 +221,17 @@ const ongoingProjectsData = [
 const completedProjectsData = [
   {
     id: 1,
-    image: "/assets/images/realty/projects/1.jpg",
+    image: "/assets/images/realty/projects/1.webp",
     description: "Luxury Apartments in South Mumbai - Completed in 2023",
   },
   {
     id: 2,
-    image: "/assets/images/realty/projects/4.jpg",
+    image: "/assets/images/realty/projects/4.webp",
     description: "Commercial Complex in Andheri - Completed in 2022",
   },
   {
     id: 3,
-    image: "/assets/images/realty/projects/5.jpg",
+    image: "/assets/images/realty/projects/5.webp",
     description: "Eco-Friendly Villas in Pune - Completed in 2021",
   },
 ];
@@ -239,7 +239,7 @@ const completedProjectsData = [
 const upcomingProjectsData = [
   {
     id: 1,
-    image: "/assets/images3/realty/projects/borivali.jpg",
+    image: "/assets/images3/realty/projects/borivali.webp",
     description: "Borivali West",
   },
 ];

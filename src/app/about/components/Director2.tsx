@@ -51,7 +51,7 @@ const Director2 = () => {
               <div>
                 <Image
                   // src="https://anarock.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstory-about.b32157e6.webp&w=750&q=75"
-                  src="/assets/images3/common/leaders.jpg"
+                  src="/assets/images3/common/leaders.webp"
                   // className="circle-img blog-banner"
                   style={{ height: "412px", objectFit: "contain" }}
                   alt="Landscape picture"

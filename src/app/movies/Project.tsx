@@ -261,17 +261,17 @@ export default Project;
 const completedProjectsData = [
   {
     id: 1,
-    image: "/assets/images3/movies/projects/jamkudi.jpg",
+    image: "/assets/images3/movies/projects/jamkudi.webp",
     description: "Jhamkudi",
   },
   {
     id: 2,
-    image: "/assets/images3/movies/projects/kutch_express.jpg",
+    image: "/assets/images3/movies/projects/kutch_express.webp",
     description: "Kutch Express",
   },
   {
     id: 3,
-    image: "/assets/images3/movies/projects/golkeri.jpg",
+    image: "/assets/images3/movies/projects/golkeri.webp",
     description: "Golkeri",
   },
 ];
@@ -279,7 +279,7 @@ const completedProjectsData = [
 const upcomingProjectsData = [
   {
     id: 1,
-    image: "/assets/images3/movies/projects/shubhchintak_cropped.jpg",
+    image: "/assets/images3/movies/projects/shubhchintak_cropped.webp",
     description: "Shubhchintak",
   },
 ];

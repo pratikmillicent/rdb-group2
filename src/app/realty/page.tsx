@@ -33,7 +33,7 @@ const Realty = () => {
         <div style={{ position: "relative" }}>
           <Image
             style={{ objectFit: "cover" }}
-            src="/assets/images3/realty/banner.jpg"
+            src="/assets/images3/realty/banner.webp"
             className="w-100 d-block  news-banner banner hero-height"
             alt="News Banner"
             width={800}
@@ -104,7 +104,7 @@ export default Realty;
 const data = [
   {
     id: 1,
-    background: "/assets/images/realty/banner.jpg",
+    background: "/assets/images/realty/banner.webp",
     year: "",
     type: "",
     title:
@@ -112,21 +112,21 @@ const data = [
   },
   {
     id: 2,
-    background: "/assets/images/realty/banner-2.png",
+    background: "/assets/images/realty/banner-2.webp",
     year: "2023",
     type: "Ongoing Project",
     title: "Estella",
   },
   {
     id: 3,
-    background: "/assets/images/realty/banner-3.png",
+    background: "/assets/images/realty/banner-3.webp",
     year: "2023",
     type: "Upcoming Project",
     title: "Sumatinath CHS",
   },
   {
     id: 4,
-    background: "/assets/images/realty/banner-4.png",
+    background: "/assets/images/realty/banner-4.webp",
     year: "2023",
     type: "Upcoming Project",
     title: "Alka CHS",

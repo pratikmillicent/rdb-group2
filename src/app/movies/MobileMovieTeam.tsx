@@ -32,7 +32,7 @@ function MobileMovieTeam() {
 
   const renderSlide = (item: Video) => (
     <div className="">
-      <div onClick={e => openVideo?.(e, item)}>
+      <div onClick={(e) => openVideo?.(e, item)}>
         <div style={{ position: "relative" }}>
           <svg
             style={{
@@ -81,10 +81,10 @@ function MobileMovieTeam() {
                     {...swiperOptions}
                     id="content-carousel-container-unq-w"
                     className="swiper-container"
-                    onSwiper={swiper => (swiperRef.current = swiper)}
+                    onSwiper={(swiper) => (swiperRef.current = swiper)}
                     modules={[Navigation, Autoplay]}
                   >
-                    {data.map(item => (
+                    {data.map((item) => (
                       <SwiperSlide key={item.id}>
                         <div className="">
                           <div className="px-2">
@@ -173,7 +173,7 @@ const data = [
     id: 1,
     content:
       "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.",
-    image: "/assets/images/about/team-0.jpg",
+    image: "/assets/images/about/team-0.webp",
     author: "Leonard Heiser",
     position: "CEO",
   },
@@ -181,7 +181,7 @@ const data = [
     id: 2,
     content:
       "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.",
-    image: "/assets/images/about/team-1.jpg",
+    image: "/assets/images/about/team-1.webp",
     author: "Leonard Heiser",
     position: "CEO",
   },
@@ -189,7 +189,7 @@ const data = [
     id: 3,
     content:
       "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.",
-    image: "/assets/images/about/team-2.jpg",
+    image: "/assets/images/about/team-2.webp",
     author: "Leonard Heiser",
     position: "CEO",
   },
@@ -197,7 +197,7 @@ const data = [
     id: 4,
     content:
       "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.",
-    image: "/assets/images/about/team-3.jpg",
+    image: "/assets/images/about/team-3.webp",
     author: "Leonard Heiser",
     position: "CEO",
   },
@@ -205,7 +205,7 @@ const data = [
     id: 5,
     content:
       "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.",
-    image: "/assets/images/about/team-4.jpg",
+    image: "/assets/images/about/team-4.webp",
     author: "Leonard Heiser",
     position: "CEO",
   },
@@ -213,7 +213,7 @@ const data = [
     id: 6,
     content:
       "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.",
-    image: "/assets/images/about/team-5.jpg",
+    image: "/assets/images/about/team-5.webp",
     author: "Leonard Heiser",
     position: "CEO",
   },

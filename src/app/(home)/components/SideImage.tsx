@@ -56,7 +56,7 @@ function SideImage() {
       </div>
       <div
         className="bg-img bg-left parallaxie d-flex align-items-center justify-content-center"
-        data-background="/assets/images2/vision.jpg"
+        data-background="/assets/images2/vision.webp"
       >
         <div className="vid-circle bg-white text-dark">
           <a

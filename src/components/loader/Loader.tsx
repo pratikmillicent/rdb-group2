@@ -41,7 +41,7 @@ function Loader() {
           <h2 className="load-text">
             <span>
               <Image
-                src="/rdb_logo-small.png"
+                src="/rdb_logo-small.webp"
                 style={{ width: "185px" }}
                 alt="logo"
                 width={800}

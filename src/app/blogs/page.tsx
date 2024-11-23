@@ -10,7 +10,7 @@ const Blog = () => {
       <div style={{ position: "relative" }}>
         <Image
           style={{ objectFit: "fill" }}
-          src="/assets/images3/blogs/banner.jpg"
+          src="/assets/images3/blogs/banner.webp"
           className="circle-img blog-banner banner"
           alt="Landscape picture"
           width={800}

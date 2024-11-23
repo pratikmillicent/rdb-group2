@@ -130,7 +130,7 @@ const projects = [
     description:
       "A collection of 10 modern villas offering luxury living with state-of-the-art amenities.",
     image:
-      "https://www.equinoxindia.com/wp-content/uploads/images/sez-projects.jpg",
+      "https://www.equinoxindia.com/wp-content/uploads/images/sez-projects.webp",
     type: "Residential",
   },
   {

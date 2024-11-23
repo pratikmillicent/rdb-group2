@@ -50,7 +50,7 @@ function Intro() {
             <div className="imgs mb-80">
               <div className="img1 wow fadeInUp">
                 <Image
-                  src="/assets/images2/vision.jpg"
+                  src="/assets/images2/vision.webp"
                   className="radius-10"
                   alt="Landscape picture"
                   width={800}

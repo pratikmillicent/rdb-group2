@@ -35,7 +35,7 @@ function About() {
     <>
       <div style={{ position: "relative" }}>
         <Image
-          src="/assets/images3/about/banner.jpg"
+          src="/assets/images3/about/banner.webp"
           className="w-100 d-block  news-banner banner hero-height"
           // className="w-100 d-block  news-banner hero-height"
           alt="News Banner"

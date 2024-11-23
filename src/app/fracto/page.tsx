@@ -18,7 +18,7 @@ const page = () => {
         <Image
           style={{ objectFit: "cover" }}
           objectFit="cover"
-          src="/assets/images3/fracto/banner.jpg"
+          src="/assets/images3/fracto/banner.webp"
           // className="w-100 news-banner banner "
           className="w-100 news-banner banner"
           alt="fracto"

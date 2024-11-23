@@ -3,8 +3,8 @@ import "../SectionImage.css";
 
 const images = {
   aspirations: "/assets/images3/home/about/aspirations.avif",
-  outlook: "/assets/images3/home/about/future-outlook.jpg",
-  whatDrivesUs: "/assets/images3/home/about/what-drives-us.png",
+  outlook: "/assets/images3/home/about/future-outlook.webp",
+  whatDrivesUs: "/assets/images3/home/about/what-drives-us.webp",
 };
 function SectionImage() {
   const [selectedTab, setSelectedTab] = useState("aspirations");

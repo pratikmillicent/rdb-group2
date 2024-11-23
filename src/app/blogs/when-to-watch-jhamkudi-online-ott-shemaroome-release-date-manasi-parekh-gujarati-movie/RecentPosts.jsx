@@ -24,7 +24,7 @@ function RecentPosts() {
               date: "August 6, 2022",
               title:
                 "Fractional Ownership: This realty segment to rise over 10 times by 2030 | Here are 3 top hotspots",
-              image: "/assets/images3/blogs/building2.jpg",
+              image: "/assets/images3/blogs/building2.webp",
               tags: ["Marketing", "Design"],
               author: "Admin",
               url: "fractional-ownership-this-realty-segment-to-rise-over-10-times-by-2030-here-are-3-top-hotspots",
@@ -36,7 +36,7 @@ function RecentPosts() {
               date: "August 6, 2022",
               title:
                 "Jhamkudi Week 1 Box Office: Gujarati horror-com trends extraordinarily; Nets 5.50 crores to emerge a super-hit",
-              image: "/assets/images3/blogs/movie5.jpg",
+              image: "/assets/images3/blogs/movie5.webp",
               tags: ["Marketing", "Design"],
               author: "Admin",
               url: "jhamkudi-week-1-box-office-gujarati-horror-com-trends-extraordinarily-nets-5-50-crores-to-emerge-a-super-hit",

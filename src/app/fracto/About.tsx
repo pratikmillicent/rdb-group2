@@ -6,7 +6,7 @@ const About = () => {
     <div>
       <div style={{ position: "relative" }}>
         <Image
-          src="https://img.freepik.com/premium-photo/two-real-estate-agents-shaking-hands-stunning-urban-backdrop-generative-ai_108146-5933.jpg?w=900"
+          src="https://img.freepik.com/premium-photo/two-real-estate-agents-shaking-hands-stunning-urban-backdrop-generative-ai_108146-5933.webp?w=900"
           className="circle-img career-banner banner"
           alt="about page"
           width={800}

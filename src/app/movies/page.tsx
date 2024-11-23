@@ -21,7 +21,7 @@ const page = () => {
             height: "100%",
             objectFit: "cover",
           }}
-          src="/assets/images3/movies/banner.png"
+          src="/assets/images3/movies/banner.webp"
           alt="banner"
         />
 

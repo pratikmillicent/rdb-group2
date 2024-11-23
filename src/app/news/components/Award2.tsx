@@ -218,47 +218,47 @@ export default AwardGallery;
 
 const Awards_data = [
   {
-    image: "/assets/images/news/GEA1.jpg",
+    image: "/assets/images/news/GEA1.webp",
     events: "GEA and convention 2023",
     description: "Held Successfully with Mrs Madhuri Dixit Nene in Mumbai",
   },
   {
-    image: "/assets/images/news/GEA-4.jpg",
+    image: "/assets/images/news/GEA-4.webp",
     events: "GEA and convention 2023",
     description: "Held Successfully with Mrs Madhuri Dixit Nene in Mumbai",
   },
   {
-    image: "/assets/images/news/GEA-6.jpg",
+    image: "/assets/images/news/GEA-6.webp",
     events: "GEA and convention 2023",
     description: "Held Successfully with Mrs Madhuri Dixit Nene in Mumbai",
   },
   {
-    image: "/assets/images/news/GEA-7.jpg",
+    image: "/assets/images/news/GEA-7.webp",
     events: "GEA and convention 2023",
     description: "Held Successfully with Mrs Madhuri Dixit Nene in Mumbai",
   },
   {
-    image: "/assets/images/news/GEA1.jpg",
+    image: "/assets/images/news/GEA1.webp",
     events: "GEA and convention 2023",
     description: "Held Successfully with Mrs Madhuri Dixit Nene in Mumbai",
   },
   {
-    image: "/assets/images/news/Global.jpg",
+    image: "/assets/images/news/Global.webp",
     events: "GEA and convention 2023",
     description: "Held Successfully with Mrs Madhuri Dixit Nene in Mumbai",
   },
   {
-    image: "/assets/images/news/ILA-3.jpg",
+    image: "/assets/images/news/ILA-3.webp",
     events: "GEA and convention 2023",
     description: "Held Successfully with Mrs Madhuri Dixit Nene in Mumbai",
   },
   {
-    image: "/assets/images/news/ILA5.jpg",
+    image: "/assets/images/news/ILA5.webp",
     events: "GEA and convention 2023",
     description: "Held Successfully with Mrs Madhuri Dixit Nene in Mumbai",
   },
   {
-    image: "/assets/images/news/national.jpg",
+    image: "/assets/images/news/national.webp",
     events: "GEA and convention 2023",
     description: "Held Successfully with Mrs Madhuri Dixit Nene in Mumbai",
   },

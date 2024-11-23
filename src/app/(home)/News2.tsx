@@ -10,7 +10,7 @@ const data = [
     id: 1,
     title:
       "Why NRIs are investing in Indian real estate: Top reasons explained",
-    // cover: "/assets/images/home/news2.jpg",
+    // cover: "/assets/images/home/news2.webp",
     cover: "/assets/images3/news/news-image-1.avif",
     author: "Moneycontrol",
     day: "18",
@@ -24,7 +24,7 @@ const data = [
   {
     id: 2,
     title: "Must watch 2025 real estate trends you must know",
-    cover: "/assets/images3/news/news-image-2.jpg",
+    cover: "/assets/images3/news/news-image-2.webp",
     author: "Bizzbuzz",
     day: "18",
     month: "Nov",
@@ -66,7 +66,7 @@ const data = [
     id: 5,
     title:
       "Jhamkudi Week 1 Box Office: Gujarati horror-com trends extraordinarily; Nets 5.50 crores to emerge a super-hit",
-    cover: "/assets/images3/news/news-image-5.jpg",
+    cover: "/assets/images3/news/news-image-5.webp",
     author: "Pinkvilla",
     day: "07",
     month: "Jun",
@@ -80,7 +80,7 @@ const data = [
     id: 6,
     title:
       "Guj CM congratulates ‘Kutch Express’ team for bagging three national awards",
-    cover: "/assets/images3/news/news-image-6.jpg",
+    cover: "/assets/images3/news/news-image-6.webp",
     author: "Theprint",
     day: "16",
     month: "Aug",
@@ -94,7 +94,7 @@ const data = [
     id: 7,
     title:
       "Fractional real estate is the 'new Gold' for savvy festive season investors",
-    cover: "/assets/images3/news/news-image-7.jpg",
+    cover: "/assets/images3/news/news-image-7.webp",
     author: "Etnownews",
     day: "31",
     month: "Oct",
@@ -108,7 +108,7 @@ const data = [
     id: 8,
     title:
       "Fractional Ownership: This realty segment to rise over 10 times by 2030 | Here are 3 top hotspots",
-    cover: "/assets/images3/news/news-image-8.jpg",
+    cover: "/assets/images3/news/news-image-8.webp",
     author: "Etnownews",
     day: "29",
     month: "May",
@@ -169,7 +169,7 @@ function News2() {
               id="content-carousel-container-unq-blog"
               className="swiper-container"
             >
-              {data?.map(item => (
+              {data?.map((item) => (
                 <SwiperSlide
                   key={item.id}
                   className="wow fadeInUp"
