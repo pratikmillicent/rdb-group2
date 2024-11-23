@@ -25,64 +25,64 @@ interface IImage {
 const events: IEvent[] = [
   {
     title: "Jhamkudi Movie Mumbai Premier",
-    image: "/assets/images/movie/gallary/mumbai-premier/i (1).JPG",
+    image: "/assets/images3/movies/gallary/mumbai-premier/i (1).JPG",
   },
   {
     title: "Jhamkudi Movie Ahemdabad Premier",
-    image: "/assets/images/movie/gallary/ahemadabad-premier/i (1).JPG",
+    image: "/assets/images3/movies/gallary/ahemadabad-premier/i (1).JPG",
   },
 ];
 
 const mumbai: IImage[] = [
   {
-    image: "/assets/images/movie/gallary/mumbai-premier/i (1).JPG",
+    image: "/assets/images3/movies/gallary/mumbai-premier/i (1).JPG",
   },
   {
-    image: "/assets/images/movie/gallary/mumbai-premier/i (2).JPG",
+    image: "/assets/images3/movies/gallary/mumbai-premier/i (2).JPG",
   },
   {
-    image: "/assets/images/movie/gallary/mumbai-premier/i (3).JPG",
+    image: "/assets/images3/movies/gallary/mumbai-premier/i (3).JPG",
   },
   {
-    image: "/assets/images/movie/gallary/mumbai-premier/i (4).JPG",
+    image: "/assets/images3/movies/gallary/mumbai-premier/i (4).JPG",
   },
   {
-    image: "/assets/images/movie/gallary/mumbai-premier/i (5).JPG",
+    image: "/assets/images3/movies/gallary/mumbai-premier/i (5).JPG",
   },
   {
-    image: "/assets/images/movie/gallary/mumbai-premier/i (6).JPG",
+    image: "/assets/images3/movies/gallary/mumbai-premier/i (6).JPG",
   },
   {
-    image: "/assets/images/movie/gallary/mumbai-premier/i (7).JPG",
+    image: "/assets/images3/movies/gallary/mumbai-premier/i (7).JPG",
   },
   {
-    image: "/assets/images/movie/gallary/mumbai-premier/i (8).JPG",
+    image: "/assets/images3/movies/gallary/mumbai-premier/i (8).JPG",
   },
   {
-    image: "/assets/images/movie/gallary/mumbai-premier/i (9).JPG",
+    image: "/assets/images3/movies/gallary/mumbai-premier/i (9).JPG",
   },
 ];
 const ahemdabad: IImage[] = [
   {
-    image: "/assets/images/movie/gallary/ahemadabad-premier/i (1).JPG",
+    image: "/assets/images3/movies/gallary/ahemadabad-premier/i (1).JPG",
   },
   {
-    image: "/assets/images/movie/gallary/ahemadabad-premier/i (2).JPG",
+    image: "/assets/images3/movies/gallary/ahemadabad-premier/i (2).JPG",
   },
   {
-    image: "/assets/images/movie/gallary/ahemadabad-premier/i (3).JPG",
+    image: "/assets/images3/movies/gallary/ahemadabad-premier/i (3).JPG",
   },
   {
-    image: "/assets/images/movie/gallary/ahemadabad-premier/i (4).JPG",
+    image: "/assets/images3/movies/gallary/ahemadabad-premier/i (4).JPG",
   },
   {
-    image: "/assets/images/movie/gallary/ahemadabad-premier/i (5).JPG",
+    image: "/assets/images3/movies/gallary/ahemadabad-premier/i (5).JPG",
   },
   {
-    image: "/assets/images/movie/gallary/ahemadabad-premier/i (6).JPG",
+    image: "/assets/images3/movies/gallary/ahemadabad-premier/i (6).JPG",
   },
   {
-    image: "/assets/images/movie/gallary/ahemadabad-premier/i (7).JPG",
+    image: "/assets/images3/movies/gallary/ahemadabad-premier/i (7).JPG",
   },
 ];
 

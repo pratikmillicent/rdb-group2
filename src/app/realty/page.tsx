@@ -33,11 +33,9 @@ const Realty = () => {
         <div style={{ position: "relative" }}>
           <Image
             style={{ objectFit: "cover" }}
-            src="/assets/images3/realty/banner-3.jpg"
+            src="/assets/images3/realty/banner.jpg"
             className="w-100 d-block  news-banner banner hero-height"
-            // className="w-100 d-block  news-banner hero-height"
             alt="News Banner"
-            // style={{objectFit : 'cover'}}
             width={800}
             height={500}
           />
@@ -48,7 +46,6 @@ const Realty = () => {
               left: 0,
               width: "100%",
               height: "100%",
-              // background: "rgba(0,0,0, .3)",
               background:
                 "linear-gradient(117deg, rgba(23, 38, 57, 100%) 0%, rgba(1, 1, 1, 10%) 70%)",
               zIndex: 1,
@@ -61,10 +58,7 @@ const Realty = () => {
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
-                // alignItems: "center",
-                // paddingRight: "320px",
                 height: "100%",
-                // padding: "0 20px",
               }}
             >
               <p style={{ fontSize: "48px", fontWeight: "600", color: "#FFF" }}>
@@ -76,7 +70,6 @@ const Realty = () => {
           </div>
         </div>
 
-        {/* <FrameSlider data={data} /> */}
         <div className="container">
           <Heading headTitle="Overview" />
           <p className="">
@@ -92,83 +85,11 @@ const Realty = () => {
             and investors alike. At RD Brothers Realty, we don't just build
             properties—we create thriving communities designed for a better
             tomorrow.
-            {/* <ul>
-              <li style={{ listStyle: "disc" }}>Legacy 20 years</li>
-              <li style={{ listStyle: "disc" }}>Home to over 12000 Families</li>
-              <li style={{ listStyle: "disc" }}>Landmark projects 10</li>
-              <li style={{ listStyle: "disc" }}>
-                Total square footage developed 2100000
-              </li>
-            </ul> */}
           </p>
-
-          {/* <div
-            style={{
-              display: "flex",
-              flexWrap: "wrap",
-              gap: "40px",
-              marginTop: "40px",
-            }}
-          >
-            <div
-              className="shadow p-4"
-              style={{ width: "calc((100% / 3) - 40px)" }}
-            >
-              <TbNumber20Small fontSize={48} color="var(--golden)" />
-              <p
-                className="mt-2"
-                style={{ fontSize: "20px", fontWeight: "400" }}
-              >
-                Legacy 20 years
-              </p>
-            </div>
-            <div
-              className="shadow p-4"
-              style={{ width: "calc((100% / 3) - 40px)" }}
-            >
-              <GiFamilyHouse fontSize={30} color="var(--golden)" />
-              <p
-                className="mt-2"
-                style={{ fontSize: "20px", fontWeight: "400" }}
-              >
-                12000+ Areas delivered
-              </p>
-            </div>
-            <div
-              className="shadow p-4"
-              style={{ width: "calc((100% / 3) - 40px)" }}
-            >
-              <BsFillBuildingsFill fontSize={30} color="var(--golden)" />
-              <p
-                className="mt-2"
-                style={{ fontSize: "20px", fontWeight: "400" }}
-              >
-                Landmark projects 10
-              </p>
-            </div>
-            <div
-              className="shadow p-4"
-              style={{ width: "calc((100% / 3) - 40px)" }}
-            >
-              <MdOutlineConstruction fontSize={30} color="var(--golden)" />
-              <p
-                className="mt-2"
-                style={{ fontSize: "20px", fontWeight: "400" }}
-              >
-                Total square footage developed 2100000
-              </p>
-            </div>
-          </div> */}
         </div>
         <div>
           <MissionVisionV2 />
         </div>
-        {/* <div className="d-none d-md-block">
-          <MissionVision />
-        </div>
-        <div className="d-block d-md-none">
-          <MissionVisionMobile />
-        </div> */}
         <DirectorCard2 />
         <Project />
         <Sustainability />

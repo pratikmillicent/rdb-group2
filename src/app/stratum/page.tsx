@@ -11,7 +11,7 @@ function Stratum() {
       <main className="bg- text-black">
         <div style={{ position: "relative" }}>
           <Image
-            src="/assets/images3/home/stratum-3.jpg"
+            src="/assets/images3/stratum/banner.jpg"
             className="w-100 d-block  news-banner banner hero-height"
             // className="w-100 d-block  news-banner hero-height"
             alt="News Banner"

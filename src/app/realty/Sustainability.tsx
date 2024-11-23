@@ -15,7 +15,7 @@ const Sustainability = () => {
       <div
         className="banner_text sust_hght Sustainability_banner back-image bg-img parallaxie"
         style={{
-          backgroundImage: `url(/assets/images/realty/Sustainability-Banner.jpg)`,
+          backgroundImage: `url(/assets/images3/realty/sustainability/sustainability-banner.jpg)`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center center",
           width: "100%",
