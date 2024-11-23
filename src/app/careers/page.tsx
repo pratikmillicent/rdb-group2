@@ -121,9 +121,9 @@ const page = () => {
                       <a className="mt-1 fw-bolder">APPLY NOW</a>
                     </div>
                   </div>
-                  <div className="mt-5">
+                  {/* <div className="mt-5">
                     <strong>Positions </strong>- {data.position}
-                  </div>
+                  </div> */}
                   <div>
                     <strong>Description </strong>- {data.description}
                   </div>
@@ -148,23 +148,35 @@ export default page;
 
 const CarrerData = [
   {
-    title: "PMC",
-    position: "Project Manager",
-    description: "Manager various sites of projects",
-    qualifications: "B.E-Civil with 3 to 4 years of similar experience",
+    title: "Director - Commercial",
+    // position: "Project Manager",
+    description:
+      "Oversee and drive the commercial operations and strategies of the organization to maximize revenue and profitability.",
+    qualifications:
+      "MBA in Finance/Marketing or related field with 8 to 10 years of experience in commercial strategy and business development.",
   },
   {
-    title: "Redevelopment Project",
-    position: "Project Head",
-    description: "Manager complete project of SRA/Redevelopment",
+    title: "Business Development Manager - School Presales",
+    // position: "Project Head",
+    description:
+      "Responsible for generating leads, building relationships with schools, and presenting solutions to drive sales conversion.",
     qualifications:
-      "20 - 25 years experience with BE Civil and similar experience with Developers",
+      "Graduate/Postgraduate in Sales/Marketing with 3 to 5 years of experience in school sales or presales activities.",
   },
   {
-    title: "Brunch & Cake - Aspect Hospitality",
-    position: "Branch Manager",
-    description: "Branch Manager(Food & Beverage)",
+    title: "Telecaller",
+    // position: "Branch Manager",
+    description:
+      "Handle outbound calls to generate leads, follow up with prospective clients, and provide product/service information.",
     qualifications:
-      "20 - 25 years experience with BE Civil and similar experience with Developers",
+      "Graduate in any field with 1 to 2 years of experience in telecalling or customer engagement roles.",
+  },
+  {
+    title: "Sourcing/Closing Executive",
+    // position: "Branch Manager",
+    description:
+      "Manage sourcing activities, including identifying potential leads, coordinating with clients, and finalizing deals to close successfully.",
+    qualifications:
+      "Graduate/Postgraduate in HR/Business/Marketing with 2 to 3 years of relevant experience in sourcing and deal closing.",
   },
 ];

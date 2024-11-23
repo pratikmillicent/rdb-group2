@@ -53,19 +53,16 @@ const Realty = () => {
             }}
           >
             <div
-              className="container"
               style={{
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
+                alignItems: "center",
                 height: "100%",
+                padding: "0 20px",
               }}
             >
-              <p style={{ fontSize: "48px", fontWeight: "600", color: "#FFF" }}>
-                Taking real estate
-                <br /> development to the next level
-                <br /> with a customer-first attitude
-              </p>
+              <Heading headTitle="Realty" color="white" isSpace={false} />
             </div>
           </div>
         </div>

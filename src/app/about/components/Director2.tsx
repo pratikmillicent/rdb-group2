@@ -47,7 +47,7 @@ const Director2 = () => {
             className="flex-column flex-md-row"
             style={{ display: "flex", alignItems: "center" }}
           >
-            <Col xs={4}>
+            <Col xs={12} md={4}>
               <div>
                 <Image
                   // src="https://anarock.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstory-about.b32157e6.webp&w=750&q=75"

@@ -139,7 +139,7 @@ function Team() {
                             />
                           </div>
                           <div className="info">
-                            <div className="main-marq team-position">
+                            {/* <div className="main-marq team-position">
                               <div className="slide-har st1 non-strok">
                                 <div className="box">
                                   {new Array(5).fill("").map((_, i) => (
@@ -156,7 +156,7 @@ function Team() {
                                   ))}
                                 </div>
                               </div>
-                            </div>
+                            </div> */}
                             <div className="main-marq team-name">
                               <div className="slide-har st1 non-strok">
                                 <div className="box">
@@ -218,9 +218,9 @@ function Team() {
                       <div className="text-center">
                         <div className="mb-2">
                           <h3 className="text-golden">{person.name}</h3>
-                          <div className="team-position fw-semibold text-black">
+                          {/* <div className="team-position fw-semibold text-black">
                             {person.position}
-                          </div>
+                          </div> */}
                           {/* <p className="fz-16 px-3 mb-1">
                             {person.description}
                           </p> */}
@@ -262,46 +262,82 @@ function Team() {
 export default Team;
 
 const data = [
-  {
-    id: 1,
-    image: "/assets/images3/about/team/team-5.webp",
-    name: "Sameer Khurana",
-    position: "Director - School",
-  },
-  {
-    id: 2,
-    image: "/assets/images3/about/team/team-0.webp",
-    name: "Dharmesh Badani",
-    position: "Director - Hospitality & Student Living",
-  },
-  {
-    id: 3,
-    image: "/assets/images3/about/team/team-1.webp",
-    name: "Gunjan Darira",
-    position: "Director - Retail Central Sourcing",
-  },
-  {
-    id: 4,
-    image: "/assets/images3/about/team/team-2.webp",
-    name: "Karan Bhansali",
-    position: "Director - Residential",
-  },
-  {
-    id: 5,
-    image: "/assets/images3/about/team/team-3.webp",
-    name: "Preeti Vora",
-    position: "Accounts Head",
-  },
-  {
-    id: 6,
-    image: "/assets/images3/about/team/team-4.webp",
-    name: "Rajeev Wade",
-    position: "Commercial Head",
-  },
+  // {
+  //   id: 1,
+  //   image: "/assets/images3/about/team/team-5.webp",
+  //   name: "Sameer Khurana",
+  //   position: "Director - School",
+  // },
+  // {
+  //   id: 2,
+  //   image: "/assets/images3/about/team/team-0.webp",
+  //   name: "Dharmesh Badani",
+  //   position: "Director - Hospitality & Student Living",
+  // },
+  // {
+  //   id: 3,
+  //   image: "/assets/images3/about/team/team-1.webp",
+  //   name: "Gunjan Darira",
+  //   position: "Director - Retail Central Sourcing",
+  // },
+  // {
+  //   id: 4,
+  //   image: "/assets/images3/about/team/team-2.webp",
+  //   name: "Karan Bhansali",
+  //   position: "Director - Residential",
+  // },
+  // {
+  //   id: 5,
+  //   image: "/assets/images3/about/team/team-3.webp",
+  //   name: "Preeti Vora",
+  //   position: "Accounts Head",
+  // },
+  // {
+  //   id: 6,
+  //   image: "/assets/images3/about/team/team-4.webp",
+  //   name: "Rajeev Wade",
+  //   position: "Commercial Head",
+  // },
+  // {
+  //   id: 7,
+  //   image: "/assets/images3/about/team/team-6.webp",
+  //   name: "Swati Patil",
+  //   position: "CRM Head",
+  // },
+  // {
+  //   id: 7,
+  //   image: "/assets/images3/about/team/team-6.webp",
+  //   name: "Swati Patil",
+  //   position: "CRM Head",
+  // },
   {
     id: 7,
-    image: "/assets/images3/about/team/team-6.webp",
-    name: "Swati Patil",
-    position: "CRM Head",
+    image: "/assets/images3/about/team/team-7.webp",
+    name: "Rajeev Darira",
+    // position: "CRM Head",
+  },
+  {
+    id: 8,
+    image: "/assets/images3/about/team/team-8.webp",
+    name: "Shakti",
+    // position: "CRM Head",
+  },
+  {
+    id: 9,
+    image: "/assets/images3/about/team/team-9.webp",
+    name: "Viral Shah",
+    // position: "CRM Head",
+  },
+  {
+    id: 10,
+    image: "/assets/images3/directors/raj.webp",
+    name: "Raj Thakkar",
+    // position: "CRM Head",
+  },
+  {
+    id: 10,
+    image: "/assets/images3/directors/dhaval.webp",
+    name: "Dhaval Thakkar",
+    // position: "CRM Head",
   },
 ];
