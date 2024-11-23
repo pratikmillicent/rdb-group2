@@ -1,28 +1,12 @@
-// import React from 'react'
-
-// const Project = () => {
-//   return (
-//     <div>Project</div>
-//   )
-// }
-
-// export default Probject
-
-import React, { useRef, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper";
-import ModalVideo from "@/components/modal-video/ModalVideo";
 import Heading from "@/components/heading/Heading";
 import Image from "next/image";
 import Link from "next/link";
-import CarouselEvent from "../(home)/components/CardImagesCarousel";
-import PrevNext from "@/utils/PrevNext";
 
 const Project = () => {
   const [loadSwiper, setLoadSwiper] = useState(false);
-  const [isVideoOpen, setIsVideoOpen] = useState(null);
-  const latestPrevRef = useRef(null);
-  const latestNextRef = useRef(null);
 
   useEffect(() => {
     setLoadSwiper(true);
@@ -70,8 +54,6 @@ const Project = () => {
     },
   };
 
-  const [active, setActive] = useState(0);
-
   return (
     <div>
       <section className="blog-modern">
@@ -96,11 +78,7 @@ const Project = () => {
             }}
           >
             <div
-              // onClick={() => setActive(0)}
               style={{
-                // textDecoration: active === 0 ? "underline" : "none",
-                // textDecorationColor: "var(--navy)",
-                // textUnderlineOffset: "4px",
                 cursor: "pointer",
               }}
             >
@@ -191,7 +169,6 @@ const Project = () => {
                   ))}
                 </Swiper>
               )}
-              {/* <PrevNext prevRef={latestPrevRef} nextRef={latestNextRef} /> */}
             </div>
             <div
               className="d-none d-md-block swiper-button-next text-dark fw-600 swiper-arrow-mobile"
@@ -220,8 +197,6 @@ const Project = () => {
               }}
             />
           </div>
-
-          {/* )} */}
         </div>
       </section>
     </div>
@@ -229,69 +204,6 @@ const Project = () => {
 };
 
 export default Project;
-
-// const completedProjectsData = [
-//   {
-//     id: 1,
-//     image:
-//       "https://www.commercialproperty.review/wp-content/uploads/2020/12/The-World-Towers-Apartments-Worli-South-Mumbai.jpg",
-//     description: "Luxury Apartments in South Mumbai - Completed in 2023",
-//   },
-//   {
-//     id: 2,
-//     image:
-//       "https://img.staticmb.com/mbimages/project/Photo_h300_w450/2019/05/20/Project-Photo-11-Lodha-Supremus-Mumbai-5029261_345_1366_300_450.jpg",
-//     description: "Commercial Complex in Andheri - Completed in 2022",
-//   },
-//   {
-//     id: 3,
-//     image:
-//       "https://destinationcompress.s3.ap-south-1.amazonaws.com/acdb2987-80d1-4b05-9ad3-de30647a64ef.jpeg",
-//     description: "Eco-Friendly Villas in Pune - Completed in 2021",
-//   },
-// ];
-
-// const upcomingProjectsData = [
-//   {
-//     id: 1,
-//     image:
-//       "https://www.piramalmahalaxmi.net/wp-content/uploads/2019/07/PMCENTRALTOWER-1024x877.jpg",
-//     description: "Skyline Tower in South Mumbai - Expected Completion in 2025",
-//   },
-//   {
-//     id: 2,
-//     image:
-//       "https://static.squareyards.com/resources/images/mumbai/project-image/raiaskaran-tech-park-project-project-large-image1.jpg",
-//     description: "Tech Park in Andheri - Expected Completion in 2024",
-//   },
-//   {
-//     id: 3,
-//     image:
-//       "https://www.adanirealty.com/-/media/Project/Realty/Residential/Pune/Atelier-Greens/Carousel-Images/3.jpg",
-//     description:
-//       "Eco-Friendly Residences in Pune - Expected Completion in 2026",
-//   },
-// ];
-
-// const sustainabilityProjectsData = [
-//   {
-//     id: 1,
-//     image:
-//       "https://img.staticmb.com/mbimages/project/Photo_h310_w462/Project-Photo-40-Omkar-1973-Mumbai-5019920_345_1366_310_462.jpg",
-//     description: "Green Residential Towers in Worli - LEED Certified",
-//   },
-//   {
-//     id: 2,
-//     image: "https://www.ghar.tv/projectimages/168/photo-518.jpg",
-//     description: "Solar-Powered Office Complex in Andheri",
-//   },
-//   {
-//     id: 3,
-//     image:
-//       "https://admin.purplerealtors.in/admin/upload/Gallery/new_21387487501638337746.jpg",
-//     description: "Zero-Waste Community in Pune",
-//   },
-// ];
 
 const ongoingProjectsData = [
   {
@@ -330,9 +242,4 @@ const upcomingProjectsData = [
     image: "/assets/images3/realty/projects/borivali.jpg",
     description: "Borivali West",
   },
-  // {
-  //   id: 2,
-  //   image: "/assets/images/realty/projects/3.jpg",
-  //   description: "Tech Park in Andheri - Expected Completion in 2024",
-  // },
 ];

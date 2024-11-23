@@ -12,7 +12,6 @@ const Blog = () => {
           style={{ objectFit: "fill" }}
           src="/assets/images3/blogs/banner.jpg"
           className="circle-img blog-banner banner"
-          // className="circle-img blog-banner"
           alt="Landscape picture"
           width={800}
           height={500}

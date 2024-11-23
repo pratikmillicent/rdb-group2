@@ -1,17 +1,8 @@
 "use client";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper";
-import ModalVideo from "@/components/modal-video/ModalVideo";
 import Heading from "@/components/heading/Heading";
 import Image from "next/image";
-import { useEffect, useState } from "react";
 import CarouselEvent from "../(home)/components/CardImagesCarousel";
-import Awards from "./components/Awards";
-import LatestNews from "./LatestNews";
 import News2 from "../(home)/News2";
-import AwardGallery from "./components/Award2";
-import AwardMovie from "../movies/AwardMovie";
 import AwardNews from "./NewsAward";
 
 const News = () => {
@@ -21,9 +12,7 @@ const News = () => {
         <Image
           src="/assets/images3/news/banner.avif"
           className="w-100 d-block  news-banner banner hero-height"
-          // className="w-100 d-block  news-banner hero-height"
           alt="News Banner"
-          // style={{objectFit : 'cover'}}
           width={800}
           height={500}
         />
@@ -47,23 +36,16 @@ const News = () => {
               justifyContent: "center",
               alignItems: "center",
               height: "100%",
-              // padding: "0 20px",
             }}
           >
-            <Heading
-              headTitle="News & Media"
-              color="white"
-              isSpace={false}
-            />
+            <Heading headTitle="News & Media" color="white" isSpace={false} />
           </div>
         </div>
       </div>
 
       <div className="container">
         <News2 />
-
         <AwardNews />
-        {/* <AwardGallery /> */}
         <Heading headTitle="Gallery" />
         <CarouselEvent data={data} />
       </div>
