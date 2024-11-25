@@ -22,17 +22,6 @@ interface IImage {
   image: string;
 }
 
-const events: IEvent[] = [
-  {
-    title: "Jhamkudi Movie Mumbai Premier",
-    image: "/assets/images3/movies/gallary/mumbai-premier/i (1).webp",
-  },
-  {
-    title: "Jhamkudi Movie Ahemdabad Premier",
-    image: "/assets/images3/movies/gallary/ahemadabad-premier/i (1).webp",
-  },
-];
-
 const mumbai: IImage[] = [
   {
     image: "/assets/images3/movies/gallary/mumbai-premier/i (1).webp",
@@ -86,6 +75,30 @@ const ahemdabad: IImage[] = [
   },
 ];
 
+const bts: { src: string } = [
+  { src: "/assets/video/video-gallery/bts-1.mp4", type: "video" },
+  { src: "/assets/video/video-gallery/bts-2.mp4", type: "video" },
+  { src: "/assets/video/video-gallery/bts-3.mp4", type: "video" },
+];
+
+const events: IEvent[] = [
+  {
+    title: "Jhamkudi Movie Mumbai Premier",
+    image: "/assets/images3/movies/gallary/mumbai-premier/i (1).webp",
+    items: mumbai,
+  },
+  {
+    title: "Jhamkudi Movie Ahemdabad Premier",
+    image: "/assets/images3/movies/gallary/ahemadabad-premier/i (1).webp",
+    items: ahemdabad,
+  },
+  {
+    title: "Behind The Scenes",
+    image: "/assets/images3/movies/gallary/bts.webp",
+    items: bts,
+  },
+];
+
 function Gallary2() {
   const [showModal, setShowModal] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -124,7 +137,8 @@ function Gallary2() {
             height={300}
             style={{
               width: "100%",
-              height: "250px",
+              // height: "250px",
+              objectFit: "cover",
             }}
           />
           <h3
@@ -252,11 +266,17 @@ function Gallary2() {
       </Modal> */}
 
       <ImageModal
-        images={activeIndex === 0 ? mumbai : ahemdabad}
+        images={events[activeIndex].items}
         showModal={showModal}
         onClose={handleClose}
       >
-        {(i) => <img style={{ maxHeight: "450px" }} src={i.image} />}
+        {(i) =>
+          i.type === "video" ? (
+            <video style={{ maxHeight: "450px" }} src={i.src} autoPlay />
+          ) : (
+            <img style={{ maxHeight: "450px" }} src={i.image} />
+          )
+        }
       </ImageModal>
     </>
   );
@@ -265,27 +285,27 @@ function Gallary2() {
 const swiperOptions = {
   speed: 1000,
   spaceBetween: 40,
-  loop: true,
+  loop: false,
   centeredSlides: false,
   slidesPerView: 3,
 
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-      spaceBetween: 30,
-    },
-    640: {
-      slidesPerView: 2,
-      spaceBetween: 60,
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 60,
-    },
-    1024: {
-      slidesPerView: 2,
-    },
-  },
+  // breakpoints: {
+  //   0: {
+  //     slidesPerView: 1,
+  //     spaceBetween: 30,
+  //   },
+  //   640: {
+  //     slidesPerView: 2,
+  //     spaceBetween: 60,
+  //   },
+  //   768: {
+  //     slidesPerView: 2,
+  //     spaceBetween: 60,
+  //   },
+  //   1024: {
+  //     slidesPerView: 2,
+  //   },
+  // },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
