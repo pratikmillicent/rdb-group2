@@ -72,7 +72,7 @@ const data: Video[] = [
   },
   {
     image: "/assets/images3/home/gallary/project_lauched.webp",
-    video: "/assets/video/video-gallery/new poject.mp4",
+    video: "/assets/video/video-gallery/new-project.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
     videoId: "AzwC6umvd1s",
     channel: "youtube",
