@@ -257,7 +257,7 @@ function Navbar() {
                     className="dropdown-item text-capitalize fz-14"
                     onClick={handleLinkClick}
                   >
-                    Fracto
+                    FractoProp
                   </Link>
                   <Link
                     href="/movies"

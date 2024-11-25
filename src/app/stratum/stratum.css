@@ -1,3 +1,11 @@
+.shadow:hover {
+  background-color: var(--navy);
+}
+
+.shadow:hover * {
+  color: #fff;
+}
+
 .flex-box {
   display: flex;
   gap: 40px;

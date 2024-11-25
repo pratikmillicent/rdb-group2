@@ -95,7 +95,7 @@ function Properties() {
                 className="shadow p-4 circle-div"
                 style={{
                   textAlign: "center",
-                  borderRadius: "50%",
+                  // borderRadius: "50%",
                 }}
               >
                 <GiFamilyHouse fontSize={30} color="var(--golden)" />
@@ -110,7 +110,7 @@ function Properties() {
                 className="shadow p-4 circle-div"
                 style={{
                   textAlign: "center",
-                  borderRadius: "50%",
+                  // borderRadius: "50%",
                 }}
               >
                 <GiFactory fontSize={30} color="var(--golden)" />
@@ -125,7 +125,7 @@ function Properties() {
                 className="shadow p-4 circle-div"
                 style={{
                   textAlign: "center",
-                  borderRadius: "50%",
+                  // borderRadius: "50%",
                 }}
               >
                 <MdPointOfSale fontSize={30} color="var(--golden)" />
@@ -140,7 +140,7 @@ function Properties() {
                 className="shadow p-4 circle-div"
                 style={{
                   textAlign: "center",
-                  borderRadius: "50%",
+                  // borderRadius: "50%",
                 }}
               >
                 <GiGraduateCap fontSize={30} color="var(--golden)" />
@@ -155,7 +155,7 @@ function Properties() {
                 className="shadow p-4 circle-div"
                 style={{
                   textAlign: "center",
-                  borderRadius: "50%",
+                  // borderRadius: "50%",
                 }}
               >
                 <GiHospital fontSize={30} color="var(--golden)" />
@@ -170,7 +170,7 @@ function Properties() {
                 className="shadow p-4 circle-div"
                 style={{
                   textAlign: "center",
-                  borderRadius: "50%",
+                  // borderRadius: "50%",
                 }}
               >
                 <FaWarehouse fontSize={30} color="var(--golden)" />
@@ -185,7 +185,7 @@ function Properties() {
                 className="shadow p-4 circle-div"
                 style={{
                   textAlign: "center",
-                  borderRadius: "50%",
+                  // borderRadius: "50%",
                 }}
               >
                 <RiHotelFill fontSize={30} color="var(--golden)" />
@@ -200,7 +200,7 @@ function Properties() {
                 className="shadow p-4 circle-div"
                 style={{
                   textAlign: "center",
-                  borderRadius: "50%",
+                  // borderRadius: "50%",
                 }}
               >
                 <MdRealEstateAgent fontSize={30} color="var(--golden)" />
@@ -215,7 +215,7 @@ function Properties() {
                 className="shadow p-4 circle-div"
                 style={{
                   textAlign: "center",
-                  borderRadius: "50%",
+                  // borderRadius: "50%",
                 }}
               >
                 <GiTakeMyMoney fontSize={30} color="var(--golden)" />

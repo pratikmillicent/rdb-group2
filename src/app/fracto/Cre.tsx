@@ -10,12 +10,16 @@ const Cre = () => {
       <div className="">
         <div className="sec-lg-head">
           <div
-            className="d-flex row justify-content-center"
-            style={{ justifyContent: "center", alignItems: "center" }}
+            className="cont"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "stretch",
+            }}
           >
             <div
-              className="col-lg-6 fracto-text"
-              style={{ color: "var(--navy)" }}
+              className="fracto-text"
+              style={{ color: "var(--navy)", width: "100%", padding: "60px" }}
             >
               <Heading
                 headTitle="Why Fracto?"
@@ -35,12 +39,71 @@ const Cre = () => {
                 institutional players.
               </p>
             </div>
-            <div className="col-lg-6">
-              <img
-                style={{ height: "80vh" }}
-                src="/assets/images3/fracto/fracto.svg"
-                alt="cre"
-              />
+            <div
+              className=""
+              style={{
+                display: "flex",
+                // height: "100%",
+                width: "100%",
+                flexWrap: "wrap",
+              }}
+            >
+              <div
+                className=""
+                style={{
+                  fontSize: "20px",
+                  background: "var(--navy)",
+                  color: "#fff",
+                  height: "50%",
+                  width: "50%",
+                  textAlign: "center",
+                  lineHeight: "1000%",
+                }}
+              >
+                1. Stable Income
+              </div>
+              <div
+                className=""
+                style={{
+                  fontSize: "20px",
+                  color: "var(--navy)",
+                  background: "#fff",
+                  height: "50%",
+                  width: "50%",
+                  textAlign: "center",
+                  lineHeight: "1000%",
+                }}
+              >
+                2. High Returns
+              </div>
+              <div
+                className=""
+                style={{
+                  fontSize: "20px",
+                  color: "var(--navy)",
+                  background: "#fff",
+                  height: "50%",
+                  width: "50%",
+                  textAlign: "center",
+                  lineHeight: "1000%",
+                }}
+              >
+                3. Portfolio Diversification
+              </div>
+              <div
+                className=""
+                style={{
+                  fontSize: "20px",
+                  background: "var(--navy)",
+                  color: "#fff",
+                  height: "50%",
+                  width: "50%",
+                  textAlign: "center",
+                  lineHeight: "1000%",
+                }}
+              >
+                4. Capital Appriciation
+              </div>
             </div>
           </div>
         </div>

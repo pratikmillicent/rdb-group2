@@ -1,3 +1,12 @@
+.circle-div:hover * {
+  color: inherit !important;
+}
+
+.circle-div:hover {
+  background-color: var(--navy);
+  color: #fff;
+}
+
 @media only screen and (min-width: 600px) {
   .circle-div {
     width: calc(100% - 40px) !important;

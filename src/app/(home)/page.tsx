@@ -245,16 +245,16 @@ let cards = [
     content: <Card imagen="/assets/images3/home/spotlight/spotlight-5.webp" />,
   },
   {
-    key: 9,
-    content: <Card imagen="/assets/images3/home/spotlight/spotlight-7.webp" />,
-  },
-  {
     key: 8,
     content: <Card imagen="/assets/images3/home/spotlight/spotlight-6.webp" />,
   },
   {
     key: 10,
     content: <Card imagen="/assets/images3/home/spotlight/spotlight-8.webp" />,
+  },
+  {
+    key: 4,
+    content: <Card imagen="/assets/images3/home/spotlight/spotlight-6.webp" />,
   },
 ];
 

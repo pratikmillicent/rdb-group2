@@ -19,7 +19,7 @@ export default function Carroussel3D(props: any) {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setGoToSlide(prev => (prev + 1) % cards.length);
+      setGoToSlide((prev) => (prev + 1) % cards.length);
     }, props.autoScrollInterval || 3000);
 
     return () => clearInterval(interval);
@@ -35,7 +35,7 @@ export default function Carroussel3D(props: any) {
         }}
       >
         <Carousel
-          offsetFn={offsetFromCenter => {
+          offsetFn={(offsetFromCenter) => {
             return {
               opacity: offsetFromCenter ? 0.8 : 1,
             };

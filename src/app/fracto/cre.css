@@ -6,4 +6,8 @@
   .fracto-text {
     padding: 30px !important;
   }
+
+  .cont {
+    flex-direction: column-reverse;
+  }
 }
