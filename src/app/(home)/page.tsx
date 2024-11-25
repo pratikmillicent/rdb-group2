@@ -214,11 +214,11 @@ export default function Home() {
             <div className="carousel-desktop d-none d-lg-block">
               <Carroussel3D
                 cards={cards}
-                height="500px"
+                height="400px"
                 width="800px"
                 margin="0 auto"
                 offset={100}
-                autoScrollInterval={5000}
+                autoScrollInterval={10000}
                 showArrows={false}
               />
             </div>
@@ -251,14 +251,6 @@ let cards = [
   {
     key: 8,
     content: <Card imagen="/assets/images3/home/spotlight/spotlight-6.webp" />,
-  },
-  {
-    key: 3,
-    content: <Card imagen="/assets/images3/home/spotlight/spotlight-1.webp" />,
-  },
-  {
-    key: 9,
-    content: <Card imagen="/assets/images3/home/spotlight/spotlight-7.webp" />,
   },
   {
     key: 10,
