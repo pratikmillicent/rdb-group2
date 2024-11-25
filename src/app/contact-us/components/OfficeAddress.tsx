@@ -58,14 +58,14 @@ const OfficeAddress = () => {
                   - 400 063
                 </span>
               </span>
-              <span>
+              {/* <span>
                 <i className="id-color fa fa-phone fa-lg fz-12 me-3 text-golden"></i>
                 +1 333 9296
               </span>
               <span>
                 <i className="id-color far fa-envelope fz-12 fa-lg me-3 text-golden"></i>
                 <a href="mailto:contact@example.com">contact@example.com</a>
-              </span>
+              </span> */}
               {/* <span>
                 <i className="id-color fa fa-file-pdf-o fa-lg"></i>
                 <a href="#">Download Brochure</a>
@@ -94,10 +94,10 @@ const OfficeAddress = () => {
                   400066
                 </span>
               </span>
-              <span>
+              {/* <span>
                 <i className="id-color fa fa-phone fa-lg fz-12 me-3 text-golden"></i>
                 +1 333 9296
-              </span>
+              </span> */}
               <span>
                 <i className="id-color far fa-envelope fz-12 fa-lg me-3 text-golden"></i>
                 <a href="mailto:borivali@rdbrothers.com">
@@ -127,10 +127,10 @@ const OfficeAddress = () => {
                   Near Western Express Highway, Andheri East. Mumbai - 400 099.
                 </span>
               </span>
-              <span>
+              {/* <span>
                 <i className="id-color fa fa-phone fa-lg fz-12 me-3 text-golden"></i>
                 +1 333 9296
-              </span>
+              </span> */}
               <span>
                 <i className="id-color far fa-envelope fz-12 fa-lg me-3 text-golden"></i>
                 <a href="mailto:info@rdbrothers.com">info@rdbrothers.com</a>
@@ -165,20 +165,59 @@ const OfficeAddress = () => {
 
                 <span>{item.address}</span>
               </span>
-              <span>
+              {/* <span>
                 <i className="id-color fa fa-phone fa-lg fz-12 me-3 text-golden"></i>
                 +1 333 9296
               </span>
               <span>
                 <i className="id-color far fa-envelope fz-12 fa-lg me-3 text-golden"></i>
                 <a href="mailto:contact@example.com">contact@example.com</a>
-              </span>
+              </span> */}
             </address>
           </div>
         ))}
       </div>
+
       <div className="">
-        <Heading headTitle="Dubai" textAlign="left" />
+        <Heading headTitle="West Bengal" textAlign="left" />
+        <div className="d-flex gap-3">
+          <div className="col-md-4" style={{ backgroundSize: "cover" }}>
+            <img
+              src={"/assets/images3/contact/offices/kolkata.avif"}
+              alt=""
+              className="img-fluid"
+              style={{ marginBottom: "15px", height: "250px" }}
+            />
+            <h3 className="fz-22" style={{ marginBottom: "15px" }}>
+              Kolkata
+            </h3>
+            <address className="s1 d-flex flex-col gap-2 fz-15">
+              <span className="d-flex">
+                <span>
+                  {" "}
+                  <i className="id-color fa fa-map-marker-alt fa-lg fz-12 me-3 text-golden"></i>
+                </span>
+                <span>
+                  10, Camac Street, Industry House, 11th Floor, Kolkata - 700017
+                </span>
+              </span>
+              <span>
+                <i className="id-color fa fa-phone fa-lg fz-12 me-3 text-golden"></i>
+                +91 91379 61485
+              </span>
+              {/* <span>
+                <i className="id-color far fa-envelope fz-12 fa-lg me-3 text-golden"></i>
+                <a href="mailto:prem.parasia@rdbrothers.com">
+                  prem.parasia@rdbrothers.com
+                </a>
+              </span> */}
+            </address>
+          </div>
+        </div>
+      </div>
+
+      <div className="">
+        <Heading headTitle="United Arab Emirates" textAlign="left" />
         <div className="d-flex gap-3">
           <div className="col-md-4" style={{ backgroundSize: "cover" }}>
             <img
@@ -198,10 +237,10 @@ const OfficeAddress = () => {
                 </span>
                 <span>1102, Regal Towers,Business Bay</span>
               </span>
-              <span>
+              {/* <span>
                 <i className="id-color fa fa-phone fa-lg fz-12 me-3 text-golden"></i>
                 +1 333 9296
-              </span>
+              </span> */}
               <span>
                 <i className="id-color far fa-envelope fz-12 fa-lg me-3 text-golden"></i>
                 <a href="mailto:prem.parasia@rdbrothers.com">
