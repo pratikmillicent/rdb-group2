@@ -4,7 +4,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Navigation, Pagination } from "swiper";
+import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
 import "swiper/swiper-bundle.css";
 import Heading from "@/components/heading/Heading";
 import { Modal } from "react-bootstrap";
@@ -163,6 +163,12 @@ function CarrerGallery() {
 }
 
 const swiperOptions = {
+  modules: [Navigation, Autoplay],
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  },
   speed: 1000,
   spaceBetween: 40,
   loop: true,

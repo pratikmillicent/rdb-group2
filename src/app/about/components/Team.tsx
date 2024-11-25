@@ -262,54 +262,48 @@ function Team() {
 export default Team;
 
 const data = [
-  // {
-  //   id: 1,
-  //   image: "/assets/images3/about/team/team-5.webp",
-  //   name: "Sameer Khurana",
-  //   position: "Director - School",
-  // },
-  // {
-  //   id: 2,
-  //   image: "/assets/images3/about/team/team-0.webp",
-  //   name: "Dharmesh Badani",
-  //   position: "Director - Hospitality & Student Living",
-  // },
-  // {
-  //   id: 3,
-  //   image: "/assets/images3/about/team/team-1.webp",
-  //   name: "Gunjan Darira",
-  //   position: "Director - Retail Central Sourcing",
-  // },
-  // {
-  //   id: 4,
-  //   image: "/assets/images3/about/team/team-2.webp",
-  //   name: "Karan Bhansali",
-  //   position: "Director - Residential",
-  // },
-  // {
-  //   id: 5,
-  //   image: "/assets/images3/about/team/team-3.webp",
-  //   name: "Preeti Vora",
-  //   position: "Accounts Head",
-  // },
-  // {
-  //   id: 6,
-  //   image: "/assets/images3/about/team/team-4.webp",
-  //   name: "Rajeev Wade",
-  //   position: "Commercial Head",
-  // },
-  // {
-  //   id: 7,
-  //   image: "/assets/images3/about/team/team-6.webp",
-  //   name: "Swati Patil",
-  //   position: "CRM Head",
-  // },
-  // {
-  //   id: 7,
-  //   image: "/assets/images3/about/team/team-6.webp",
-  //   name: "Swati Patil",
-  //   position: "CRM Head",
-  // },
+  {
+    id: 1,
+    image: "/assets/images3/about/team/team-5.webp",
+    name: "Sameer Khurana",
+    position: "Director - School",
+  },
+  {
+    id: 2,
+    image: "/assets/images3/about/team/team-0.webp",
+    name: "Dharmesh Badani",
+    position: "Director - Hospitality & Student Living",
+  },
+  {
+    id: 3,
+    image: "/assets/images3/about/team/team-1.webp",
+    name: "Gunjan Darira",
+    position: "Director - Retail Central Sourcing",
+  },
+  {
+    id: 4,
+    image: "/assets/images3/about/team/team-2.webp",
+    name: "Karan Bhansali",
+    position: "Director - Residential",
+  },
+  {
+    id: 5,
+    image: "/assets/images3/about/team/team-3.webp",
+    name: "Preeti Vora",
+    position: "Accounts Head",
+  },
+  {
+    id: 6,
+    image: "/assets/images3/about/team/team-4.webp",
+    name: "Rajeev Wade",
+    position: "Commercial Head",
+  },
+  {
+    id: 7,
+    image: "/assets/images3/about/team/team-6.webp",
+    name: "Swati Patil",
+    position: "CRM Head",
+  },
   {
     id: 7,
     image: "/assets/images3/about/team/team-7.webp",
@@ -329,13 +323,25 @@ const data = [
     // position: "CRM Head",
   },
   {
+    id: 12,
+    image: "/assets/images3/about/team/team-10.webp",
+    name: "NAN",
+    // position: "CRM Head",
+  },
+  {
+    id: 13,
+    image: "/assets/images3/about/team/team-11.webp",
+    name: "NAN",
+    // position: "CRM Head",
+  },
+  {
     id: 10,
     image: "/assets/images3/directors/raj.webp",
     name: "Raj Thakkar",
     // position: "CRM Head",
   },
   {
-    id: 10,
+    id: 11,
     image: "/assets/images3/directors/dhaval.webp",
     name: "Dhaval Thakkar",
     // position: "CRM Head",

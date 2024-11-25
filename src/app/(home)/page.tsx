@@ -71,7 +71,7 @@ export default function Home() {
     },
     {
       src: "/assets/video/fracto-4.mp4",
-      text: "Fracto",
+      text: "FractoProp",
       link: "/fracto",
     },
     {
