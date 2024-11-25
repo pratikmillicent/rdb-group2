@@ -38,7 +38,7 @@ const Cre = () => {
             <div className="col-lg-6">
               <img
                 style={{ height: "80vh" }}
-                src="/assets/images3/fracto/fracto.webp"
+                src="/assets/images3/fracto/fracto.svg"
                 alt="cre"
               />
             </div>
