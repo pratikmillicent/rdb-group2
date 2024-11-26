@@ -227,8 +227,13 @@ function Navbar() {
               </li>
               <li
                 className="nav-item dropdown"
-                onMouseMove={handleDropdownMouseMove}
+                onMouseEnter={handleDropdownMouseMove}
                 onMouseLeave={handleDropdownMouseLeave}
+                onClick={(event: MouseEvent) => {
+                  event.currentTarget
+                    .querySelector(".dropdown-menu")
+                    ?.classList.toggle("show");
+                }}
               >
                 <a
                   className="nav-link dropdown-toggle"
@@ -241,7 +246,7 @@ function Navbar() {
                     Business
                   </span>
                 </a>
-                <div className="dropdown-menu">
+                <div className={`dropdown-menu`}>
                   <Link href="/properties" className="dropdown-item ">
                     <span className="text-capitalize fz-14">Properties</span>
                   </Link>
@@ -338,9 +343,26 @@ function Navbar() {
                   </span>
                 </Link>
               </li>
+
+              <li className="d-flex align-items-center gap-2 nav-link">
+                <i
+                  className="fa fa-phone"
+                  style={{
+                    color: "var(--golden)",
+                    fontSize: "28px",
+                    marginRight: "6px",
+                  }}
+                ></i>
+                <span>
+                  <span className="d-block fz-10">Need help?</span>
+                  <span className="fz-18" style={{ fontWeight: "medium" }}>
+                    +91 9877737776
+                  </span>
+                </span>
+              </li>
             </ul>
             {/* <SocialIcon /> */}
-            <div className="d-flex align-items-center gap-2 ml-auto">
+            {/* <div className="d-flex align-items-center gap-2 ml-auto">
               <i
                 className="fa fa-phone"
                 style={{
@@ -355,7 +377,7 @@ function Navbar() {
                   +91 9877737776
                 </span>
               </span>
-            </div>
+            </div> */}
           </div>
         </div>
       </nav>

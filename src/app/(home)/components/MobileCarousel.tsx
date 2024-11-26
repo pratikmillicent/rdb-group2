@@ -84,15 +84,27 @@ const MobileCarousel = () => {
 const data = [
   {
     id: 1,
-    image: "/assets/home/Event1.webp",
+    image: "/assets/images3/home/spotlight/1.webp",
   },
   {
     id: 2,
-    image: "/assets/home/Event2.webp",
+    image: "/assets/images3/home/spotlight/2.webp",
   },
   {
     id: 3,
-    image: "/assets/home/Event3.webp",
+    image: "/assets/images3/home/spotlight/4.webp",
+  },
+  {
+    id: 4,
+    image: "/assets/images3/home/spotlight/3.webp",
+  },
+  {
+    id: 5,
+    image: "/assets/images3/home/spotlight/2.webp",
+  },
+  {
+    id: 6,
+    image: "/assets/images3/home/spotlight/4.webp",
   },
 ];
 

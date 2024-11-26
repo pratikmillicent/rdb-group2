@@ -283,7 +283,7 @@ function VideoGallary() {
             ref={vidRef}
             loading="lazy"
             width="500"
-            style={{ maxHeight: "450px" }}
+            style={{ maxHeight: "450px", maxWidth: "65dvw" }}
             autoPlay
           >
             {/* <source src={i?.video} type="video/mp4" /> */}

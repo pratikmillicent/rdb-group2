@@ -3382,6 +3382,11 @@ body.loaded {
   /* color: var(--foreground); */
 }
 
+.navbar-nav {
+  width: 100%;
+  align-items: center;
+}
+
 .navbar .navbar-nav .nav-link .rolling-text {
   height: 30px;
   line-height: 30px;
@@ -9864,6 +9869,7 @@ header.in-box {
   }
 
   .navbar .navbar-collapse {
+    background-color: white;
     max-height: 440px;
     overflow: auto;
   }
@@ -9978,6 +9984,7 @@ header.in-box {
       background-color: white !important;
       /* For small screens */
       color: black !important;
+      align-items: unset;
     }
   }
 

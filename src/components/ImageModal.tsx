@@ -50,7 +50,14 @@ function ImageModal({
             if (onClose) onClose(images[activeIndex]);
           }}
         >
-          <div style={{ display: "flex", alignItems: "center", gap: "40px" }}>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "min(40px, 4%)",
+            }}
+          >
             <button
               onClick={(e) => {
                 e.stopPropagation();
@@ -60,8 +67,8 @@ function ImageModal({
               style={{
                 all: "unset",
                 fontSize: "40px",
-                color: "#fff",
-                display: activeIndex === 0 ? "none" : "block",
+                color: activeIndex === 0 ? "#333" : "#fff",
+                pointerEvents: activeIndex === 0 ? "none" : "auto",
               }}
             >
               <BiCaretLeft />
@@ -77,8 +84,9 @@ function ImageModal({
               style={{
                 all: "unset",
                 fontSize: "40px",
-                color: "#fff",
-                display: activeIndex + 1 >= images.length ? "none" : "block",
+                color: activeIndex + 1 >= images.length ? "#333" : "#fff",
+                pointerEvents:
+                  activeIndex + 1 >= images.length ? "none" : "auto",
               }}
             >
               <BiCaretRight />
