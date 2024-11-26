@@ -205,7 +205,7 @@ export default function Home() {
         <NewGroupGrid />
 
         <div style={{ background: "var(--background)", padding: "60px 0" }}>
-          <div className="spotlight-heading">
+          <div className="heading">
             <Heading headTitle="Spotlight" isMargin="false" />
           </div>
 
@@ -237,24 +237,28 @@ export default function Home() {
 
 let cards = [
   {
+    key: 1,
+    content: <Card imagen="/assets/images3/home/spotlight/1.webp" />,
+  },
+  {
+    key: 2,
+    content: <Card imagen="/assets/images3/home/spotlight/2.webp" />,
+  },
+  {
     key: 3,
-    content: <Card imagen="/assets/images3/home/spotlight/spotlight-1.webp" />,
-  },
-  {
-    key: 7,
-    content: <Card imagen="/assets/images3/home/spotlight/spotlight-5.webp" />,
-  },
-  {
-    key: 8,
-    content: <Card imagen="/assets/images3/home/spotlight/spotlight-6.webp" />,
-  },
-  {
-    key: 10,
-    content: <Card imagen="/assets/images3/home/spotlight/spotlight-8.webp" />,
+    content: <Card imagen="/assets/images3/home/spotlight/4.webp" />,
   },
   {
     key: 4,
-    content: <Card imagen="/assets/images3/home/spotlight/spotlight-6.webp" />,
+    content: <Card imagen="/assets/images3/home/spotlight/3.webp" />,
+  },
+  {
+    key: 5,
+    content: <Card imagen="/assets/images3/home/spotlight/2.webp" />,
+  },
+  {
+    key: 6,
+    content: <Card imagen="/assets/images3/home/spotlight/4.webp" />,
   },
 ];
 
