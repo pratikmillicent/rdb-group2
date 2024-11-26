@@ -1,14 +1,28 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Heading from "@/components/heading/Heading";
 import Image from "next/image";
+import { resume_submision } from "@/app/actions";
+import { Alert } from "react-bootstrap";
+
+const initial = {
+  name: "",
+  email: "",
+  resume: null,
+  coverLetter: "",
+};
 
 const ResumeUpload = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    resume: null,
-    coverLetter: "",
-  });
+  const [status, setStatus] = useState<string | undefined>();
+  const [loading, setLoading] = useState(false);
+  const [formData, setFormData] = useState(initial);
+
+  useEffect(() => {
+    const t = setTimeout(() => {
+      setStatus(undefined);
+    }, 5000);
+
+    return () => clearTimeout(t);
+  }, [status]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -27,13 +41,66 @@ const ResumeUpload = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(formData);
+
+    const form = new FormData();
+    form.append("name", formData.name);
+    form.append("email", formData.email);
+    formData.resume && form.append("resume", formData.resume);
+    form.append("coverLetter", formData.coverLetter);
+
+    setLoading(true);
+    const resp = await resume_submision(form);
+    setLoading(false);
+
+    if (resp.success) {
+      setFormData(initial);
+      setStatus("success");
+    } else {
+      setStatus("danger");
+    }
   };
 
   return (
     <>
+      {status && (
+        <Alert
+          style={{
+            width: "fit-content",
+            position: "fixed",
+            right: 30,
+            bottom: 30,
+            zIndex: 1000000,
+          }}
+          variant={status}
+          onClose={() => setStatus(undefined)}
+          dismissible
+        >
+          <Alert.Heading>
+            {status === "success"
+              ? "Thank You, For Reaching Out"
+              : "System Error"}
+          </Alert.Heading>
+          <hr />
+          <p>
+            {status === "success"
+              ? "We will contact you soon."
+              : "Please try again."}
+          </p>
+
+          <div
+            className="timer"
+            style={{
+              background: "currentColor",
+              height: "3px",
+              marginTop: 10,
+            }}
+          ></div>
+        </Alert>
+      )}
+
       <Heading headTitle="Submit Your Resume" />
 
       <div className="container mt-60">
@@ -103,6 +170,7 @@ const ResumeUpload = () => {
                                 style={{ background: "var(--white)" }}
                                 id="form_resume"
                                 type="file"
+                                accept="application/pdf"
                                 name="resume"
                                 onChange={handleFileChange}
                                 required
@@ -129,7 +197,11 @@ const ResumeUpload = () => {
                                 type="submit"
                                 className="butn butn-md butn-bord radius-30 fz-16 fw-400"
                               >
-                                Submit
+                                {loading ? (
+                                  <div className="loader"></div>
+                                ) : (
+                                  "Submit"
+                                )}
                               </button>
                             </div>
                           </div>
