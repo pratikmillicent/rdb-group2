@@ -295,7 +295,7 @@ const data = [
   {
     id: 6,
     image: "/assets/images3/about/team/team-4.webp",
-    name: "Rajeev Wade",
+    name: "Rajeev Vaze",
     position: "Commercial Head",
   },
   {
@@ -313,7 +313,7 @@ const data = [
   {
     id: 8,
     image: "/assets/images3/about/team/team-8.webp",
-    name: "Shakti",
+    name: "Shakti Thakkar",
     // position: "CRM Head",
   },
   {
@@ -325,13 +325,13 @@ const data = [
   {
     id: 12,
     image: "/assets/images3/about/team/team-10.webp",
-    name: "NAN",
+    name: "Bonus Thakkar",
     // position: "CRM Head",
   },
   {
     id: 13,
     image: "/assets/images3/about/team/team-11.webp",
-    name: "NAN",
+    name: "Foram Satra",
     // position: "CRM Head",
   },
   {
