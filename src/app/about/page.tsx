@@ -33,7 +33,7 @@ function About() {
   const [ref, inView] = useInView({ once: true });
   return (
     <>
-      <div style={{ position: "relative" }}>
+      <div style={{ position: "relative" }} className="hero-responsive">
         <Image
           src="/assets/images3/about/banner.webp"
           className="w-100 d-block  news-banner banner hero-height"

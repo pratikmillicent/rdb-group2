@@ -7,7 +7,7 @@ function EighteenDimensions() {
   return (
     <>
       <main className="bg- text-black">
-        <div style={{ position: "relative" }}>
+        <div style={{ position: "relative" }} className="hero-responsive">
           <Image
             src="/assets/images3/eighteen-dimensions/banner.webp"
             className="w-100 d-block  news-banner banner hero-height"

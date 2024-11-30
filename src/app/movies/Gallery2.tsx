@@ -174,7 +174,7 @@ function Gallary2() {
           }}
         >
           <div className="container-fluid rest">
-            <div className="row" style={{ marginBottom: "120px" }}>
+            <div className="row movie-gallery">
               <div className="" style={{ position: "relative" }}>
                 <div className="work-crus work-crus2">
                   {loadSwiper && (
@@ -182,7 +182,7 @@ function Gallary2() {
                       {...swiperOptions}
                       id="content-carousel-container-unq-w"
                       className="swiper-container"
-                      onSwiper={(swiper) => (swiperRef.current = swiper)}
+                      onSwiper={swiper => (swiperRef.current = swiper)}
                     >
                       {events.map((item, i) => (
                         <SwiperSlide onClick={() => openModal(i)} key={i}>
@@ -227,50 +227,12 @@ function Gallary2() {
         </div>
       </section>
 
-      {/* Modal for displaying images */}
-      {/* <Modal show={showModal} onHide={handleClose} centered size="lg">
-        <Modal.Body>
-          <Swiper
-            spaceBetween={50}
-            slidesPerView={1}
-            initialSlide={activeIndex}
-            onSlideChange={swiper => setActiveIndex(swiper.activeIndex)}
-            navigation // Enable navigation arrows
-            modules={[Navigation]} // Import the Swiper navigation module
-          >
-            {ahemdabad.map((image, index) => (
-              <SwiperSlide key={index}>
-                <div className="swiper-image-container">
-                  <img
-                    src={image.image}
-                    alt={image.image}
-                    className="landscape-image"
-                  />
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </Modal.Body>
-        <Modal.Footer>
-          <div className="toast-header">
-            <div>
-              <button
-                onClick={handleClose}
-                className="btn btn-10 flex-vh-center"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </Modal.Footer>
-      </Modal> */}
-
       <ImageModal
         images={events[activeIndex].items}
         showModal={showModal}
         onClose={handleClose}
       >
-        {(i) =>
+        {i =>
           i.type === "video" ? (
             <video style={{ maxHeight: "450px" }} src={i.src} autoPlay />
           ) : (
@@ -284,28 +246,29 @@ function Gallary2() {
 
 const swiperOptions = {
   speed: 1000,
-  spaceBetween: 40,
+  // spaceBetween: 40,
   loop: false,
   centeredSlides: false,
   slidesPerView: 3,
 
-  // breakpoints: {
-  //   0: {
-  //     slidesPerView: 1,
-  //     spaceBetween: 30,
-  //   },
-  //   640: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 60,
-  //   },
-  //   768: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 60,
-  //   },
-  //   1024: {
-  //     slidesPerView: 2,
-  //   },
-  // },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    // 768: {
+    //   slidesPerView: 2,
+    //   spaceBetween: 60,
+    // },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,

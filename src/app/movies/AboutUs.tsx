@@ -14,11 +14,7 @@ const AboutUs = () => {
         }}
       >
         <div className="container">
-          <div
-            style={{
-              padding: "90px 0",
-            }}
-          >
+          <div className="movie-about-spacing">
             <div
               className="row align-items-center"
               style={{ marginBottom: "60px" }}
@@ -79,13 +75,7 @@ const AboutUs = () => {
         </div>
       </section>
 
-      <section
-        className="no-top relative z1000"
-        style={{
-          backgroundImage: "linear-gradient(var(--navy))",
-          transform: "translateY(-90px)",
-        }}
-      >
+      <section className="no-top relative z1000 about-card">
         <div className="container" style={{}}>
           <div className="row" style={{ display: "flex", gap: "40px" }}>
             <div

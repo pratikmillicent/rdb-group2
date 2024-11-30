@@ -7,10 +7,10 @@ import OfficeAddress from "./components/OfficeAddress";
 const ContactUs = () => {
   return (
     <>
-      <div style={{ position: "relative", height: "94vh" }}>
+      <div style={{ position: "relative" }} className="hero-responsive">
         <Image
           src="/assets/images3/contact/banner.webp"
-          className="circle-img contact-banner banner"
+          className="circle-img contact-banner banner mw-100"
           alt="carrer page"
           style={{ objectFit: "cover" }}
           objectFit="cover"

@@ -8,7 +8,7 @@ import AwardNews from "./NewsAward";
 const News = () => {
   return (
     <>
-      <div style={{ position: "relative" }}>
+      <div style={{ position: "relative" }} className="hero-responsive">
         <Image
           src="/assets/images3/news/banner.avif"
           className="w-100 d-block  news-banner banner hero-height"

@@ -183,4 +183,26 @@
     /* border-radius: 8px; */
     overflow: hidden;
   }
+
+  .movie-about-spacing {
+    padding: 25px 0px 60px !important;
+  }
+  .mt-60 {
+    margin-top: 10px !important;
+  }
+}
+
+.movie-about-spacing {
+  padding: 60px 0;
+}
+
+.about-card {
+  background-image: linear-gradient(var(--navy));
+  transform: translateY(-90px);
+}
+
+@media screen and (max-width: 576px) {
+  .about-card {
+    transform: translateY(-55px);
+  }
 }

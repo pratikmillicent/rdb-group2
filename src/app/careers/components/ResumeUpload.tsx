@@ -1,20 +1,34 @@
-import { useEffect, useState } from "react";
+import { forwardRef, useEffect, useState } from "react";
 import Heading from "@/components/heading/Heading";
 import Image from "next/image";
 import { resume_submision } from "@/app/actions";
 import { Alert } from "react-bootstrap";
 
-const initial = {
-  name: "",
-  email: "",
-  resume: null,
-  coverLetter: "",
-};
+// const initial = {
+//   name: "",
+//   email: "",
+//   resume: null,
+//   coverLetter: "",
+//   position: title,
+// };
 
-const ResumeUpload = () => {
+interface ResumeUploadProps {
+  id: number;
+  careerData: any;
+}
+
+const ResumeUpload = ({ id, careerData }: ResumeUploadProps) => {
   const [status, setStatus] = useState<string | undefined>();
   const [loading, setLoading] = useState(false);
-  const [formData, setFormData] = useState(initial);
+  const [title, setTitle] = useState<string | undefined>(careerData[id]);
+
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    resume: null,
+    coverLetter: "",
+    position: title,
+  });
 
   useEffect(() => {
     const t = setTimeout(() => {
@@ -24,7 +38,7 @@ const ResumeUpload = () => {
     return () => clearTimeout(t);
   }, [status]);
 
-  const handleChange = (e) => {
+  const handleChange = e => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -32,16 +46,16 @@ const ResumeUpload = () => {
     });
   };
 
-  const handleFileChange = (e) => {
+  const handleFileChange = e => {
     const file = e.target.files[0];
     console.log("Selected file:", file);
-    setFormData((prevState) => ({
+    setFormData(prevState => ({
       ...prevState,
       resume: file,
     }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async e => {
     e.preventDefault();
     console.log(formData);
 
@@ -50,13 +64,20 @@ const ResumeUpload = () => {
     form.append("email", formData.email);
     formData.resume && form.append("resume", formData.resume);
     form.append("coverLetter", formData.coverLetter);
+    form.append("position", title || "");
 
     setLoading(true);
     const resp = await resume_submision(form);
     setLoading(false);
 
     if (resp.success) {
-      setFormData(initial);
+      setFormData({
+        name: "",
+        email: "",
+        resume: null,
+        coverLetter: "",
+        position: title,
+      });
       setStatus("success");
     } else {
       setStatus("danger");
@@ -162,6 +183,33 @@ const ResumeUpload = () => {
                             </div>
                           </div>
                           <div className="col-12">
+                            <label htmlFor="form_positon fz-16 fw-400">
+                              Postion
+                            </label>
+                            <div className="form-group mb-30 mt-5">
+                              <select
+                                id={"" + id}
+                                name="position"
+                                style={{
+                                  width: "100%",
+                                  border: " 1px solid rgba(0, 0, 0, 0.2)",
+                                  borderRadius: "10px",
+                                  background: "transparent",
+                                  padding: " 15px",
+                                  transition: "all 0.4s",
+                                }}
+                                value={careerData[id].title}
+                                onChange={e => setTitle(e.target.value)}
+                              >
+                                {careerData.map((item: any) => (
+                                  <option key={item.id} value={item.title}>
+                                    {item.title}
+                                  </option>
+                                ))}
+                              </select>
+                            </div>
+                          </div>
+                          <div className="col-12">
                             <label htmlFor="form_resume fz-16 fw-400">
                               Resume
                             </label>
@@ -218,5 +266,4 @@ const ResumeUpload = () => {
     </>
   );
 };
-
 export default ResumeUpload;

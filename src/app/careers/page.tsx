@@ -3,8 +3,22 @@ import Heading from "@/components/heading/Heading";
 import Image from "next/image";
 import CarrerGallery from "./CarrerGallery";
 import ResumeUpload from "./components/ResumeUpload";
+import { useRef, useState } from "react";
 
 const page = () => {
+  const [selectedId, setSelectedId] = useState<number>(0);
+  const applyScroll = useRef<null | HTMLDivElement>(null);
+
+  const handleClick = (id: number) => {
+    setSelectedId(id - 1);
+    if (applyScroll.current) {
+      applyScroll.current.scrollIntoView({
+        block: "center",
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
     <>
       <div style={{ position: "relative" }}>
@@ -117,8 +131,16 @@ const page = () => {
                 >
                   <div className="w-100 align-items-center d-flex">
                     <p className="fw-bolder text-golden">{data.title}</p>
-                    <div className="ms-auto apply-btn">
-                      <a className="mt-1 fw-bolder">APPLY NOW</a>
+                    <div
+                      className="ms-auto apply-btn"
+                      style={{ cursor: "pointer", zIndex: 100 }}
+                    >
+                      <a
+                        className="mt-1 fw-bolder"
+                        onClick={() => handleClick(data.id)}
+                      >
+                        APPLY NOW
+                      </a>
                     </div>
                   </div>
                   {/* <div className="mt-5">
@@ -137,8 +159,9 @@ const page = () => {
           </div>
         </div>
         {/* <CardList data={cardData} /> */}
-
-        <ResumeUpload />
+        <div ref={applyScroll}>
+          <ResumeUpload id={selectedId} careerData={CarrerData} />
+        </div>
       </div>
     </>
   );
@@ -148,6 +171,7 @@ export default page;
 
 const CarrerData = [
   {
+    id: 1,
     title: "Director - Commercial",
     // position: "Project Manager",
     description:
@@ -156,6 +180,7 @@ const CarrerData = [
       "MBA in Finance/Marketing or related field with 8 to 10 years of experience in commercial strategy and business development.",
   },
   {
+    id: 2,
     title: "Business Development Manager - School Presales",
     // position: "Project Head",
     description:
@@ -164,6 +189,7 @@ const CarrerData = [
       "Graduate/Postgraduate in Sales/Marketing with 3 to 5 years of experience in school sales or presales activities.",
   },
   {
+    id: 3,
     title: "Telecaller",
     // position: "Branch Manager",
     description:
@@ -172,6 +198,7 @@ const CarrerData = [
       "Graduate in any field with 1 to 2 years of experience in telecalling or customer engagement roles.",
   },
   {
+    id: 4,
     title: "Sourcing/Closing Executive",
     // position: "Branch Manager",
     description:

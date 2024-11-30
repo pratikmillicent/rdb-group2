@@ -1,3 +1,20 @@
+.circle-div {
+  text-align: center;
+}
+.property-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+}
+
+.content {
+  font-size: 20px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
 .circle-div:hover * {
   color: inherit !important;
 }
@@ -7,11 +24,13 @@
   color: #fff;
 }
 
-@media only screen and (min-width: 600px) {
-  .circle-div {
-    width: calc(100% - 40px) !important;
-  }
+/* @media only screen and (min-width: 600px) { */
+.circle-div {
+  width: calc(100% - 40px) !important;
+  text-align: center;
+  width: calc(50% - 20px) !important;
 }
+/* } */
 
 @media only screen and (min-width: 786px) {
   .circle-div {

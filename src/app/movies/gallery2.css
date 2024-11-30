@@ -49,3 +49,13 @@
     right: -24px !important;
   }
 }
+
+.movie-gallery {
+  margin-bottom: 120px;
+}
+
+@media screen and (max-width: 576px) {
+  .movie-gallery {
+    margin-bottom: 10px !important;
+  }
+}

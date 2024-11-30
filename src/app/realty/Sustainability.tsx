@@ -1,19 +1,16 @@
 import Heading from "@/components/heading/Heading";
 import React, { useEffect } from "react";
 import "./sustainability.css";
-import parallaxie from "@/common/parallaxie";
 
 const Sustainability = () => {
-  useEffect(() => {
-    parallaxie(".back-image.parallaxie", 0.35);
-  }, []);
   return (
     <div className="bussines_banner" style={{ marginTop: 0 }}>
       <Heading headTitle="Sustainability" />
       <div
-        className="banner_text sust_hght Sustainability_banner back-image bg-img parallaxie"
+        className="banner_text sust_hght Sustainability_banner back-image bg-img"
         style={{
           backgroundImage: `url(/assets/images3/realty/sustainability/sustainability-banner-2.webp)`,
+          backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center center",
           width: "100%",

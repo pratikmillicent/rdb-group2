@@ -38,7 +38,7 @@ const data = [
     label: "Market Presence",
   },
   { value: 50, suffix: "+", label: "Projects Launched" },
-  { value: 200, suffix: "+", label: "Team Strength" },
+  { value: 200, suffix: "+", label: "Team Strength-" },
 ];
 
 export default function Home() {
@@ -117,8 +117,8 @@ export default function Home() {
     const { src, text, link } = videoData[loopCount];
     let typingTimeout;
 
-    const typeText = (text) => {
-      setDisplayedText((prev) => prev + text.slice(0, 1));
+    const typeText = text => {
+      setDisplayedText(prev => prev + text.slice(0, 1));
 
       typingTimeout = setTimeout(() => typeText(text.slice(1)), 100);
     };

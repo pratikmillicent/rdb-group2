@@ -141,11 +141,10 @@ const NewGroupGrid: React.FC = () => {
     <div className="portfolio">
       <div className="ourbusiness-mobile">
         <Heading headTitle="Our Business" />
-
         <section className="portfolio-fixed">
           <div className=" rest">
-            <div className="row" style={{ width: "100vw" }}>
-              <div className="col-lg-6 rest" style={{ position: "relative" }}>
+            <div className="row " style={{ width: "100vw" }}>
+              <div className="col-lg-6 rest " style={{ position: "relative" }}>
                 <div className="left" id="sticky_item">
                   {data?.map((item, index) => (
                     <div
@@ -194,8 +193,11 @@ const NewGroupGrid: React.FC = () => {
                           >
                             {item.text}.
                           </p>
+                          <div className="d-block d-lg-none mt-10 d-mt-0">
+                            <img src={item.image} />
+                          </div>
                           <div
-                            className=" mt-20"
+                            className="mt-20"
                             style={{ marginBottom: "16px" }}
                           >
                             <Link href="#">

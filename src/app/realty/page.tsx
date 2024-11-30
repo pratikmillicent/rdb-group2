@@ -30,7 +30,7 @@ const Realty = () => {
   return (
     <>
       <main className="bg- text-black">
-        <div style={{ position: "relative" }}>
+        <div style={{ position: "relative" }} className="hero-responsive">
           <Image
             style={{ objectFit: "cover" }}
             src="/assets/images3/realty/banner.webp"

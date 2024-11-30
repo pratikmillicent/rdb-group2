@@ -74,6 +74,21 @@
     padding-left: 25px !important;
   }
 }
+@media only screen and (max-width: 490px) {
+  .portfolio {
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 387px) {
+  .portfolio {
+    margin-top: 140px;
+  }
+}
+@media only screen and (max-width: 345px) {
+  .portfolio {
+    margin-top: 230px;
+  }
+}
 
 .swiper-button-next:after {
   font-size: 30px;
@@ -127,4 +142,7 @@
   .swiper-arrow-mobile-right {
     right: -24px !important;
   }
+}
+
+@media (max-width: 992px) {
 }

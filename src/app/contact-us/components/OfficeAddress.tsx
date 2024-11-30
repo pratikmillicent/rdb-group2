@@ -98,12 +98,12 @@ const OfficeAddress = () => {
                 <i className="id-color fa fa-phone fa-lg fz-12 me-3 text-golden"></i>
                 +1 333 9296
               </span> */}
-              <span>
+              {/* <span>
                 <i className="id-color far fa-envelope fz-12 fa-lg me-3 text-golden"></i>
                 <a href="mailto:borivali@rdbrothers.com">
                   borivali@rdbrothers.com
                 </a>
-              </span>
+              </span> */}
             </address>
           </div>
           <div className="col-md-4" style={{ backgroundSize: "cover" }}>
@@ -131,10 +131,10 @@ const OfficeAddress = () => {
                 <i className="id-color fa fa-phone fa-lg fz-12 me-3 text-golden"></i>
                 +1 333 9296
               </span> */}
-              <span>
+              {/* <span>
                 <i className="id-color far fa-envelope fz-12 fa-lg me-3 text-golden"></i>
                 <a href="mailto:info@rdbrothers.com">info@rdbrothers.com</a>
-              </span>
+              </span> */}
             </address>
           </div>
         </div>
@@ -201,10 +201,10 @@ const OfficeAddress = () => {
                   10, Camac Street, Industry House, 11th Floor, Kolkata - 700017
                 </span>
               </span>
-              <span>
+              {/* <span>
                 <i className="id-color fa fa-phone fa-lg fz-12 me-3 text-golden"></i>
                 +91 91379 61485
-              </span>
+              </span> */}
               {/* <span>
                 <i className="id-color far fa-envelope fz-12 fa-lg me-3 text-golden"></i>
                 <a href="mailto:prem.parasia@rdbrothers.com">
@@ -241,12 +241,12 @@ const OfficeAddress = () => {
                 <i className="id-color fa fa-phone fa-lg fz-12 me-3 text-golden"></i>
                 +1 333 9296
               </span> */}
-              <span>
+              {/* <span>
                 <i className="id-color far fa-envelope fz-12 fa-lg me-3 text-golden"></i>
                 <a href="mailto:prem.parasia@rdbrothers.com">
                   prem.parasia@rdbrothers.com
                 </a>
-              </span>
+              </span> */}
             </address>
           </div>
         </div>

@@ -54,10 +54,12 @@ const Cre = () => {
                   fontSize: "20px",
                   background: "var(--navy)",
                   color: "#fff",
-                  height: "50%",
                   width: "50%",
+                  height: "min(50vw, 200px)",
                   textAlign: "center",
-                  lineHeight: "1000%",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
                 }}
               >
                 1. Stable Income
@@ -68,10 +70,12 @@ const Cre = () => {
                   fontSize: "20px",
                   color: "var(--navy)",
                   background: "#fff",
-                  height: "50%",
                   width: "50%",
+                  height: "min(50vw, 200px)",
                   textAlign: "center",
-                  lineHeight: "1000%",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
                 }}
               >
                 2. High Returns
@@ -82,10 +86,12 @@ const Cre = () => {
                   fontSize: "20px",
                   color: "var(--navy)",
                   background: "#fff",
-                  height: "50%",
                   width: "50%",
+                  height: "min(50vw, 200px)",
                   textAlign: "center",
-                  lineHeight: "1000%",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
                 }}
               >
                 3. Portfolio Diversification
@@ -96,10 +102,12 @@ const Cre = () => {
                   fontSize: "20px",
                   background: "var(--navy)",
                   color: "#fff",
-                  height: "50%",
                   width: "50%",
+                  height: "min(50vw, 200px)",
                   textAlign: "center",
-                  lineHeight: "1000%",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
                 }}
               >
                 4. Capital Appriciation

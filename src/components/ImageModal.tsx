@@ -59,10 +59,10 @@ function ImageModal({
             }}
           >
             <button
-              onClick={(e) => {
+              onClick={e => {
                 e.stopPropagation();
 
-                setActiveIndex((i) => (i > 0 ? i - 1 : i));
+                setActiveIndex(i => (i > 0 ? i - 1 : i));
               }}
               style={{
                 all: "unset",
@@ -73,13 +73,13 @@ function ImageModal({
             >
               <BiCaretLeft />
             </button>
-            <div onClick={(e) => e.stopPropagation()}>
+            <div onClick={e => e.stopPropagation()}>
               {children(images[activeIndex])}
             </div>
             <button
-              onClick={(e) => {
+              onClick={e => {
                 e.stopPropagation();
-                setActiveIndex((i) => (i + 1 < images.length ? i + 1 : i));
+                setActiveIndex(i => (i + 1 < images.length ? i + 1 : i));
               }}
               style={{
                 all: "unset",

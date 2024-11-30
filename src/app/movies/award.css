@@ -105,7 +105,6 @@
 }
 
 @media (max-width: 480px) {
-
   .award-title,
   .award-year {
     font-size: 18px !important;
@@ -190,10 +189,16 @@
 
   .award-info {
     top: -24px;
-    font-size: '24px'
+    font-size: "24px";
   }
 
   .award-info span {
     font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .award-img {
+    width: 100dwv;
   }
 }

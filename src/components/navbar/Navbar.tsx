@@ -51,7 +51,7 @@ function Navbar() {
   // }
 
   function toggleNavbar() {
-    setIsNavbarOpen((prev) => !prev);
+    setIsNavbarOpen(prev => !prev);
   }
 
   function handleClickOutside(event: MouseEvent) {
@@ -356,7 +356,7 @@ function Navbar() {
                 <span>
                   <span className="d-block fz-10">Need help?</span>
                   <span className="fz-18" style={{ fontWeight: "medium" }}>
-                    +91 9877737776
+                    <Link href="tel:+91 9877737776">+91 9877737776</Link>
                   </span>
                 </span>
               </li>

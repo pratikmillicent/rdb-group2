@@ -18,7 +18,7 @@ function Properties() {
   return (
     <>
       <main className="bg- text-black">
-        <div style={{ position: "relative" }}>
+        <div style={{ position: "relative" }} className="hero-responsive">
           <Image
             src="/assets/images3/properties/banner.webp"
             className="w-100 d-block  news-banner banner hero-height"
@@ -82,149 +82,42 @@ function Properties() {
               Key Verticals in RD Brothers Properties
             </h3>
 
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                flexWrap: "wrap",
-                gap: "40px",
-                width: "100%",
-              }}
-            >
-              <div
-                className="shadow p-4 circle-div"
-                style={{
-                  textAlign: "center",
-                  // borderRadius: "50%",
-                }}
-              >
+            <div className="property-box">
+              <div className="shadow p-4 circle-div">
                 <GiFamilyHouse fontSize={30} color="var(--golden)" />
-                <p
-                  className="mt-2"
-                  style={{ fontSize: "20px", fontWeight: "400" }}
-                >
-                  Residential
-                </p>
+                <p className="mt-2 content">Residential</p>
               </div>
-              <div
-                className="shadow p-4 circle-div"
-                style={{
-                  textAlign: "center",
-                  // borderRadius: "50%",
-                }}
-              >
+              <div className="shadow p-4 circle-div">
                 <GiFactory fontSize={30} color="var(--golden)" />
-                <p
-                  className="mt-2"
-                  style={{ fontSize: "20px", fontWeight: "400" }}
-                >
-                  Commercial
-                </p>
+                <p className="mt-2 content">Commercial</p>
               </div>
-              <div
-                className="shadow p-4 circle-div"
-                style={{
-                  textAlign: "center",
-                  // borderRadius: "50%",
-                }}
-              >
+              <div className="shadow p-4 circle-div">
                 <MdPointOfSale fontSize={30} color="var(--golden)" />
-                <p
-                  className="mt-2"
-                  style={{ fontSize: "20px", fontWeight: "400" }}
-                >
-                  Retail
-                </p>
+                <p className="mt-2 content">Retail</p>
               </div>
-              <div
-                className="shadow p-4 circle-div"
-                style={{
-                  textAlign: "center",
-                  // borderRadius: "50%",
-                }}
-              >
+              <div className="shadow p-4 circle-div">
                 <GiGraduateCap fontSize={30} color="var(--golden)" />
-                <p
-                  className="mt-2"
-                  style={{ fontSize: "20px", fontWeight: "400" }}
-                >
-                  Education
-                </p>
+                <p className="mt-2 content">Education</p>
               </div>
-              <div
-                className="shadow p-4 circle-div"
-                style={{
-                  textAlign: "center",
-                  // borderRadius: "50%",
-                }}
-              >
+              <div className="shadow p-4 circle-div">
                 <GiHospital fontSize={30} color="var(--golden)" />
-                <p
-                  className="mt-2"
-                  style={{ fontSize: "20px", fontWeight: "400" }}
-                >
-                  Healthcare
-                </p>
+                <p className="mt-2 content">Healthcare</p>
               </div>
-              <div
-                className="shadow p-4 circle-div"
-                style={{
-                  textAlign: "center",
-                  // borderRadius: "50%",
-                }}
-              >
+              <div className="shadow p-4 circle-div">
                 <FaWarehouse fontSize={30} color="var(--golden)" />
-                <p
-                  className="mt-2"
-                  style={{ fontSize: "20px", fontWeight: "400" }}
-                >
-                  Loan and Finances
-                </p>
+                <p className="mt-2 content">Loan and Finances</p>
               </div>
-              <div
-                className="shadow p-4 circle-div"
-                style={{
-                  textAlign: "center",
-                  // borderRadius: "50%",
-                }}
-              >
+              <div className="shadow p-4 circle-div">
                 <RiHotelFill fontSize={30} color="var(--golden)" />
-                <p
-                  className="mt-2"
-                  style={{ fontSize: "20px", fontWeight: "400" }}
-                >
-                  Hospitality
-                </p>
+                <p className="mt-2 content">Hospitality</p>
               </div>
-              <div
-                className="shadow p-4 circle-div"
-                style={{
-                  textAlign: "center",
-                  // borderRadius: "50%",
-                }}
-              >
+              <div className="shadow p-4 circle-div">
                 <MdRealEstateAgent fontSize={30} color="var(--golden)" />
-                <p
-                  className="mt-2"
-                  style={{ fontSize: "20px", fontWeight: "400" }}
-                >
-                  Warehouseing and Industrial
-                </p>
+                <p className="mt-2 content">Warehouseing and Industrial</p>
               </div>
-              <div
-                className="shadow p-4 circle-div"
-                style={{
-                  textAlign: "center",
-                  // borderRadius: "50%",
-                }}
-              >
+              <div className="shadow p-4 circle-div">
                 <GiTakeMyMoney fontSize={30} color="var(--golden)" />
-                <p
-                  className="mt-2"
-                  style={{ fontSize: "20px", fontWeight: "400" }}
-                >
-                  Prelease & Investment
-                </p>
+                <p className="mt-2 content">Prelease & Investment</p>
               </div>
             </div>
           </div>
