@@ -1,4 +1,4 @@
-import { forwardRef, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Heading from "@/components/heading/Heading";
 import Image from "next/image";
 import { resume_submision } from "@/app/actions";

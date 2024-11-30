@@ -64,19 +64,15 @@ function DashboardCount({ data }: DashboardCountProps) {
               <div
                 ref={ref}
                 key={index}
-                className="col-6 col-md-4 col-lg wow fadeInUp mb-sm-30 animated "
+                className={`col-md-4 col-lg wow fadeInUp mb-sm-30 animated ${
+                  index === data.length - 1 ? "col-sm-12" : "col-6"
+                }`}
                 data-wow-delay={`${index * 0.25}s`}
                 style={{
                   backgroundSize: "cover",
                   visibility: "visible",
                   animationDelay: `${index * 0.25}s`,
                   animationName: "fadeInUp",
-                  ...(window.innerWidth < 768 &&
-                    item.label === "Team Strength-" && {
-                      marginLeft: "auto",
-                      marginRight: "auto",
-                      display: "block",
-                    }),
                 }}
               >
                 <div className="de_count" style={{ backgroundSize: "cover" }}>

@@ -5,7 +5,7 @@ import CarrerGallery from "./CarrerGallery";
 import ResumeUpload from "./components/ResumeUpload";
 import { useRef, useState } from "react";
 
-const page = () => {
+const Page = () => {
   const [selectedId, setSelectedId] = useState<number>(0);
   const applyScroll = useRef<null | HTMLDivElement>(null);
 
@@ -167,7 +167,7 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
 
 const CarrerData = [
   {
