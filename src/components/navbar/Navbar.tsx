@@ -1,21 +1,13 @@
 import { MouseEvent, useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { IoMenu } from "react-icons/io5";
 import useMediaQuery from "@/app/(home)/components/useMediaQuery";
-import SocialIcon from "../social-icon/SocialIcon";
-import { BiPhone, BiSolidPhone, BiSolidPhoneOff } from "react-icons/bi";
 
 function Navbar() {
   const path = usePathname();
   const navRef = useRef<HTMLDivElement>(null);
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => window.removeEventListener("scroll", handleScroll);
-  // }, []);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);

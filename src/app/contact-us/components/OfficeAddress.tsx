@@ -221,7 +221,7 @@ const OfficeAddress = () => {
         <div className="d-flex gap-3">
           <div className="col-md-4" style={{ backgroundSize: "cover" }}>
             <img
-              src={"/assets/images3/contact/offices/dubai.webp"}
+              src={"/assets/images3/contact/offices/dubai.jpg"}
               alt=""
               className="img-fluid"
               style={{ marginBottom: "15px", height: "250px" }}

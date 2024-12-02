@@ -198,8 +198,17 @@ const ResumeUpload = ({ id, careerData }: ResumeUploadProps) => {
                                   padding: " 15px",
                                   transition: "all 0.4s",
                                 }}
-                                value={careerData[id].title}
-                                onChange={e => setTitle(e.target.value)}
+                                // value={careerData[id].title}
+                                value={title}
+                                // onChange={e => setTitle(e.target.value)}
+                                onChange={e => {
+                                  const selectedTitle = e.target.value;
+                                  setTitle(selectedTitle);
+                                  setFormData(prevState => ({
+                                    ...prevState,
+                                    position: selectedTitle,
+                                  }));
+                                }}
                               >
                                 {careerData.map((item: any) => (
                                   <option key={item.id} value={item.title}>
