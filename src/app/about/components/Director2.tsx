@@ -10,12 +10,12 @@ const Director2 = () => {
         Our Story
       </h3>
       <p>
-        With over 20 years’ experience, Raj and Dhaval Thakkar are the driving
-        forces behind RD Group’s remarkable growth and industry leadership.
-        Their forward-thinking approach and shared vision have transformed the
-        company into a key player in commercial and retail real estate,
-        delivering over 2.7 million square feet of prime real estate across
-        India.
+        With over two decades plus experience, Raj and Dhaval Thakkar are the
+        driving forces behind RD Group’s remarkable growth and industry
+        leadership. Their forward-thinking approach and shared vision have
+        transformed the company into a key player in commercial and retail real
+        estate, delivering over 2.7 million square feet of prime real estate
+        across India.
         <br />
         Together, they bring a unique blend of strategic insight and innovation.
         Raj’s ability to anticipate market trends and build strong, long-term
