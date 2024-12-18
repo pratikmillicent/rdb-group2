@@ -118,6 +118,19 @@ const data = [
       "Fractional ownership in real estate allows investors to invest even a small amount in a..",
     url: "https://www.etnownews.com/real-estate/fractional-real-https://www.financialexpress.com/money/fractional-ownership-this-realty-segment-to-rise-over-10-times-by-2030-here-are-3-top-hotspots-3506007/estate-is-the-new-gold-for-savvy-festive-season-investors-article-114818609",
   },
+  {
+    id: 9,
+    title:
+      "Swapnil Joshi to make Gujarati film debut with Shubhchintak; says, “I felt this is the best opportunity to expand my horizon”",
+    cover: "/assets/images3/news/Slide_01.jpg",
+    author: "bollywoodhungama",
+    day: "16",
+    month: "Dec",
+    date: "Dec 16, 2024",
+    category: "Real Estate",
+    description: "This project is being produced by Parthiv...",
+    url: "https://www.bollywoodhungama.com/news/bollywood/exclusive-swapnil-joshi-make-gujarati-film-debut-says-felt-best-opportunity-expand-horizon/",
+  },
 ];
 
 const swiperOptions = {
@@ -169,7 +182,7 @@ function News2() {
               id="content-carousel-container-unq-blog"
               className="swiper-container"
             >
-              {data?.map((item) => (
+              {data?.map(item => (
                 <SwiperSlide
                   key={item.id}
                   className="wow fadeInUp"
