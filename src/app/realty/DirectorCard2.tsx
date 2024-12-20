@@ -64,14 +64,14 @@ const DirectorCard2 = () => {
             <p className="m-0 main-color4">Founder</p>
             <hr className="p-0 mt-2 mb-4" />
             <p className="">
-              <strong> Dhaval Thakkar </strong> is a dynamic leader with over 2
-              decades of experience in commercial and retail real estate,
-              renowned for his attention to detail and passion for innovation.
-              His leadership has been instrumental in the company’s growth,
-              driving the delivery of over 1.5 million square feet of prime real
-              estate across India. Dhaval’s approach is bold and
-              forward-thinking, emphasizing diversification and embracing new
-              technologies to create meaningful value from every challenge.
+              <strong> Dhaval Thakkar </strong> is a dynamic leader with over 20
+              years of experience in commercial and retail real estate, renowned
+              for his attention to detail and passion for innovation. His
+              leadership has been instrumental in the company’s growth, driving
+              the delivery of over 1.5 million square feet of prime real estate
+              across India. Dhaval’s approach is bold and forward-thinking,
+              emphasizing diversification and embracing new technologies to
+              create meaningful value from every challenge.
               <br />
               In addition to his expertise in real estate, Dhaval plays a
               pivotal role in managing real estate funds for developers and

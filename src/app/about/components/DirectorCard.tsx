@@ -196,7 +196,7 @@ const DirectorCard = () => {
                     borderLeft: "none",
                   }}
                 >
-                  <strong> Dhaval Thakkar </strong> is a dynamic leader with 15
+                  <strong> Dhaval Thakkar </strong> is a dynamic leader with 20
                   years of experience in commercial and retail real estate,
                   known for his attention to detail and passion for innovation.
                   His leadership has been instrumental in the company’s growth,
