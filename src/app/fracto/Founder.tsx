@@ -11,7 +11,7 @@ function Founder() {
       <div style={{ flex: "1" }}>
         <Heading headTitle="Our Founder" />
         <p className="mobile-justify">
-          Dhaval Thakkar is a dynamic leader with over two decades plus of
+          Dhaval Thakkar is a dynamic leader with over 2 decades plus of
           experience in commercial and retail real estate, renowned for his
           attention to detail and passion for innovation. His leadership has
           been instrumental in the company’s growth, driving the delivery of

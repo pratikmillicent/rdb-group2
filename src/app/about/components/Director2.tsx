@@ -10,7 +10,7 @@ const Director2 = () => {
         Our Story
       </h3>
       <p>
-        With over two decades plus experience, Raj and Dhaval Thakkar are the
+        With over 2 decades plus experience, Raj and Dhaval Thakkar are the
         driving forces behind RD Group’s remarkable growth and industry
         leadership. Their forward-thinking approach and shared vision have
         transformed the company into a key player in commercial and retail real

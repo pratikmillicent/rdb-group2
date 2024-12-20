@@ -96,12 +96,12 @@ const DirectorCard = () => {
                   }}
                 >
                   <strong> Raj Thakkar</strong> is a visionary leader with over
-                  21 years of experience, deeply committed to driving growth and
-                  innovation. Known for his bold yet compassionate approach, Raj
-                  inspires and empowers his team, fostering a collaborative and
-                  inclusive work environment. He values authentic relationships
-                  built on trust and respect, focusing on long-term success
-                  rather than quick wins. <br />
+                  2 decades of experience, deeply committed to driving growth
+                  and innovation. Known for his bold yet compassionate approach,
+                  Raj inspires and empowers his team, fostering a collaborative
+                  and inclusive work environment. He values authentic
+                  relationships built on trust and respect, focusing on
+                  long-term success rather than quick wins. <br />
                   Under Raj’s guidance, the company has achieved remarkable
                   milestones, delivering over 1.2 million square feet of
                   transformative projects. His keen insight into market trends

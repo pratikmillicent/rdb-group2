@@ -33,8 +33,8 @@ const Experience = () => {
             >
               RD Brothers Group is a global leader with a distinct vision to
               shape a sustainable future across the industries we serve. With
-              over two decades plus of experience and a strong global presence,
-              we specialize in a diverse portfolio that encompasses Real Estate
+              over 2 decades plus of experience and a strong global presence, we
+              specialize in a diverse portfolio that encompasses Real Estate
               Services, Property Development, Fractional Property Investments,
               and Movie Production. Our commitment to excellence, integrity, and
               innovation allows us to consistently deliver value, foster
