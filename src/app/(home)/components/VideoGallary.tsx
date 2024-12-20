@@ -21,6 +21,13 @@ interface Video {
 
 const data: Video[] = [
   {
+    image: "/assets/images3/home/gallary/grand-opening.jpg",
+    video: "/assets/video/video-gallery/grand-opening.mp4",
+    title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
+    videoId: "AzwC6umvd1s",
+    channel: "youtube",
+  },
+  {
     image: "/assets/images3/home/gallary/100cr.webp",
     video: "/assets/video/video-gallery/100cr.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
@@ -138,27 +145,35 @@ function VideoGallary() {
         }}
       >
         <div style={{ position: "relative" }}>
-          <svg
+          <div
             style={{
               position: "absolute",
-              width: "100px",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -50%)",
+              inset: 0,
+              background: "rgba(0,0,0,.3)",
             }}
-            className="video-overlay-play-button"
-            viewBox="0 0 200 200"
           >
-            <circle
-              cx="100"
-              cy="100"
-              r="90"
-              fill="none"
-              strokeWidth="15"
-              stroke="#fff"
-            />
-            <polygon points="70, 55 70, 145 145, 100" fill="#fff" />
-          </svg>
+            <svg
+              style={{
+                position: "absolute",
+                width: "100px",
+                top: "50%",
+                left: "50%",
+                transform: "translate(-50%, -50%)",
+              }}
+              className="video-overlay-play-button"
+              viewBox="0 0 200 200"
+            >
+              <circle
+                cx="100"
+                cy="100"
+                r="90"
+                fill="none"
+                strokeWidth="15"
+                stroke="#fff"
+              />
+              <polygon points="70, 55 70, 145 145, 100" fill="#fff" />
+            </svg>
+          </div>
           <Image
             src={item?.image}
             className="circle-img"
@@ -281,10 +296,12 @@ function VideoGallary() {
         {(i) => (
           <video
             ref={vidRef}
+            src={i.video}
             loading="lazy"
             width="500"
             style={{ maxHeight: "450px", maxWidth: "65dvw" }}
             autoPlay
+            controls
           >
             {/* <source src={i?.video} type="video/mp4" /> */}
           </video>
