@@ -28,6 +28,13 @@ const data: Video[] = [
     channel: "youtube",
   },
   {
+    image: "/assets/images3/home/gallary/grand-opening-2.png",
+    video: "/assets/video/video-gallery/grand-opening-2.mp4",
+    title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
+    videoId: "AzwC6umvd1s",
+    channel: "youtube",
+  },
+  {
     image: "/assets/images3/home/gallary/100cr.webp",
     video: "/assets/video/video-gallery/100cr.mp4",
     title: "Expanding Horizons with Strategic Acquisitions and Future Growth",
