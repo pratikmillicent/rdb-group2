@@ -61,16 +61,7 @@ const data: DataItem[] = [
     title: "Aspect Infrastructure",
     text: "Mandate Company with over 50 years of combined real estate expertise, offers professional real estate consultancy services. Stratum proudly houses a powerhouse team of over 90 seasoned Real Estate professionals, strategically deployed across diverse functions including Sourcing, Closing, Marketing, and Pre-Sales, each pivotal in shaping our unparalleled achievements. With innovative technologies, Stratum provides seamless and comprehensive solutions for every client.",
     showRDText: false,
-  },
-  {
-    id: 6,
-    image: "assets/images3/home/group/18d.webp",
-    logo: "assets/images/home/rdb-movie.webp",
-    type: "Eighteen Dimensions",
-    title: "Aspect Infrastructure",
-    text: "A multifaceted consultancy firm combining creativity, strategy, and technology to enhance architectural and interior design projects. It offers expert guidance in architecture, interior design, and space planning, creating functional and visually striking environments.The firm also specializes in marketing, providing strategies to boost brand visibility and engagement, while planning impactful events and product launches. Leveraging interactive technology, Eighteen Dimensions creates immersive experiences, making it a comprehensive partner for design and marketing solutions.",
-    showRDText: false,
-  },
+  }
 ];
 
 const NewGroupGrid: React.FC = () => {

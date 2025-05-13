@@ -156,9 +156,8 @@ function Navbar() {
       </div>
       <nav
         ref={navRef}
-        className={`navbar navbar-expand-lg ${
-          path === "/" ? "navbar-home" : ""
-        }`}
+        className={`navbar navbar-expand-lg ${path === "/" ? "navbar-home" : ""
+          }`}
       >
         <div className="container">
           <Link href="/">
@@ -174,9 +173,9 @@ function Navbar() {
                 backgroundImage: "url(/rdb_logo-small.webp)",
               }}
               className="logo-responsive"
-              // alt="logo"
-              // width={800}
-              // height={500}
+            // alt="logo"
+            // width={800}
+            // height={500}
             />
           </Link>
           <button
@@ -197,9 +196,8 @@ function Navbar() {
           </button>
 
           <div
-            className={`collapse navbar-collapse  ${
-              isNavbarOpen ? "show" : ""
-            }`}
+            className={`collapse navbar-collapse  ${isNavbarOpen ? "show" : ""
+              }`}
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav">
@@ -269,13 +267,6 @@ function Navbar() {
                     onClick={handleLinkClick}
                   >
                     Stratum
-                  </Link>
-                  <Link
-                    href="/eighteen-dimensions"
-                    className="dropdown-item text-capitalize fz-14"
-                    onClick={handleLinkClick}
-                  >
-                    Eighteen Dimensions
                   </Link>
                 </div>
               </li>

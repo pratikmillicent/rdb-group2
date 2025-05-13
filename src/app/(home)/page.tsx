@@ -83,12 +83,7 @@ export default function Home() {
       src: "/assets/video/stratum-4.mp4",
       text: "Stratum",
       link: "/stratum",
-    },
-    {
-      src: "/assets/video/18d-3.mp4",
-      text: "Eighteen Dimensions",
-      link: "/eighteen-dimensions",
-    },
+    }
   ];
 
   const handleVideoEnd = () => {
